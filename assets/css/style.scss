@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+    color: #F08700
+}
+
+.team-member-card {
+    width: 8rem;
+    padding: 1rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-member-card {
+    img {
+        border-radius: 2rem;
+    }
+}
