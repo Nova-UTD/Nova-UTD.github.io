@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-09T00:22:07-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Voltron</title><subtitle>Driving is hard, but humans make it look easy.  Voltron is a group of humans passing their knowledge on to a robot car named Voltron.  These humans study</subtitle><entry><title type="html">Getting Things Rolling With Demo 1</title><link href="http://localhost:4000/d1-overview" rel="alternate" type="text/html" title="Getting Things Rolling With Demo 1" /><published>2021-07-08T19:00:18-05:00</published><updated>2021-07-08T19:00:18-05:00</updated><id>http://localhost:4000/Getting-things-rolling-with-Demo-1</id><content type="html" xml:base="http://localhost:4000/d1-overview">&lt;p&gt;Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Driving will occur in daytime, in good weather.&lt;/li&gt;
+  &lt;li&gt;A human will be behind the wheel at all times, ready to take over.&lt;/li&gt;
+  &lt;li&gt;This person will control the throttle and brake.&lt;/li&gt;
+  &lt;li&gt;The computer can only move the steering wheel.&lt;/li&gt;
+  &lt;li&gt;The computer will have access to processed, pre-recorded map data.&lt;/li&gt;
+  &lt;li&gt;The computer will be given its initial location and its goal location before it starts the trip.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We also defined a clear success condition, where all of the following are met:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The car should travel from Point A to Point B.&lt;/li&gt;
+  &lt;li&gt;Only the computer should apply any control whatsoever to the steering wheel for the duration of the trip.&lt;/li&gt;
+  &lt;li&gt;The car should remain in the appropriate lane.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, to meet the above criteria, we outlined five questions that demanded our attention:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;What does the map look like?&lt;/li&gt;
+  &lt;li&gt;Where am I on the map?&lt;/li&gt;
+  &lt;li&gt;Where is my destination on the map?&lt;/li&gt;
+  &lt;li&gt;What is the best path from my location to my destination?&lt;/li&gt;
+  &lt;li&gt;How can I translate this path into steering angles?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Breaking our goal down into these five questions made things more clear and approachable.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-we-used&quot;&gt;Tools we used&lt;/h2&gt;
+&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+&lt;p&gt;We’re lucky that a number of autonomous car “platforms” are publicly available for for researchers to use. These platforms offer implementations of popular algorithms for tasks like mapping and control. Platforms include &lt;a href=&quot;https://github.com/commaai/openpilot&quot;&gt;openpilot&lt;/a&gt;, &lt;a href=&quot;https://www.apollo.auto&quot;&gt;apollo&lt;/a&gt;, and a few others. But don’t be fooled like I was– using this software isn’t as easy as downloading a file and running it. Integration is an arduous process, no matter what platform you choose.&lt;/p&gt;
+
+&lt;p&gt;We ultimately decided to use &lt;a href=&quot;https://www.autoware.auto&quot;&gt;Autoware.Auto&lt;/a&gt;. Autoware is a really transparant and easily extensible platform to adopt. It runs off a popular framework called the Robot Operating System, or ROS. Adding features on top of Autoware is as simple as writing our own ROS “node”.&lt;/p&gt;
+
+&lt;h3 id=&quot;electronic-steering-and-can&quot;&gt;Electronic Steering and CAN&lt;/h3&gt;
+&lt;p&gt;To steer the vehicle programatically, we used an &lt;abbr title=&quot;electronic power-assisted steering&quot;&gt;EPAS&lt;/abbr&gt; system provided by &lt;a href=&quot;https://www.dcemotorsport.com/Home/EPAS&quot;&gt;DCE Motorsport&lt;/a&gt;. The system includes a powerful motor that fits around the car’s steering column. It also includes a simple computer called an “ECU” that controls the motor.&lt;/p&gt;
+
+&lt;p&gt;To send our commands from our onboard computer to the EPAS ECU, we used a &lt;a href=&quot;https://canable.io/&quot;&gt;CANable Pro&lt;/a&gt;. All modern cars use &lt;abbr title=&quot;Controller Area Networks&quot;&gt;CAN&lt;/abbr&gt; to send data to and from components– signals to turn on the blinkers, honk the horn, and so on. The CANable allows us to connect to our car’s CAN network and send steering commands over it, which the EPAS then receives.&lt;/p&gt;
+
+&lt;h3 id=&quot;on-board-computing&quot;&gt;On-board computing&lt;/h3&gt;
+&lt;p&gt;We used an &lt;a href=&quot;https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit&quot;&gt;NVIDIA Jetson AGX Xavier&lt;/a&gt; to run our entire stack. We didn’t optimize our code to run efficiently on the Xavier’s GPU, but we still achieved decent performance.&lt;/p&gt;
+
+&lt;p&gt;The Xavier is power efficient, which is an important consideration since our vehicle’s batteries aren’t limitless. Strapping a big GPU workstation to the roof would not have worked.&lt;/p&gt;
+
+&lt;h3 id=&quot;simulation&quot;&gt;Simulation&lt;/h3&gt;
+&lt;p&gt;We tested our code in a simulator before testing on the car. We used the &lt;a href=&quot;https://www.svlsimulator.com/&quot;&gt;SVL Simulator&lt;/a&gt;, which can generate highly realistic environments. We ran all of this on a local server.&lt;/p&gt;
+
+&lt;p&gt;A nice thing about our code is that it doesn’t care whether it’s run in the simulator or on the real car. Our software’s only real-time inputs are the Lidar streams, which are provided by the simulator in the same way that they are by the car.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-what-does-the-map-look-like&quot;&gt;1. What does the map look like?&lt;/h2&gt;</content><author><name>Will</name></author><category term="overview" /><summary type="html">Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2021/07/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-07-08T19:00:18-05:00</published><updated>2021-07-08T19:00:18-05:00</updated><id>http://localhost:4000/jekyll/update/2021/07/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/07/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

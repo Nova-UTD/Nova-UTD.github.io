@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Getting Things Rolling With Demo 1 | Voltron</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Getting Things Rolling With Demo 1" />
+<meta name="author" content="Will" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip." />
+<meta property="og:description" content="Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip." />
+<link rel="canonical" href="http://localhost:4000/d1-overview" />
+<meta property="og:url" content="http://localhost:4000/d1-overview" />
+<meta property="og:site_name" content="Voltron" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-08T19:00:18-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Getting Things Rolling With Demo 1" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/vehicle_trace.svg"},"name":"Will"},"url":"http://localhost:4000/d1-overview","headline":"Getting Things Rolling With Demo 1","dateModified":"2021-07-08T19:00:18-05:00","datePublished":"2021-07-08T19:00:18-05:00","author":{"@type":"Person","name":"Will"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/d1-overview"},"description":"Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=e9d6154ce4026726e5f98a79c2052c02587463ed">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Voltron</a></h1>
+        
+        
+          <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
+        
+
+        <p>Driving is hard, but humans make it look easy.  Voltron is a group of humans passing their knowledge on to a robot car named Voltron.  These humans study</p>
+<!-- 
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD/Voltron-UTD.github.io">View the Project on GitHub <small>Voltron-UTD/Voltron-UTD.github.io</small></a></p>
+        
+
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD">View My GitHub Profile</a></p>
+         -->
+
+        
+      </header>
+      <section>
+
+      <small>8 July 2021</small>
+<h1>Getting Things Rolling With Demo 1</h1>
+
+<p class="view">by Will</p>
+
+<p>Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions:</p>
+<ul>
+  <li>Driving will occur in daytime, in good weather.</li>
+  <li>A human will be behind the wheel at all times, ready to take over.</li>
+  <li>This person will control the throttle and brake.</li>
+  <li>The computer can only move the steering wheel.</li>
+  <li>The computer will have access to processed, pre-recorded map data.</li>
+  <li>The computer will be given its initial location and its goal location before it starts the trip.</li>
+</ul>
+
+<p>We also defined a clear success condition, where all of the following are met:</p>
+<ul>
+  <li>The car should travel from Point A to Point B.</li>
+  <li>Only the computer should apply any control whatsoever to the steering wheel for the duration of the trip.</li>
+  <li>The car should remain in the appropriate lane.</li>
+</ul>
+
+<p>Finally, to meet the above criteria, we outlined five questions that demanded our attention:</p>
+<ol>
+  <li>What does the map look like?</li>
+  <li>Where am I on the map?</li>
+  <li>Where is my destination on the map?</li>
+  <li>What is the best path from my location to my destination?</li>
+  <li>How can I translate this path into steering angles?</li>
+</ol>
+
+<p>Breaking our goal down into these five questions made things more clear and approachable.</p>
+
+<h2 id="tools-we-used">Tools we used</h2>
+<h3 id="software">Software</h3>
+<p>We’re lucky that a number of autonomous car “platforms” are publicly available for for researchers to use. These platforms offer implementations of popular algorithms for tasks like mapping and control. Platforms include <a href="https://github.com/commaai/openpilot">openpilot</a>, <a href="https://www.apollo.auto">apollo</a>, and a few others. But don’t be fooled like I was– using this software isn’t as easy as downloading a file and running it. Integration is an arduous process, no matter what platform you choose.</p>
+
+<p>We ultimately decided to use <a href="https://www.autoware.auto">Autoware.Auto</a>. Autoware is a really transparant and easily extensible platform to adopt. It runs off a popular framework called the Robot Operating System, or ROS. Adding features on top of Autoware is as simple as writing our own ROS “node”.</p>
+
+<h3 id="electronic-steering-and-can">Electronic Steering and CAN</h3>
+<p>To steer the vehicle programatically, we used an <abbr title="electronic power-assisted steering">EPAS</abbr> system provided by <a href="https://www.dcemotorsport.com/Home/EPAS">DCE Motorsport</a>. The system includes a powerful motor that fits around the car’s steering column. It also includes a simple computer called an “ECU” that controls the motor.</p>
+
+<p>To send our commands from our onboard computer to the EPAS ECU, we used a <a href="https://canable.io/">CANable Pro</a>. All modern cars use <abbr title="Controller Area Networks">CAN</abbr> to send data to and from components– signals to turn on the blinkers, honk the horn, and so on. The CANable allows us to connect to our car’s CAN network and send steering commands over it, which the EPAS then receives.</p>
+
+<h3 id="on-board-computing">On-board computing</h3>
+<p>We used an <a href="https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit">NVIDIA Jetson AGX Xavier</a> to run our entire stack. We didn’t optimize our code to run efficiently on the Xavier’s GPU, but we still achieved decent performance.</p>
+
+<p>The Xavier is power efficient, which is an important consideration since our vehicle’s batteries aren’t limitless. Strapping a big GPU workstation to the roof would not have worked.</p>
+
+<h3 id="simulation">Simulation</h3>
+<p>We tested our code in a simulator before testing on the car. We used the <a href="https://www.svlsimulator.com/">SVL Simulator</a>, which can generate highly realistic environments. We ran all of this on a local server.</p>
+
+<p>A nice thing about our code is that it doesn’t care whether it’s run in the simulator or on the real car. Our software’s only real-time inputs are the Lidar streams, which are provided by the simulator in the same way that they are by the car.</p>
+
+<h2 id="1-what-does-the-map-look-like">1. What does the map look like?</h2>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
