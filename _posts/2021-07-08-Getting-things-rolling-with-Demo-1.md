@@ -50,18 +50,26 @@ We tested our code in a simulator before testing on the car. We used the [SVL Si
 A nice thing about our code is that it doesn't care whether it's run in the simulator or on the real car. Our software's only real-time inputs are the Lidar streams, which are provided by the simulator in the same way that they are by the car.
 
 ## 1. What does the map look like?
-Our map is split into two parts: A 3D map and a symantic map.
+![Our map has two layers: 3D and labelled](/assets/res/d1-overview_maps.jpg)
+Our map is split into two parts: A 3D map and a labelled map.
 
 In the 3D map, a driver manually drives through the unmapped area and collects data from the car's Lidar sensors. The data is then stitched together into a unified map file in a process known as [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping). 3D maps are great at describing the texture of an environment. We can line up our 3D map with real-time Lidar streams later on, and that provides us with an accurate location estimate. 3D points combined together are often called "pointclouds", so we commonly refer to 3D maps as "pointcloud maps" or "PCD maps".
 
-The symantic map gives *context* to our 3D data. Without it, a street curb is indistiguishable from a speed bump. The vast majority of symantic maps, including ours, are labelled by humans. These maps provide the location of stop signs, crosswalks, and traffic lights. They can store speed limits, road closures, even the locations of soccer fields. Most importantly, the symantic map tells us where lanes are located and how they're connected. In other words, this map describes the road network. Examples of symantic maps include Google Maps and [Open Street Map](https://www.openstreetmap.org/search?query=University%20of%20Texas%20Dallas#map=16/32.9876/-96.7511). Our maps use a specific format provided by the "Lanelet" library, so we refer to our symantic maps as Lanelet maps.
+The labelled map gives *context* to our 3D data. Without it, a street curb is indistiguishable from a speed bump. The vast majority of labelled maps, including ours, are labelled by humans. These maps provide the location of stop signs, crosswalks, and traffic lights. They can store speed limits, road closures, even the locations of soccer fields. Most importantly, the labelled map tells us where lanes are located and how they're connected. In other words, this map describes the road network. Examples of labelled maps include Google Maps and [Open Street Map](https://www.openstreetmap.org/search?query=University%20of%20Texas%20Dallas#map=16/32.9876/-96.7511). Our maps use a specific format provided by the "Lanelet" library, so we refer to our labelled maps as Lanelet maps.
 
-When we combine the pointcloud and Lanelet maps together, we create a rich description of our environment.
+When we combine the pointcloud and Lanelet maps together, we create a rich description of our environment. This pointcloud-Lanelet double whammy is often called an "HD" map.
 
 ## 2. Where am I on the map?
 Researchers call this problem "localization". The most popular localization tool for everyday use is GPS (broadly called GNSS). GPS is not accurate or reliable enough for autonomous cars. Instead, most algorithms take GPS data as a starting point, then refine things with other data (usually LIDAR, stereo cameras). 
 
 We use an algorithm called Normal Distribution Transforms (NDT) to refine an initial location guess into an accurate result using real-time Lidar data and our 3D map. Specifically, we use Autoware.Auto's implementation of NDT. Find more in [this Autoware lecture](https://youtu.be/g2YURb-d9vY?t=2532). The original NDT paper is [available here](https://ieeexplore.ieee.org/document/1249285).
+
+The basic steps of NDT are:
+1. Divide our prerecorded 3D map into a uniform grid.
+2. For each cell in our grid, calculate the average of all the points, along with the covariance. This makes our map much less complex, while still providing general information on how the points are dispersed within the map.
+3. Take a real-time Lidar feed from the vehicle and place it onto our map using an initial guess (supplied by a passenger in Demo 1's case).
+4. Move our placed points around until they line up well with our grid of covariances (our processed 3D map).
+5. Once our points are aligned, since we know where we are relative to our lidar feed (we're in the center of the feed) and where our feed is on the map, we then know where we are on the map.
 
 ## 3. Where is my destination on the map?
 This one is simple. Since we already have a map from #1, passengers just select a point on the map. This point is stored at our goal pose.

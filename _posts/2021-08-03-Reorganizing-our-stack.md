@@ -55,4 +55,4 @@ Behind the scenes, Docker creates a virtual network interface for each container
 VDE is still a baby, and it has a lot of growing to do. We plan on adding network rules to make our virtual network more secure. We'd like to add [restart policies](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy) to each container, which allows us to handle unexpected program errors safely. Of course we'll add more ROS packages as our project grows. Conspicuously missing from our stack is a user interface, so we'd like to add a web server that serves a web UI.
 
 # Conclusion
-You can view and download our code from our [GitHub repo](https://github.com/Voltron-UTD/vde), so go check it out! If you have any suggestions or questions about our work, feel free to reach out to us.
+You can view and download our code from our [GitHub repo](https://github.com/Voltron-UTD/vde), so go check it out! If you have any suggestions or questions about our work, feel free to [reach out to us](/#team).

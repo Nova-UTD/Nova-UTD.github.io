@@ -6,13 +6,15 @@ layout: default
 ---
 
 
-# Demo 1
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uDtQhz7n-Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Demo 1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
 
 When teaching a car to drive, it's best to start small. Demo 1 was our car's first foray into the real world.
 
 While Voltron can steer itself, we didn't give it control of the throttle and brakes (mostly for safety).
 
+You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-overview).
 
 ## Team
 {::options parse_block_html="true" /}
