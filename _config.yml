@@ -38,6 +38,9 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
+gems:
+  - jekyll-octicons
+
 
 
 # Exclude from processing.
