@@ -18,36 +18,36 @@ While Voltron can steer itself, we didn't give it control of the throttle and br
 {::options parse_block_html="true" /}
 <div class="flex-row">
 <div class="team-member-card">
-![Justin Ruths](/assets/res/justin_ruths.jpg)
-**Justin Ruths**<br/>Professor<br/>*team advisor*
+![Justin Ruths](/assets/res/pfp/justin_ruths.jpg)
+**Justin Ruths**<br/>Professor<br/>*team advisor*<br/>[jruths@utdallas.edu](mailto: jruths@utdallas.edu)
 </div>
 <div class="team-member-card">
-![Will Heitman](/assets/res/will_heitman.jpg)
-**Will Heitman**<br/>ECE Junior<br/>*team lead*
+![Will Heitman](/assets/res/pfp/will_heitman.jpg)
+**Will Heitman**<br/>ECE Junior<br/>*team lead*<br/>[will.heitman@<br/>utdallas.edu](mailto: will.heitman@utdallas.edu)
 </div>
 <div class="team-member-card">
-![Grace Zhu](/assets/res/vishvak_bandi.jpg)
+![Grace Zhu](/assets/res/pfp/vishvak_bandi.jpg)
 **Vishvak Bandi**<br/>CS Junior<br/>*CAD modeling*
 </div>
 <div class="team-member-card">
-![Cristian Cruz Lopez](/assets/res/profile_placeholder.png)
-**Cristian Cruz Lopez**<br/>abc yyyy<br/>*controls*
+![Cristian Cruz Lopez](/assets/res/pfp/cristian_cruz_lopez.jpg)
+**Cristian Cruz Lopez**<br/>CE Sophomore<br/>*controls*
 </div>
 <div class="team-member-card">
-![Egan Johnson](/assets/res/profile_placeholder.png)
-**Egan Johnson**<br/>abc yyy<br/>*lidars*
+![Egan Johnson](/assets/res/pfp/egan_johnson.jpg)
+**Egan Johnson**<br/>CS Sophomore<br/>*lidars*
 </div>
 <div class="team-member-card">
-![Josh Williams](/assets/res/profile_placeholder.png)
-**Josh Williams**<br/>abc yyy<br/>*hardware interface*
+![Joshua Williams](/assets/res/pfp/joshua_williams.jpg)
+**Joshua Williams**<br/>CS Junior<br/>*hardware interface*
 </div>
 <div class="team-member-card">
-![Kyle Zeng](/assets/res/kyle_zeng.jpg)
-**Kyle Zeng**<br/>abc yyy<br/>*mapping*
+![Kyle Zeng](/assets/res/pfp/kyle_zeng.jpg)
+**Kyle Zeng**<br/>CS Sophomore<br/>*mapping*
 </div>
 <div class="team-member-card">
-![Grace Zhu](/assets/res/profile_placeholder.png)
-**Grace Zhu**<br/>abc yyy<br/>*mapping*
+![Grace Zhu](/assets/res/pfp/grace_zhu.jpg)
+**Grace Zhu**<br/>CS Sophomore<br/>*mapping*
 </div>
 </div>
 {::options parse_block_html="false" /}

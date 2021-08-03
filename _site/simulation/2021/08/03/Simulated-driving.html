@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Simulated Driving | Voltron</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Simulated Driving" />
+<meta name="author" content="Will Heitman" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is just a small post to show our software driving a car in simulation. The process is the same as in real-world use: Provide a location estimate (done manually until we get a GPS sensor) then a goal location. Once the goal location it given, the car immediately steers and accelerates on its own." />
+<meta property="og:description" content="This is just a small post to show our software driving a car in simulation. The process is the same as in real-world use: Provide a location estimate (done manually until we get a GPS sensor) then a goal location. Once the goal location it given, the car immediately steers and accelerates on its own." />
+<link rel="canonical" href="http://localhost:8080/simulation/2021/08/03/Simulated-driving.html" />
+<meta property="og:url" content="http://localhost:8080/simulation/2021/08/03/Simulated-driving.html" />
+<meta property="og:site_name" content="Voltron" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-03T09:00:18-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Simulated Driving" />
+<script type="application/ld+json">
+{"headline":"Simulated Driving","dateModified":"2021-08-03T09:00:18-05:00","datePublished":"2021-08-03T09:00:18-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8080/simulation/2021/08/03/Simulated-driving.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8080/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"@type":"BlogPosting","url":"http://localhost:8080/simulation/2021/08/03/Simulated-driving.html","author":{"@type":"Person","name":"Will Heitman"},"description":"This is just a small post to show our software driving a car in simulation. The process is the same as in real-world use: Provide a location estimate (done manually until we get a GPS sensor) then a goal location. Once the goal location it given, the car immediately steers and accelerates on its own.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=07517bdd6a2923c3ed83fe95d1ab8df3cce6ff6f">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:8080/">Voltron</a></h1>
+        <a href="http://localhost:8080/">
+          
+            <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
+          
+        </a>
+        
+
+        <p>Driving is hard, but humans make it look easy.  We're <b>UT Dallas's applied autonomous driving project</b>, and we're making driving look easier than ever.</p>
+<!-- 
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD/Voltron-UTD.github.io">View the Project on GitHub <small>Voltron-UTD/Voltron-UTD.github.io</small></a></p>
+        
+
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD">View My GitHub Profile</a></p>
+         -->
+
+        <h3>Latest posts</h3>
+        
+          <a href="/simulation/2021/08/03/Simulated-driving.html">Simulated Driving</a> <small>8/3/21</small><br/>
+        
+          <a href="/vde/2021/08/03/Reorganizing-our-stack.html">Reorganizing Our Stack</a> <small>8/3/21</small><br/>
+        
+          <a href="/d1-overview">Getting Things Rolling With Demo 1</a> <small>7/8/21</small><br/>
+        
+
+        <hr/>
+
+        <h3><a href="https://github.com/Voltron-UTD">Github page</a></h3>
+
+        
+      </header>
+      <section>
+
+      <small>3 August 2021</small>
+<h1>Simulated Driving</h1>
+
+<p class="view">by Will Heitman</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FSZigdNs9aY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>This is just a small post to show our software driving a car in simulation. The process is the same as in real-world use: Provide a location estimate (done manually until we get a GPS sensor) then a goal location. Once the goal location it given, the car immediately steers and accelerates on its own.</p>
+
+<p>As part of our tests of the <a href="http://localhost:8080/vde/2021/08/03/Reorganizing-our-stack.html">updated VDE</a>, we ran the finished stack in the open-source <a href="https://www.svlsimulator.com/">SVL Simulator</a>.</p>
+
+<p>This is basically a simulated version of <a href="http://localhost:8080/d1-overview">Demo 1</a>, except that we added a primitive, “bang-bang” controller for throttle and brake. In other words, the entire drive was done hands-free.</p>
+
+<p>There’s still a whole lot to add! But having the ability to test code in simulation before moving to a real vehicle saves time, and it’s obviously safer too.</p>
+
+<p>A couple notes:</p>
+<ul>
+  <li>Our map data is misaligned, so the car <em>thinks</em> that it’s driving perfectly in the lane (look at the blue lane on the right). But in the simulated environment, it’s actually going into the bike lane on the right. Better map alignment would fix this.</li>
+  <li>The car is driving at a fixed target speed of 6 meters per second, or about 13 mph. It can’t go any faster without breaking our localizer.</li>
+  <li>As mentioned, the throttle and brake are controlled using [bang-bang control][https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control], so the car is either pressing the throttle or brake at a fixed strength.</li>
+</ul>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

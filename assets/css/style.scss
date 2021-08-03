@@ -22,3 +22,10 @@ a {
         border-radius: 2rem;
     }
 }
+
+dfn {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    font-style: normal;
+    cursor: help;
+}

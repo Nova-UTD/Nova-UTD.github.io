@@ -13,18 +13,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip." />
 <meta property="og:description" content="Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip." />
-<link rel="canonical" href="http://localhost:4000/d1-overview" />
-<meta property="og:url" content="http://localhost:4000/d1-overview" />
+<link rel="canonical" href="http://localhost:8080/d1-overview" />
+<meta property="og:url" content="http://localhost:8080/d1-overview" />
 <meta property="og:site_name" content="Voltron" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-07-08T19:00:18-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Getting Things Rolling With Demo 1" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/vehicle_trace.svg"},"name":"Will"},"url":"http://localhost:4000/d1-overview","headline":"Getting Things Rolling With Demo 1","dateModified":"2021-07-08T19:00:18-05:00","datePublished":"2021-07-08T19:00:18-05:00","author":{"@type":"Person","name":"Will"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/d1-overview"},"description":"Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip.","@context":"https://schema.org"}</script>
+{"headline":"Getting Things Rolling With Demo 1","dateModified":"2021-07-08T19:00:18-05:00","datePublished":"2021-07-08T19:00:18-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8080/d1-overview"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8080/assets/res/vehicle_trace.svg"},"name":"Will"},"@type":"BlogPosting","url":"http://localhost:8080/d1-overview","author":{"@type":"Person","name":"Will"},"description":"Getting started with autonomous cars can be scary. How do you start? We started in January with a simple goal: Travel from Point A to Point B. Every other factor would be simplified as much as possible. This led us to the following assumptions: Driving will occur in daytime, in good weather. A human will be behind the wheel at all times, ready to take over. This person will control the throttle and brake. The computer can only move the steering wheel. The computer will have access to processed, pre-recorded map data. The computer will be given its initial location and its goal location before it starts the trip.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=e9d6154ce4026726e5f98a79c2052c02587463ed">
+    <link rel="stylesheet" href="/assets/css/style.css?v=07517bdd6a2923c3ed83fe95d1ab8df3cce6ff6f">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -32,13 +32,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="http://localhost:4000/">Voltron</a></h1>
-        
-        
-          <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
+        <h1><a href="http://localhost:8080/">Voltron</a></h1>
+        <a href="http://localhost:8080/">
+          
+            <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
+          
+        </a>
         
 
-        <p>Driving is hard, but humans make it look easy.  Voltron is a group of humans passing their knowledge on to a robot car named Voltron.  These humans study</p>
+        <p>Driving is hard, but humans make it look easy.  We're <b>UT Dallas's applied autonomous driving project</b>, and we're making driving look easier than ever.</p>
 <!-- 
         
         <p class="view"><a href="https://github.com/Voltron-UTD/Voltron-UTD.github.io">View the Project on GitHub <small>Voltron-UTD/Voltron-UTD.github.io</small></a></p>
@@ -47,6 +49,19 @@
         
         <p class="view"><a href="https://github.com/Voltron-UTD">View My GitHub Profile</a></p>
          -->
+
+        <h3>Latest posts</h3>
+        
+          <a href="/simulation/2021/08/03/Simulated-driving.html">Simulated Driving</a> <small>8/3/21</small><br/>
+        
+          <a href="/vde/2021/08/03/Reorganizing-our-stack.html">Reorganizing Our Stack</a> <small>8/3/21</small><br/>
+        
+          <a href="/d1-overview">Getting Things Rolling With Demo 1</a> <small>7/8/21</small><br/>
+        
+
+        <hr/>
+
+        <h3><a href="https://github.com/Voltron-UTD">Github page</a></h3>
 
         
       </header>
@@ -107,6 +122,33 @@
 <p>A nice thing about our code is that it doesn’t care whether it’s run in the simulator or on the real car. Our software’s only real-time inputs are the Lidar streams, which are provided by the simulator in the same way that they are by the car.</p>
 
 <h2 id="1-what-does-the-map-look-like">1. What does the map look like?</h2>
+<p>Our map is split into two parts: A 3D map and a symantic map.</p>
+
+<p>In the 3D map, a driver manually drives through the unmapped area and collects data from the car’s Lidar sensors. The data is then stitched together into a unified map file in a process known as <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a>. 3D maps are great at describing the texture of an environment. We can line up our 3D map with real-time Lidar streams later on, and that provides us with an accurate location estimate. 3D points combined together are often called “pointclouds”, so we commonly refer to 3D maps as “pointcloud maps” or “PCD maps”.</p>
+
+<p>The symantic map gives <em>context</em> to our 3D data. Without it, a street curb is indistiguishable from a speed bump. The vast majority of symantic maps, including ours, are labelled by humans. These maps provide the location of stop signs, crosswalks, and traffic lights. They can store speed limits, road closures, even the locations of soccer fields. Most importantly, the symantic map tells us where lanes are located and how they’re connected. In other words, this map describes the road network. Examples of symantic maps include Google Maps and <a href="https://www.openstreetmap.org/search?query=University%20of%20Texas%20Dallas#map=16/32.9876/-96.7511">Open Street Map</a>. Our maps use a specific format provided by the “Lanelet” library, so we refer to our symantic maps as Lanelet maps.</p>
+
+<p>When we combine the pointcloud and Lanelet maps together, we create a rich description of our environment.</p>
+
+<h2 id="2-where-am-i-on-the-map">2. Where am I on the map?</h2>
+<p>Researchers call this problem “localization”. The most popular localization tool for everyday use is GPS (broadly called GNSS). GPS is not accurate or reliable enough for autonomous cars. Instead, most algorithms take GPS data as a starting point, then refine things with other data (usually LIDAR, stereo cameras).</p>
+
+<p>We use an algorithm called Normal Distribution Transforms (NDT) to refine an initial location guess into an accurate result using real-time Lidar data and our 3D map. Specifically, we use Autoware.Auto’s implementation of NDT. Find more in <a href="https://youtu.be/g2YURb-d9vY?t=2532">this Autoware lecture</a>. The original NDT paper is <a href="https://ieeexplore.ieee.org/document/1249285">available here</a>.</p>
+
+<h2 id="3-where-is-my-destination-on-the-map">3. Where is my destination on the map?</h2>
+<p>This one is simple. Since we already have a map from #1, passengers just select a point on the map. This point is stored at our goal pose.</p>
+
+<h2 id="4-what-is-the-best-path-from-my-location-to-my-destinaton">4. What is the best path from my location to my destinaton?</h2>
+<p>Imagine you’re looking for a restaurant that your friend told you about, and you’ve gotten lost. You stop and ask for directions, which are something like, “Go down McKinney Road, then turn right on Rose Parkway, then turn left on…” These general directions, just a sequence of streets to take, is generally good enough for humans.</p>
+
+<p>In Voltron, we use a <em>route planner</em> to calculate this sequence of streets using our Lanelet map. It basically generates a sequence like a human would, like <code class="language-plaintext highlighter-rouge">[McKinney Road, Rose Parkway...]</code>. But this isn’t specific enough for computers. We need to refine these general directions into an exact line (curve) that the car follows. This refinement is done by our <em>path planner</em>.</p>
+
+<p>We make the following distinction between “route” and “path”: routes provide general directions while paths are exact curves for the car to drive along. Paths can easily adapt to, say, drive around potholes.</p>
+
+<h2 id="5-how-can-i-translate-this-path-into-steering-angles">5. How can I translate this path into steering angles?</h2>
+<p>At this point we know our current location (from #2) and the path we’d like to follow (from #4). We feed this information into a <em>steering controller</em> that turns this data into a steering angle.</p>
+
+<p>Once we have our target steering angle, we feed it along with our current steering angle into a low-level PID controller. This calculates how much torque to apply to the steering wheel (literally how hard to turn the wheel, and it what direction). Finally, we translate this into a command to send to the steering motor. That’s it!</p>
 
 
 
