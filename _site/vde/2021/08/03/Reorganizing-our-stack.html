@@ -13,18 +13,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="We reached our first milestone about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: technical debt. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself." />
 <meta property="og:description" content="We reached our first milestone about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: technical debt. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself." />
-<link rel="canonical" href="http://localhost:8080/vde/2021/08/03/Reorganizing-our-stack.html" />
-<meta property="og:url" content="http://localhost:8080/vde/2021/08/03/Reorganizing-our-stack.html" />
+<link rel="canonical" href="http://localhost:4000/vde/2021/08/03/Reorganizing-our-stack.html" />
+<meta property="og:url" content="http://localhost:4000/vde/2021/08/03/Reorganizing-our-stack.html" />
 <meta property="og:site_name" content="Voltron" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-08-03T09:00:18-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Reorganizing Our Stack" />
 <script type="application/ld+json">
-{"dateModified":"2021-08-03T09:00:18-05:00","datePublished":"2021-08-03T09:00:18-05:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8080/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8080/vde/2021/08/03/Reorganizing-our-stack.html"},"url":"http://localhost:8080/vde/2021/08/03/Reorganizing-our-stack.html","author":{"@type":"Person","name":"Will Heitman"},"description":"We reached our first milestone about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: technical debt. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.","headline":"Reorganizing Our Stack","@context":"https://schema.org"}</script>
+{"datePublished":"2021-08-03T09:00:18-05:00","@type":"BlogPosting","dateModified":"2021-08-03T09:00:18-05:00","url":"http://localhost:4000/vde/2021/08/03/Reorganizing-our-stack.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/vde/2021/08/03/Reorganizing-our-stack.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"author":{"@type":"Person","name":"Will Heitman"},"description":"We reached our first milestone about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: technical debt. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.","headline":"Reorganizing Our Stack","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=d4bbde21689a936f0f36189e514e832e89450194">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1b6e0fcb685961c31eed05f4625da932a1294e43">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -33,8 +33,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="http://localhost:8080/">Voltron</a></h1>
-        <a href="http://localhost:8080/">
+        <h1><a href="http://localhost:4000/">Voltron</a></h1>
+        <a href="http://localhost:4000/">
           
             <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
           
@@ -73,7 +73,7 @@
 
 <p class="view">by Will Heitman</p>
 
-<p>We <a href="./demo_1_overview">reached our first milestone</a> about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: <a href="https://en.wikipedia.org/wiki/Technical_debt">technical debt</a>. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.</p>
+<p>We <a href="/d1-overview">reached our first milestone</a> about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: <a href="https://en.wikipedia.org/wiki/Technical_debt">technical debt</a>. In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.</p>
 
 <h1 id="about-containers">About containers</h1>
 <p>For most of computing history, our operating systems were responsible for mediating between the unruly applications running on our machines. But the OS doesn’t always work perfectly: Resource-hungry applications can hog our machine’s memory, causing the whole computer to “freeze”. Bad code in a single program can cause the entire OS to “blue screen”. These imperfections are annoying on, say, laptops, but they’re much more serious on autonomous cars zipping down the street.</p>
@@ -89,15 +89,15 @@
 <h1 id="our-approach-the-orchestra">Our approach: The orchestra</h1>
 <p>We use Docker, a highly popular container framework, to wrap each of our <dfn title="An individual program run in the Robot Operating System framework">ROS nodes</dfn> up. Specifically, we create a “frame” image that has all of our tools (Autoware.Auto, ROS2, custom libraries, and so on) pre-installed. For each ROS node, we simply copy the code into our “frame” image, build the ROS node inside the image, and generate a Docker container. Just like that, we’ve nestled a ROS node nicely into a virtual environment.</p>
 
-<p>Now that all the pieces of our stack are inside their own containers, we use a tool called <a href="https://docs.docker.com/compose/">Docker Compose</a> to run all of our containers in tandem. This is not as simple as executing <code class="language-plaintext highlighter-rouge">docker run [image]</code> on all of the pieces. We write a single file called <code class="language-plaintext highlighter-rouge">docker-compose.yaml</code> that describes exactly how each piece should be run: What network privileges each container has, what parts it depends on, how much memory it can receive, and so on.</p>
+<p>Now that all the pieces of our stack are inside their own containers, we use a tool called <a href="https://docs.docker.com/compose/">Docker Compose</a> to run all of our containers in tandem. This is not as simple as executing <code class="language-plaintext highlighter-rouge">docker run [image]</code> on all of the pieces. We write a special file called <code class="language-plaintext highlighter-rouge">docker-compose.yaml</code> that describes exactly how each piece should be run: What network privileges each container has, what parts it depends on, how much memory it can receive, and so on.</p>
 
 <p>So now we have a single file that runs all of our containers, and each container has its own piece of our stack. We can now run our entire stack with a single command: <code class="language-plaintext highlighter-rouge">docker-compose up</code>. Done.</p>
 
-<p>We can think of Compose as the conductor of an orchestra. Each container is a musician, and with the help of the conductor, the musicians create beautiful harmony. When a musician plays too fast, or hits the wrong note, the attentive conductor notices and takes action.</p>
+<p>We can think of Compose as the conductor of an orchestra. Each container is a musician, and with the help of the conductor, the musicians create beautiful harmony. When a musician plays too fast, or hits the wrong note, the conductor notices and takes action.</p>
 
 <p><img src="/assets/res/2021-08-03-Reorganizing-our-stack_conductor.png" alt="The conductor and the orchestra" /></p>
 
-<p>This “orchestra” approach is a much safer approach than our previous software approach, where all the musicians just play their own tunes, creating nothing more than noise. Instead of a well-tuned symphony, our software stack resembles kindergarteners with kazoos. When behind the wheel of a self-driving car, I’d gladly take the symphony over the kazoos.</p>
+<p>This “orchestra” approach is a much safer approach than our previous software approach, where all the musicians just play their own tunes, creating nothing more than noise. Instead of a well-tuned symphony, our software stack resembles kindergarteners with kazoos. When I get behind the wheel of a self-driving car, I’d gladly take the symphony over the kazoos.</p>
 
 <h1 id="custom-images">Custom images</h1>
 <p>I mentioned earlier that each node is put inside a “frame” image that builds the ROS node and runs it. Here are some more details on exactly how our images are structured.</p>

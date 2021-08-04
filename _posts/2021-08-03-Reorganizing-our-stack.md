@@ -5,7 +5,7 @@ categories: vde
 author: "Will Heitman"
 ---
 
-We [reached our first milestone](./demo_1_overview) about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: [technical debt](https://en.wikipedia.org/wiki/Technical_debt). In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.
+We [reached our first milestone]({{ site.baseurl }}{% link _posts/2021-07-08-Getting-things-rolling-with-Demo-1.md %}) about a month ago, and it felt like we had finished a marathon. What now? It was time to tackle the menace of any major project: [technical debt](https://en.wikipedia.org/wiki/Technical_debt). In our software, this means removing any hacks that we threw together and all the other shortcuts that we took through Demo 1. The best place to start is at the foundation: the organization of the code itself.
 
 # About containers
 For most of computing history, our operating systems were responsible for mediating between the unruly applications running on our machines. But the OS doesn't always work perfectly: Resource-hungry applications can hog our machine's memory, causing the whole computer to "freeze". Bad code in a single program can cause the entire OS to "blue screen". These imperfections are annoying on, say, laptops, but they're much more serious on autonomous cars zipping down the street.
@@ -21,15 +21,15 @@ So how do we take this concept of containers and apply it to our code?
 # Our approach: The orchestra
 We use Docker, a highly popular container framework, to wrap each of our <dfn title="An individual program run in the Robot Operating System framework">ROS nodes</dfn> up. Specifically, we create a "frame" image that has all of our tools (Autoware.Auto, ROS2, custom libraries, and so on) pre-installed. For each ROS node, we simply copy the code into our "frame" image, build the ROS node inside the image, and generate a Docker container. Just like that, we've nestled a ROS node nicely into a virtual environment.
 
-Now that all the pieces of our stack are inside their own containers, we use a tool called [Docker Compose](https://docs.docker.com/compose/) to run all of our containers in tandem. This is not as simple as executing `docker run [image]` on all of the pieces. We write a single file called `docker-compose.yaml` that describes exactly how each piece should be run: What network privileges each container has, what parts it depends on, how much memory it can receive, and so on.
+Now that all the pieces of our stack are inside their own containers, we use a tool called [Docker Compose](https://docs.docker.com/compose/) to run all of our containers in tandem. This is not as simple as executing `docker run [image]` on all of the pieces. We write a special file called `docker-compose.yaml` that describes exactly how each piece should be run: What network privileges each container has, what parts it depends on, how much memory it can receive, and so on.
 
 So now we have a single file that runs all of our containers, and each container has its own piece of our stack. We can now run our entire stack with a single command: `docker-compose up`. Done.
 
-We can think of Compose as the conductor of an orchestra. Each container is a musician, and with the help of the conductor, the musicians create beautiful harmony. When a musician plays too fast, or hits the wrong note, the attentive conductor notices and takes action.
+We can think of Compose as the conductor of an orchestra. Each container is a musician, and with the help of the conductor, the musicians create beautiful harmony. When a musician plays too fast, or hits the wrong note, the conductor notices and takes action.
 
 ![The conductor and the orchestra](/assets/res/2021-08-03-Reorganizing-our-stack_conductor.png)
 
-This "orchestra" approach is a much safer approach than our previous software approach, where all the musicians just play their own tunes, creating nothing more than noise. Instead of a well-tuned symphony, our software stack resembles kindergarteners with kazoos. When behind the wheel of a self-driving car, I'd gladly take the symphony over the kazoos.
+This "orchestra" approach is a much safer approach than our previous software approach, where all the musicians just play their own tunes, creating nothing more than noise. Instead of a well-tuned symphony, our software stack resembles kindergarteners with kazoos. When I get behind the wheel of a self-driving car, I'd gladly take the symphony over the kazoos.
 
 # Custom images
 I mentioned earlier that each node is put inside a "frame" image that builds the ROS node and runs it. Here are some more details on exactly how our images are structured.
