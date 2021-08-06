@@ -16,4 +16,4 @@ There's still a whole lot to add! But having the ability to test code in simulat
 A couple notes:
 - Our map data is misaligned, so the car *thinks* that it's driving perfectly in the lane (look at the blue lane on the right). But in the simulated environment, it's actually going into the bike lane on the right. Better map alignment would fix this.
 - The car is driving at a fixed target speed of 6 meters per second, or about 13 mph. It can't go any faster without breaking our localizer.
-- As mentioned, the throttle and brake are controlled using [bang-bang control][https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control], so the car is either pressing the throttle or brake at a fixed strength.
+- As mentioned, the throttle and brake are controlled using [bang-bang control](https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control), so the car is either pressing the throttle or brake at a fixed strength.
