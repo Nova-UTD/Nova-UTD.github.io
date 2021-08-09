@@ -3,16 +3,19 @@ layout: default
 title: About
 permalink: /about/
 ---
+# Getting to Know Voltron
+Voltron is an autonomous low speed vehicle developed by undergraduate students at UT Dallas.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Base hardware
+Our base vehicle is a **Polaris GEM e6**. Don't be fooled: the GEM is no plain golf cart. It includes
+- all-electric drivetrain,
+- regenerative braking, 
+- an automotive-grade, Li-Ion battery bank,
+- a full CAN bus,
+- a 50 mile range,
+- a top speed of ~40 km/h (25 mph)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Added hardware
+We've added hardware to the stock GEM, including:
+- Velodyne Puck Lidar sensors (1 front, 1 rear)
+- ZED 2i stereo camera ()

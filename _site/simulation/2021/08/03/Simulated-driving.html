@@ -24,7 +24,7 @@
 {"datePublished":"2021-08-03T09:00:18-05:00","@type":"BlogPosting","dateModified":"2021-08-03T09:00:18-05:00","url":"http://localhost:4000/simulation/2021/08/03/Simulated-driving.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/simulation/2021/08/03/Simulated-driving.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"author":{"@type":"Person","name":"Will Heitman"},"description":"This is just a small post to show our software driving a car in simulation. The process is the same as in real-world use: Provide a location estimate (done manually until we get a GPS sensor) then a goal location. Once the goal location it given, the car immediately steers and accelerates on its own.","headline":"Simulated Driving","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=1b6e0fcb685961c31eed05f4625da932a1294e43">
+    <link rel="stylesheet" href="/assets/css/style.css?v=586d0afe19401df69cc806766152942a997b5880">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -86,7 +86,7 @@
 <ul>
   <li>Our map data is misaligned, so the car <em>thinks</em> that it’s driving perfectly in the lane (look at the blue lane on the right). But in the simulated environment, it’s actually going into the bike lane on the right. Better map alignment would fix this.</li>
   <li>The car is driving at a fixed target speed of 6 meters per second, or about 13 mph. It can’t go any faster without breaking our localizer.</li>
-  <li>As mentioned, the throttle and brake are controlled using [bang-bang control][https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control], so the car is either pressing the throttle or brake at a fixed strength.</li>
+  <li>As mentioned, the throttle and brake are controlled using <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">bang-bang control</a>, so the car is either pressing the throttle or brake at a fixed strength.</li>
 </ul>
 
 
