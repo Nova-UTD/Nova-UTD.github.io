@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Rewiring Voltron | Voltron</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Rewiring Voltron" />
+<meta name="author" content="Will Heitman" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place." />
+<meta property="og:description" content="As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place." />
+<link rel="canonical" href="http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html" />
+<meta property="og:url" content="http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html" />
+<meta property="og:site_name" content="Voltron" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-23T09:00:18-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Rewiring Voltron" />
+<script type="application/ld+json">
+{"dateModified":"2021-08-23T09:00:18-05:00","datePublished":"2021-08-23T09:00:18-05:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8083/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html"},"url":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html","author":{"@type":"Person","name":"Will Heitman"},"description":"As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place.","headline":"Rewiring Voltron","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=588ddb87f852a27bfa4c449a2b67d39095cd57d8">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/png" href="/assets/favicon.png"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:8083/">Voltron</a></h1>
+        <a href="http://localhost:8083/">
+          
+            <img src="/assets/res/vehicle_trace.svg" alt="Logo" />
+          
+        </a>
+        
+
+        <p>Driving is hard, but humans make it look easy.  We're <b>UT Dallas's applied autonomous driving project</b>, and we're making driving look easier than ever.</p>
+<!-- 
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD/Voltron-UTD.github.io">View the Project on GitHub <small>Voltron-UTD/Voltron-UTD.github.io</small></a></p>
+        
+
+        
+        <p class="view"><a href="https://github.com/Voltron-UTD">View My GitHub Profile</a></p>
+         -->
+
+        <h3>Latest posts</h3>
+        
+          <a href="/hardware/2021/08/23/Rewiring-Voltron.html">Rewiring Voltron</a> <small>8/23/21</small><br/>
+        
+          <a href="/simulation/2021/08/03/Simulated-driving.html">Simulated Driving</a> <small>8/3/21</small><br/>
+        
+          <a href="/vde/2021/08/03/Reorganizing-our-stack.html">Reorganizing Our Stack</a> <small>8/3/21</small><br/>
+        
+          <a href="/d1-overview">Getting Things Rolling With Demo 1</a> <small>7/8/21</small><br/>
+        
+
+        <hr/>
+
+        <h3><a href="https://github.com/Voltron-UTD"><svg height="16" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg> Github profile</a></h3>
+
+        
+      </header>
+      <section>
+
+      <small>23 August 2021</small>
+<h1>Rewiring Voltron</h1>
+
+<p class="view">by Will Heitman</p>
+
+<p>As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place.</p>
+
+<p>Of course clean wiring eliminates frustration, but it’s also much safer than the messy alternative. Solid and well-planned electrical connections are less prone to short circuits, brownouts, and other unwanted behavior. We felt it important to address our wiring immediately in our effort to make Voltron as safe and stable as possible.</p>
+
+<p>Not much theory here! I’ll only outline a couple methods we used that were helpful.</p>
+
+<p>First, we chose two common connector formats for all of our connections. First we chose <a href="https://www.te.com/usa-en/products/connectors/automotive-connectors/intersection/deutsch-dtm-connectors.html?tab=pgp-story">Deutsch DTM connectors</a>, which are popular in production cars due to their rugged, weatherproof design. Second we chose the ubiquitous 0.093 inch <a href="https://www.molex.com/molex/products/family/standard_093">Molex connectors</a>, which are found in everything from PC motherboards to pinball machines. They’re not nearly as tough as DTM connectors, but they’re less expensive and complicated.</p>
+
+<p>Second, we wrapped major wire clumps into flexible split conduit. We then routed this conduit around the vehicle’s chassis and attached it to the car’s body using hook-and-loop wrap. Slightly more permanent attachments were made using zip ties.</p>
+
+<p>Third, we left room for modification and expansion. We used solder sparingly, only in connections that we were sure wouldn’t change. Our flexible solder alternatives ranged from wiring nuts to “quick disconnects” to the DTM and Molex connectors outlined above.</p>
+
+<p>Below is a schematic of our “secondary” system. This refers to all the components that we’ve added onto the stock Polaris GEM from the factory. You can click the schematic to enlarge it.</p>
+
+<p><a href="/static/electrical.html"><img src="/assets/res/2021-08-03-schematic.png" alt="Voltron Secondary System schematic" /></a></p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
