@@ -11,8 +11,8 @@
 <meta property="og:title" content="Rewiring Voltron" />
 <meta name="author" content="Will Heitman" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place." />
-<meta property="og:description" content="As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place." />
+<meta name="description" content="Driving is hard, but humans make it look easy. We’re UT Dallas’s applied autonomous driving project, and we’re making driving look easier than ever." />
+<meta property="og:description" content="Driving is hard, but humans make it look easy. We’re UT Dallas’s applied autonomous driving project, and we’re making driving look easier than ever." />
 <link rel="canonical" href="http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html" />
 <meta property="og:url" content="http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html" />
 <meta property="og:site_name" content="Voltron" />
@@ -21,10 +21,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rewiring Voltron" />
 <script type="application/ld+json">
-{"dateModified":"2021-08-23T09:00:18-05:00","datePublished":"2021-08-23T09:00:18-05:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8083/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html"},"url":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html","author":{"@type":"Person","name":"Will Heitman"},"description":"As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place.","headline":"Rewiring Voltron","@context":"https://schema.org"}</script>
+{"dateModified":"2021-08-23T09:00:18-05:00","datePublished":"2021-08-23T09:00:18-05:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:8083/assets/res/vehicle_trace.svg"},"name":"Will Heitman"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html"},"url":"http://localhost:8083/hardware/2021/08/23/Rewiring-Voltron.html","author":{"@type":"Person","name":"Will Heitman"},"description":"Driving is hard, but humans make it look easy. We’re UT Dallas’s applied autonomous driving project, and we’re making driving look easier than ever.","headline":"Rewiring Voltron","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=588ddb87f852a27bfa4c449a2b67d39095cd57d8">
+    <link rel="stylesheet" href="/assets/css/style.css?v=f97dcee0c289e538b082410f0d53ab0e506c1f43">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -75,6 +75,8 @@
 
 <p class="view">by Will Heitman</p>
 
+<p><img src="/assets/res/2021-08-23-tangle.png" alt="Untangling colorful lines" /></p>
+
 <p>As one final push to get things ready for our fall semester, Voltron underwent a full wiring cleanup. Sketchy soldering jobs were replaced with weatherproof automotive connectors, confusing bunches of wiring spaghetti were replaced with tangle-free conduit, and new components like CAN bus chips were mounted firmly in place.</p>
 
 <p>Of course clean wiring eliminates frustration, but it’s also much safer than the messy alternative. Solid and well-planned electrical connections are less prone to short circuits, brownouts, and other unwanted behavior. We felt it important to address our wiring immediately in our effort to make Voltron as safe and stable as possible.</p>
@@ -82,6 +84,10 @@
 <p>Not much theory here! I’ll only outline a couple methods we used that were helpful.</p>
 
 <p>First, we chose two common connector formats for all of our connections. First we chose <a href="https://www.te.com/usa-en/products/connectors/automotive-connectors/intersection/deutsch-dtm-connectors.html?tab=pgp-story">Deutsch DTM connectors</a>, which are popular in production cars due to their rugged, weatherproof design. Second we chose the ubiquitous 0.093 inch <a href="https://www.molex.com/molex/products/family/standard_093">Molex connectors</a>, which are found in everything from PC motherboards to pinball machines. They’re not nearly as tough as DTM connectors, but they’re less expensive and complicated.</p>
+
+<p><img src="/assets/res/2021-08-23-dtm.jpg" alt="DTM connector plug and socket" /></p>
+
+<p><em>DTM connector plug and socket (TE Connectivity)</em></p>
 
 <p>Second, we wrapped major wire clumps into flexible split conduit. We then routed this conduit around the vehicle’s chassis and attached it to the car’s body using hook-and-loop wrap. Slightly more permanent attachments were made using zip ties.</p>
 
