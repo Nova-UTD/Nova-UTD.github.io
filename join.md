@@ -58,7 +58,7 @@ We'd like Voltron to drive in a big loop around our simulated map, "GoMentum Sta
 
 The global route is a sequence of Lanelet2 lanes encoded in a [HADMapRoute message](https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/blob/master/autoware_auto_msgs/msg/HADMapRoute.idl) from Autoware.Auto.
 
-Using the starter code provided [here](), please write a ROS2 Foxy node that publishes our global route as a HADMapRoute message onto the topic `/planning/global_route`. Upload the entire package folder [here]().
+Using the starter code provided [here](), please write a ROS2 Foxy node that publishes our global route as a HADMapRoute message onto the topic `/planning/global_route`. Submit a link to your code using the form linked above.
 
 Feel free to use our development environment, [VDE](https://github.com/Voltron-UTD/vde), to test your code. You can, however, forgo VDE and use any other tool that you wish, as long as the finished product works.
 
