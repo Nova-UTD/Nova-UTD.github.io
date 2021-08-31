@@ -16,6 +16,9 @@ While Voltron can steer itself, we didn't give it control of the throttle and br
 
 You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-overview).
 
+## Voltron's history, past and future
+[![Timeline of our project, from 2019 to 2023 and beyond](/assets/res/voltron-timeline.png)](/assets/res/voltron-timeline.png)
+
 ## Team
 {::options parse_block_html="true" /}
 <div class="flex-row">
