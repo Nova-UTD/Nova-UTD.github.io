@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -17,16 +19,21 @@
           document.getElementById('visits').innerText = response.value;
       }
       </script>
-      <script async src="https://api.countapi.xyz/hit/voltron-utd.github.io/:PATHNAME:?callback=visitcb"></script>
+      <script async src="https://api.countapi.xyz/hit/voltron-utd.github.io{{page.url}}<?callback=visitcb"></script>
       <script>
-        function visitcb(response) {
-    document.getElementById('visits').innerText = response.value;
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://api.countapi.xyz/hit/voltron-utd.github.io{{page.url}}");
+xhr.responseType = "json";
+xhr.onload = function() {
+    document.getElementById('visits').innerText = this.response.value;
 }
+xhr.send();
       </script>
     </head>
   <body>
     <div class="wrapper">
       <header>
+        <p>{{page.url}}</p>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         <a href="{{ "/" | absolute_url }}">
           {% if site.logo %}

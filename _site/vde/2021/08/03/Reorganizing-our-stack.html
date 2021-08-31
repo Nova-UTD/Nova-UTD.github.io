@@ -35,16 +35,21 @@
           document.getElementById('visits').innerText = response.value;
       }
       </script>
-      <script async src="https://api.countapi.xyz/hit/voltron-utd.github.io/:PATHNAME:?callback=visitcb"></script>
+      <script async src="https://api.countapi.xyz/hit/voltron-utd.github.io/vde/2021/08/03/Reorganizing-our-stack.html<?callback=visitcb"></script>
       <script>
-        function visitcb(response) {
-    document.getElementById('visits').innerText = response.value;
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://api.countapi.xyz/hit/voltron-utd.github.io/vde/2021/08/03/Reorganizing-our-stack.html");
+xhr.responseType = "json";
+xhr.onload = function() {
+    document.getElementById('visits').innerText = this.response.value;
 }
+xhr.send();
       </script>
     </head>
   <body>
     <div class="wrapper">
       <header>
+        <p>/vde/2021/08/03/Reorganizing-our-stack.html</p>
         <h1><a href="http://localhost:8081/">Voltron</a></h1>
         <a href="http://localhost:8081/">
           
