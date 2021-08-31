@@ -22,7 +22,7 @@
       <script async src="https://api.countapi.xyz/hit/voltron-utd.github.io{{page.url}}<?callback=visitcb"></script>
       <script>
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://api.countapi.xyz/hit/voltron-utd.github.io{{page.url}}");
+xhr.open("GET", "https://api.countapi.xyz/hit/voltron-utd.github.io/"+"{{page.url}}".replace('/',''));
 xhr.responseType = "json";
 xhr.onload = function() {
     document.getElementById('visits').innerText = this.response.value;
