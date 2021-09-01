@@ -45,7 +45,7 @@ How many PR specialists get to promote a self-driving car laboratory? Exactly.
 In reality, skilled disassembly is required. Engineers must take apart the cars and put them back together by hand. One misplaced wire can leave engineers puzzling for days over where the problem is...
 
 - More specifically, you should be able to dedicate **5 hours per week** through the school year-- no, this doesn't mean finals week.
-- If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience.
+- If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
 ## Application process
 Our application has three parts: The form, the sample submission, and the interview. Everyone who submits the form and their sample will be invited to an interview. Applications will be reviewed on a rolling basis. We're really looking forward to hearing from you! **You can access the form and submit your samples here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
