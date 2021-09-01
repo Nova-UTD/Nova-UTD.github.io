@@ -19,7 +19,7 @@ Do algorithms like Normal Distribution Transform and Extended Kalman Filters exc
 Software developers on our team do more than write code. You should have strong math and communication skills, be comfortable learning new skills on your own, and enjoy working with like-minded developers on a team.
 
 ### Web Developer
-Our robot reads lots of sensor data and makes lots of calculations. All this data forms a thick web that's often confusing to understand. We'd like to **write a web interface** that can parse data from our stack and visualize it all through a web app.
+Our robot reads lots of sensor data and makes lots of calculations. All this data forms a thick web that's often confusing for humans to understand. We'd like to **write a web interface** that can parse data from our stack and visualize it all through a web app.
 
 You should have experience in front-end development (React, Angular, or similar) and backend development (Flask, Node, or similar).
 
