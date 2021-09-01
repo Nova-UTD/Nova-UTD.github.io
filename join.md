@@ -7,7 +7,7 @@ author: "Will Heitman"
 # Roll With Us
 We're Voltron, UT Dallas's applied autonomous driving project. We've already come a long way, but we need your help to go further than ever.
 
-In our first major milestone, Demo 1, Voltron steering itself through the world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
+In our first major milestone, Demo 1, Voltron steered itself through the real world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
 
 ![Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)](assets/res/join-dfw_expo.png)
 <small>Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)</small>
