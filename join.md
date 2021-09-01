@@ -31,7 +31,7 @@ There are lots of other areas of our project that would keep a 3D artist busy: v
 ### Public Relations Director
 This person would serve as our liason to our campus community and the outside world. They would write updates and post them on our website, take pictures and videos of our work, and possibly manage our social media presence.
 
-How many PR specialists represent a self-driving car program? Exactly.
+How many PR specialists get to promote a self-driving car laboratory? Exactly.
 
 ## Requirements for all positions
 - **Good teamwork**: Voltron is a group of friendly, supportive people, and we want you to be a part.
