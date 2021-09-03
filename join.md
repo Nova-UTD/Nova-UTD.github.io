@@ -1,13 +1,14 @@
 ---
 layout: default
 date:   2021-08-30
-categories: vde
+categories: recruitment
 author: "Will Heitman"
 ---
+
 # Roll With Us
 We're Voltron, UT Dallas's applied autonomous driving project. We've already come a long way, but we need your help to go further than ever.
 
-In our first major milestone, Demo 1, Voltron steering itself through the world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
+In our first major milestone, Demo 1, Voltron steered itself through the world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
 
 ![Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)](assets/res/join-dfw_expo.png)
 <small>Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)</small>
@@ -52,17 +53,7 @@ Our application has three parts: The form, the sample submission, and the interv
 
 ## Sample submissions
 ### Software/Algorithm Developer
-If applying for the *Software/Algorithm Developer* position, please review the following:
-
-We'd like Voltron to drive in a big loop around our simulated map, "GoMentum Station". Our behavior planner, which generates a trajectory for the car to follow, needs a global route as an input.
-
-The global route is a sequence of Lanelet2 lanes encoded in a [HADMapRoute message](https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs/-/blob/master/autoware_auto_msgs/msg/HADMapRoute.idl) from Autoware.Auto.
-
-Using the starter code provided [here](), please write a ROS2 Foxy node that publishes our global route as a HADMapRoute message onto the topic `/planning/global_route`. Submit a link to your code using the form linked above.
-
-Feel free to use our development environment, [VDE](https://github.com/Voltron-UTD/vde), to test your code. You can, however, forgo VDE and use any other tool that you wish, as long as the finished product works.
-
-If you have questions, please see our own [wiki](https://github.com/Voltron-UTD/meta/wiki) and other resources available online. We're partly looking to see if you can figure things out on your own.
+If applying for the *Software/Algorithm Developer* position, please see our instructions [here](/fall-recruiting/dev-samples).
 
 ### Web Developer
 Please send us a link to a website that you've developed in the past. The more skills demonstrated in the website (e.g. backend development, user interface design, etc), the better.
@@ -75,3 +66,6 @@ Please send us some examples of your work. We're not picky: Renderings, mockups,
 Please do one of the following, or both:
 - Send us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
 - Suppose we'd like to invite community members to join us as spectators for the completion of Voltron's [Grand Tour](/d2-overview), our first full lap around campus. Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
+
+
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Form and Sample Submissions</a>
