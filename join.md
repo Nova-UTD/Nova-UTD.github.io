@@ -8,7 +8,7 @@ author: "Will Heitman"
 # Roll With Us
 We're Voltron, UT Dallas's applied autonomous driving project. We've already come a long way, but we need your help to go further than ever.
 
-In our first major milestone, Demo 1, Voltron steered itself through the world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
+In our first major milestone, Demo 1, Voltron steered itself through the real world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
 
 ![Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)](assets/res/join-dfw_expo.png)
 <small>Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)</small>
@@ -20,7 +20,7 @@ Do algorithms like Normal Distribution Transform and Extended Kalman Filters exc
 Software developers on our team do more than write code. You should have strong math and communication skills, be comfortable learning new skills on your own, and enjoy working with like-minded developers on a team.
 
 ### Web Developer
-Our robot reads lots of sensor data and makes lots of calculations. All this data forms a thick web that's often confusing to understand. We'd like to **write a web interface** that can parse data from our stack and visualize it all through a web app.
+Our robot reads lots of sensor data and makes lots of calculations. All this data forms a thick web that's often confusing for humans to understand. We'd like to **write a web interface** that can parse data from our stack and visualize it all through a web app.
 
 You should have experience in front-end development (React, Angular, or similar) and backend development (Flask, Node, or similar).
 
@@ -32,7 +32,7 @@ There are lots of other areas of our project that would keep a 3D artist busy: v
 ### Public Relations Director
 This person would serve as our liason to our campus community and the outside world. They would write updates and post them on our website, take pictures and videos of our work, and possibly manage our social media presence.
 
-How many PR specialists represent a self-driving car program? Exactly.
+How many PR specialists get to promote a self-driving car laboratory? Exactly.
 
 ## Requirements for all positions
 - **Good teamwork**: Voltron is a group of friendly, supportive people, and we want you to be a part.
@@ -46,7 +46,7 @@ How many PR specialists represent a self-driving car program? Exactly.
 In reality, skilled disassembly is required. Engineers must take apart the cars and put them back together by hand. One misplaced wire can leave engineers puzzling for days over where the problem is...
 
 - More specifically, you should be able to dedicate **5 hours per week** through the school year-- no, this doesn't mean finals week.
-- If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience.
+- If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
 ## Application process
 Our application has three parts: The form, the sample submission, and the interview. Everyone who submits the form and their sample will be invited to an interview. Applications will be reviewed on a rolling basis. We're really looking forward to hearing from you! **You can access the form and submit your samples here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
@@ -67,5 +67,6 @@ Please do one of the following, or both:
 - Send us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
 - Suppose we'd like to invite community members to join us as spectators for the completion of Voltron's [Grand Tour](/d2-overview), our first full lap around campus. Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
 
+We're really looking forward to hearing from you. Should you have any questions, you can contact the team lead, Will, at *will.heitman@utdallas.edu*. Best of luck!
 
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Form and Sample Submissions</a>
