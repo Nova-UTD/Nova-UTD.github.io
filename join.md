@@ -10,8 +10,8 @@ We're Voltron, UT Dallas's applied autonomous driving project. We've already com
 
 In our first major milestone, Demo 1, Voltron steered itself through the real world. We're now working to write a new behavior planner, a steering controller, an ML-based obstacle detector, and more. To learn more about our current goals, check out the [Demo 2 overview](/d2-overview).
 
-![Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)](assets/res/join-dfw_expo.png)
-<small>Dr. Ruths, Vishvak, and Cristian after the DFW self-driving expo this summer (👀 those awards...)</small>
+[![Our team celebrating the completion of Demo 1](assets/res/2021-09-04-Group_photo.png)](assets/res/2021-09-04-Group_photo.png)
+<small>Our team celebrating the completion of Demo 1</small>
 ## Open positions
 
 ### Software/Algorithm Developer (C++)

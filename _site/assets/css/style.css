@@ -216,7 +216,15 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 a { color: #F08700; }
 
-.button { border: #F08700; border-style: solid; border-width: 2px; color: #F08700; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; font-weight: bold; margin: 4px 2px; cursor: pointer; }
+.announcement-box { display: flex; background-color: #F08700; color: white; width: 100%; border-radius: 3px; margin-bottom: 24px; }
+
+.announcement-box a { color: white; text-decoration: underline; }
+
+.announcement-box p { margin: 0 0 0 10px; }
+
+.announcement-box img { margin: 0 0 0 10px; }
+
+.button { border: #F08700; border-style: solid; border-width: 2px; border-radius: 3px; width: 100%; color: #F08700; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; font-weight: bold; margin: 4px 2px; cursor: pointer; }
 
 .team-member-card { width: 8rem; padding: 1rem; }
 
