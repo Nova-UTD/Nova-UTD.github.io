@@ -34,6 +34,11 @@ This person would serve as our liason to our campus community and the outside wo
 
 How many PR specialists get to promote a self-driving car laboratory? Exactly.
 
+### Education and Outreach Director
+Community involvement is an important part of our mission. In the past, our team has visited students at local schools, using Voltron to help teach a variety of science lessons. As our Education and Outreach Director, you'll develop educational programming and coordinate activities with local schools so that we can continue this important mission.
+
+While prior or current involvement in education (e.g. enrollment in UTeach) is encouraged, it's not required.
+
 ## Requirements for all positions
 - **Good teamwork**: Voltron is a group of friendly, supportive people, and we want you to be a part.
 - **Pride in our mission**: If you think self-driving cars are awesome, then we're looking for you!
@@ -49,24 +54,28 @@ In reality, skilled disassembly is required. Engineers must take apart the cars 
 - If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
 ## Application process
-Our application has three parts: The form, the sample submission, and the interview. Everyone who submits the form and their sample will be invited to an interview. Applications will be reviewed on a rolling basis. We're really looking forward to hearing from you! **You can access the form and submit your samples here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
+Our application has three parts: The form, the sample submission, and the interview. After you submit the form, we'll email you about your sample and interveiw. In other words, the form is your first step. Applications will be reviewed on a *rolling basis*. We're really looking forward to hearing from you! **You can access the form here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
 
 ## Sample submissions
 ### Software/Algorithm Developer
-If applying for the *Software/Algorithm Developer* position, please see our instructions [here](/fall-recruiting/dev-samples).
+If applying for the Software/Algorithm Developer position, please see our instructions [here](/fall-recruiting/dev-samples).
 
 ### Web Developer
-Please send us a link to a website that you've developed in the past. The more skills demonstrated in the website (e.g. backend development, user interface design, etc), the better.
-
+Please show us a website that you've developed in the past. The more skills demonstrated in the website (e.g. backend development, user interface design, etc), the better.
 
 ### 3D Artist
-Please send us some examples of your work. We're not picky: Renderings, mockups, anything else you might find relevant.
+Please show us some examples of your work. We're not picky: Renderings, mockups, anything else you might find relevant.
 
 ### PR Director
 Please do one of the following, or both:
-- Send us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
+- Show us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
 - Suppose we'd like to invite community members to join us as spectators for the completion of Voltron's [Grand Tour](/d2-overview), our first full lap around campus. Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
+
+### Education and Outreach Director
+There's no sample submission-- hooray! Just fill out the form, and we'll reach out to schedule an interview.
+
+---
 
 We're really looking forward to hearing from you. Should you have any questions, you can contact the team lead, Will, at *will.heitman@utdallas.edu*. Best of luck!
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Form and Sample Submissions</a>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
