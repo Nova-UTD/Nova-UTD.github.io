@@ -6,6 +6,9 @@ author: "Will Heitman"
 ---
 # Pointcloud downsampler
 [<- Back to openings page](/join)
+
+> Note on submissions: We'll ask for your code sample in an email when we reach out about interviews. You should receive this email within 48 hours of your form submission. You're welcome to work on it whenever, though!
+
 ## Overview
 In the course of our research, we frequently encounter unfiltered pointclouds-- that is, 3D scans from our car's sensors that have not been processed. These unfiltered pointclouds contain usually contain many more points than we need.
 
