@@ -35,7 +35,7 @@ This person would serve as our liason to our campus community and the outside wo
 How many PR specialists get to promote a self-driving car laboratory? Exactly.
 
 ### Education and Outreach Director
-Community involvement is an important part of our mission. In the past, our team has visited students at local schools, using Voltron to help teach a variety of science lessons. As our Education and Outreach Director, you'll develop educational programming and coordinate activities with local schools so that we can continue this important mission.
+Community involvement and outreach is an important part of our mission. We would like to use Voltron to excite students about the practical challenges of a hard problem like autonomous driving. We would like to touch on a variety of topics - everything from engineering and tech to policy and ethics. As our Education and Outreach Director, you'll develop educational mini-curriculum and coordinate activities with local schools and other organizations so that we can continue this important mission.
 
 While prior or current involvement in education (e.g. enrollment in UTeach) is encouraged, it's not required.
 
@@ -72,7 +72,7 @@ Please do one of the following, or both:
 - Suppose we'd like to invite community members to join us as spectators for the completion of Voltron's [Grand Tour](/d2-overview), our first full lap around campus. Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
 
 ### Education and Outreach Director
-There's no sample submission-- hooray! Just fill out the form, and we'll reach out to schedule an interview.
+There's no sample submission-- hooray! We'd love to chat about ideas you might have for curriculum though during your interview.
 
 ---
 
