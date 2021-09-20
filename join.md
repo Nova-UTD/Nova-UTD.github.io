@@ -14,30 +14,7 @@ In our first major milestone, Demo 1, Voltron steered itself through the real wo
 <small>Our team celebrating the completion of Demo 1</small>
 ## Open positions
 
-### Software/Algorithm Developer (C++)
-Do algorithms like Normal Distribution Transform and Extended Kalman Filters excite you? Are you able to learn on your own, dive into source code, and write clean applications?
-
-Software developers on our team do more than write code. You should have strong math and communication skills, be comfortable learning new skills on your own, and enjoy working with like-minded developers on a team.
-
-### Web Developer
-Our robot reads lots of sensor data and makes lots of calculations. All this data forms a thick web that's often confusing for humans to understand. We'd like to **write a web interface** that can parse data from our stack and visualize it all through a web app.
-
-You should have experience in front-end development (React, Angular, or similar) and backend development (Flask, Node, or similar).
-
-### 3D Artist
-Before we test our code on our real car, we first [run everything in a simulator](/simulation/2021/08/03/Simulated-driving.html). We'd love to have a custom model for [our car](https://gem.polaris.com/en-us/e6/build-color/?selectedmodel=passengerlsv&colorid=617275), as well as a 3D environment to represent areas of UT Dallas's campus. 
-
-There are lots of other areas of our project that would keep a 3D artist busy: visualizations, GUI animations, proofs of concept, and so on.
-
-### Public Relations Director
-This person would serve as our liason to our campus community and the outside world. They would write updates and post them on our website, take pictures and videos of our work, and possibly manage our social media presence.
-
-How many PR specialists get to promote a self-driving car laboratory? Exactly.
-
-### Education and Outreach Director
-Community involvement and outreach is an important part of our mission. We would like to use Voltron to excite students about the practical challenges of a hard problem like autonomous driving. We would like to touch on a variety of topics - everything from engineering and tech to policy and ethics. As our Education and Outreach Director, you'll develop educational mini-curriculum and coordinate activities with local schools and other organizations so that we can continue this important mission.
-
-While prior or current involvement in education (e.g. enrollment in UTeach) is encouraged, it's not required.
+***Applications for our current recruitment period are now closed. We do not have a date for new openings as of yet.***
 
 ## Requirements for all positions
 - **Good teamwork**: Voltron is a group of friendly, supportive people, and we want you to be a part.
