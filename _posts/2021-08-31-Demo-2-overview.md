@@ -62,7 +62,7 @@ These are major steps along our path to the completion of Demo 2. Checkpoints ar
 
 **A:** Voltron can localize itself along the entire course
 
-**B:** Voltron can generate a correct, sensible path along the entire course (accoutning for position, not speed, so only steering is accounted for)
+**B:** Voltron can generate a correct, sensible path along the entire course (accounting for position, not speed, so only steering is accounted for)
 
 **C:** Voltron can steer itself along the entire course (essentially Demo 1 on a new course)
 
