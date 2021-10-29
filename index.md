@@ -32,11 +32,12 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   </p>
 </div>
 
-<div class="flex-row">
+<div class="flex-row align-items-center">
 
   <div class="team-member-card">
     <p>
       <img id="modal1" src="/assets/res/headshots/justin_ruths.jpg" alt="Justin Ruths" />
+      <br/><br/>
       <strong>Justin Ruths</strong>
       <br/>Professor<br/>
       <em>Team Advisor</em>
@@ -48,6 +49,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal2" src="/assets/res/headshots/will_heitman.jpg" alt="Will Heitman" />
+      <br/><br/>
       <strong>Will Heitman</strong>
       <br/>CE Junior<br/>
       <em>Team Lead</em>
@@ -60,6 +62,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal3" src="/assets/res/headshots/joshua_williams.jpg" alt="Joshua Williams"/>
+      <br/><br/>
       <strong>Joshua Williams</strong>
       <br/>CS Junior<br/>
       <em>Software Architect</em>
@@ -69,6 +72,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal4" src="/assets/res/headshots/raghav_pillai.jpg" alt="Raghav Pillai"/>
+      <br/><br/>
       <strong>Raghav Pillai</strong>
       <br/>CS Junior<br/>
       <em>Data Visualization & Interface</em>
@@ -78,6 +82,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal5" src="/assets/res/headshots/egan_johnson.jpg" alt="Egan Johnson"/>
+      <br/><br/>
       <strong>Egan Johnson</strong>
       <br/>CS Sophomore<br/>
       <em>Behavior Planning & Controls</em>
@@ -87,6 +92,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal6" src="/assets/res/headshots/jim_moore.jpg" alt="Jim Moore"/>
+      <br/><br/>
       <strong>Jim Moore</strong>
       <br/>N/A<br/>
       <em>Behavior Planning & Controls</em>
@@ -96,6 +102,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal7" src="/assets/res/headshots/cristian_cruz.jpg" alt="Cristian Cruz"/>
+      <br/><br/>
       <strong>Cristian Cruz</strong>
       <br/>N/A<br/>
       <em>Behavior Planning & Controls</em>
@@ -105,6 +112,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal8" src="/assets/res/headshots/kyle_zeng.jpg" alt="Kyle Zeng"/>
+      <br/><br/>
       <strong>Kyle Zeng</strong>
       <br/>CS Sophomore<br/>
       <em>Perception & Machine Vision</em>
@@ -114,6 +122,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnav"/>
+      <br/><br/>
       <strong>Ragib Arnav</strong>
       <br/>CE N/A<br/>
       <em>Perception & Machine Vision</em>
@@ -123,6 +132,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal10" src="/assets/res/headshots/vishvak_bandi.jpg" alt="Vishvak Bandi"/>
+      <br/><br/>
       <strong>Vishvak Bandi</strong>
       <br/>CS Junior<br/>
       <em>Mapping</em>
@@ -132,6 +142,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal11" src="/assets/res/headshots/avery_bainbridge.jpg" alt="Avery Bainbridge"/>
+      <br/><br/>
       <strong>Avery Bainbridge</strong>
       <br/>CS Sophomore<br/>
       <em>Firmware</em>
@@ -141,6 +152,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal12" src="/assets/res/headshots/quinn_loach.jpg" alt="Quinn Loach"/>
+      <br/>
       <strong>Quinn Loach</strong>
       <br/>N/A<br/>
       <em>Education & Outreach</em>
@@ -150,6 +162,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal13" src="/assets/res/headshots/dylan_hiu.jpg" alt="Dylan Hiu"/>
+      <br/><br/>
       <strong>Dylan Hiu</strong>
       <br/>EE Junior<br/>
       <em>Public Relations</em>
@@ -159,6 +172,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal14" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
+      <br/><br/>
       <strong>Phu Le</strong>
       <br/>N/A<br/>
       <em>Technical Artist</em>
@@ -168,6 +182,7 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
   <div class="team-member-card">
     <p>
       <img id="modal15" src="/assets/res/headshots/connor_scally.jpg" alt="Connor Scally"/>
+      <br/><br/>
       <strong>Connor Scally</strong>
       <br/>CS Sophomore<br/>
       <em>Virtualization</em>
