@@ -162,8 +162,8 @@ dfn {
     text-decoration: none;
     cursor: pointer;
   }
-
-  /*.wrapper {
+@media only screen and (min-width: 768px) {
+  .wrapper {
     width:1260px;
     margin:0 auto;
   }
@@ -172,4 +172,18 @@ dfn {
     width:900px;
     float:right;
     padding-bottom:50px;
-  }*/
+  }
+
+  .team-member-card {
+    width: 12rem;
+    padding: 2rem;
+
+    img {
+        border-radius: 2rem;
+        height: 15em;
+        width: 9rem;
+        object-fit: cover;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+    }
+}
+}
