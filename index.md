@@ -6,7 +6,7 @@ layout: default
 ---
 
 
-## Demo 1
+## Demo 1, our first drive
 <iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
 
@@ -16,21 +16,20 @@ While Voltron can steer itself, we didn't give it control of the throttle and br
 
 You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-overview).
 
+## What's next: Demo 2
+Our earlier demo was just baby steps. This time we're getting serious by programming our car to make a full loop of UT Dallas's campus, with zero help from humans.
+
+We'll make our first official loop on April 29, in our "Grand Tour."
+
+[Learn more about Demo 2 on our overview page.](/d2-overview)
+
 ## Voltron's history, past and future
 [![Timeline of our project, from 2019 to 2023 and beyond](/assets/res/voltron-timeline.png)](/assets/res/voltron-timeline.png)
 
-## The Team
+## Our Team
+*Click on a member to learn more about them!*
 <div class="aside">
 
-<div class="group-card">
-  <p>
-    <img src="/assets/res/group.jpg" alt="group"/>
-    <p style="text-align:center">
-      The Nova team consists of some of the most innovative minds at UTD. Consisting of many individuals of different skillsets, each member has their own work ahead of them that helps steer Nova closer and closer to our destination. 
-    </p>
-    <br/>
-  </p>
-</div>
 
 <div class="flex-row align-items-center">
 
@@ -186,6 +185,16 @@ You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-o
       <strong>Connor Scally</strong>
       <br/>CS Sophomore<br/>
       <em>Virtualization</em>
+    </p>
+  </div>
+
+  <div class="team-member-card">
+    <p>
+      <img id="modal16" src="/assets/res/headshots/nikhil_narvekar.jpg" alt="Nikhil Narvekar"/>
+      <br/><br/>
+      <strong>Nikhil Narvekar</strong>
+      <br/>CS Sophomore<br/>
+      <em>Behavior Planning & Controls</em>
     </p>
   </div>
   

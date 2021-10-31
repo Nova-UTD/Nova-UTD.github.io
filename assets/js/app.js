@@ -87,27 +87,42 @@ var captionText = document.getElementById("caption");
 
 
 let prefix = "modal"
-for(let i=1; i<=15; i++) {
+for(let i=1; i<=16; i++) {
     var img = document.getElementById(prefix + i);
+    let no_bios = [
+                    "Justin Ruths", "Jim Moore", "Cristian Cruz", 
+                    "Vishvak Bandi", "Quinn Loach"
+                ];
+
+    img.onmouseenter = function() {
+        if (!no_bios.includes(this.alt)) {
+            this.style.cursor = "pointer";
+        }
+    }
 
     img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        
-        let role = members[this.alt].Role;
-        let study = members[this.alt].Study;
-        let bio = members[this.alt].Bio;
+        // If the image has an associated bio, open the modal.
+        // Do nothing on click otherwise.
+        if (!no_bios.includes(this.alt)) {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            
+            let role = members[this.alt].Role;
+            let study = members[this.alt].Study;
+            let bio = members[this.alt].Bio;
 
-        let string = "<b>Name:</b><br/>" + this.alt + "<br/><br/><b>Role:</b><br/>" + role + "<br/><br/><b>Study:</b><br/>" + study + "<br/><br/><b>Bio:</b><br/>" + bio;
-        captionText.innerHTML = string;
+            let string = "<h2>"+this.alt+"</h2>"+study+", "+role+"<br/><em>"+bio+"</em>";
+            captionText.innerHTML = string;
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                console.log("Click!")
+            modal.style.display = "none";
+            }
+        }
     }
 }
 
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
