@@ -14,4 +14,4 @@ Our new members consist of algorithm development specialists, a technical artist
 
 While I welcome our new members, I'd also like give a big thank you and farewell to Grace Zhu. Grace was instrumental in developing our map data for Demo 1. Many of the mapping techniques that we rely on today were discovered by Grace, and she has made a lasting contribution to our project. Grace has recently moved back to UT Austin, where she studies as a CS undergrad.
 
-Take a look at our [updated membership section](/#our-team), where you can click on each of our members to read their story. One more welcome to Nikhil, Jim, Ragib, Avery, Connor, Dylan, Quinn, Phu, and Raghav!
+Take a look at our [updated membership section](/#our-team), where you can click on each of our members to read their story (thanks to Raghav for building this). One more welcome to Nikhil, Jim, Ragib, Avery, Connor, Dylan, Quinn, Phu, and Raghav!
