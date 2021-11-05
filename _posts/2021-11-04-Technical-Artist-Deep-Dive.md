@@ -1,6 +1,7 @@
 ---
-layout: Technical Artist Deep Dive - Phu Le
-date:   2021-11-04
+layout: post
+title: Technical Artist Deep Dive - Phu Le
+date: 2021-11-04
 categories: Deep Dives
 author: "Dylan Hiu"
 ---
