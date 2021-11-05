@@ -14,7 +14,7 @@ This week, we will be taking a deep-dive on Phu Le, Nova’s Technical Artist. A
 
 [![Image from Phu's online portfolio](/assets/res/2021-11-04-Phu_Le_Portfolio1.png)](/assets/res/2021-11-04-Phu_Le_Portfolio1.png)
 [![Second from Phu's online portfolio](/assets/res/2021-11-04-Phu_Le-Portfolio2.png)](/assets/res/2021-11-04-Phu_Le-Portfolio2.png)
-<small>Images from Phu's previous work in 3D modeling and game design.
+<small>Images from Phu's previous work in 3D modeling and game design.<small>
 
 For Nova, Phu has been tasked with creating a 3D, detailed render of Hail Bopp from top-to-bottom. Polaris, the manufacturer of the Gem vehicle used as the basis of the project, does not have any scan or model of the vehicle available, leaving it up to Phu to create them for us from scratch! This model will be used in all future simulations for the entirety of the project, and will allow the Nova team to approximate their simulations against reality. In addition, Phu will also be in charge of environment design for these virtual environments as well, with some of them being the streets, buildings, and trees around our campus. In fact, Phu plans on modeling the entirety of UT Dallas in the future! He has also in charge of designing Nova's logos and marketing materials.
   
