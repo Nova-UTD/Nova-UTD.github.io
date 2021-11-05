@@ -9,6 +9,7 @@ author: "Dylan Hiu"
 # Technical Artist Deep Dive
 
 [![Headshot of Phu](/assets/res/headshots/phu_le.jpg)](/assets/res/headshots/phu_le.jpg)
+
 <small>Phu Le, Nova's Technical Artist.</small>
 
 UT Dallas’ autonomous vehicle project is underway! This Fall, 15 undergraduate students have come together to continue the process of creating a fully functional self-driving vehicle, entirely from scratch. This is no small feat, and has the Nova team working on an enormous array of issues around the clock in order to make this dream a reality. Nova’s aim this year is Demo 2: an ambitious project with an aim to have the project’s vehicle, Hail Bopp (a retrofitted Polaris Gem) safely complete an entirely autonomous loop around the streets surrounding the perimeter of UT Dallas alongside the traffic, skateboarders, and Tobors UTD students are familiar with. 
