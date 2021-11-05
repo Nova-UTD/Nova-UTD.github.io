@@ -1,8 +1,12 @@
 ---
 layout: Technical Artist Deep Dive - Phu Le
-categories: test
+date:   2021-11-04
+categories: Deep Dives
 author: "Dylan Hiu"
 ---
+
+# Technical Artist Deep Dive
+
 [![Headshot of Phu](/assets/res/headshots/phu_le.jpg)](/assets/res/headshots/phu_le.jpg)
 <small>Phu Le, Nova's Technical Artist.</small>
 
