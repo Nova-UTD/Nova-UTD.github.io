@@ -60,7 +60,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal3" src="/assets/res/headshots/joshua_williams.jpg" alt="Joshua Williams"/>
+      <img id="modal3" src="/assets/res/headshots/Joshua_Williams.jpg" alt="Joshua Williams"/>
       <br/><br/>
       <strong>Joshua Williams</strong>
       <br/>CS Junior<br/>
@@ -80,7 +80,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal5" src="/assets/res/headshots/egan_johnson.jpg" alt="Egan Johnson"/>
+      <img id="modal5" src="/assets/res/headshots/Egan_Johnson.jpg" alt="Egan Johnson"/>
       <br/><br/>
       <strong>Egan Johnson</strong>
       <br/>CS Sophomore<br/>
