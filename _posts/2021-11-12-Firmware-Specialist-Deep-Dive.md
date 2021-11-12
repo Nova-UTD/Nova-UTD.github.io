@@ -8,7 +8,7 @@ author: "Dylan Hiu"
 
 # Firmware Specialist Deep Dive
 
-[![Headshot of Avery](/assets/res/headshots/avery_bainbridge.jpg)
+[![Headshot of Avery](/assets/res/headshots/avery_bainbridge.jpg)](/assets/res/headshots/avery_bainbridge.jpg)
 
 <small>Avery Bainbridge, Nova's Firmware Specialist.</small>
 
@@ -20,12 +20,12 @@ Avery hails from Boise, Idaho, and brings a wealth of experience to this positio
 
 In the past few weeks, Avery has been working on integrating the GPS receiver from Hail Bopp into workable code for the rest of the team. The written code from our team talks to our GPS modules and needs to receive back workable position and velocity data to interface with the rest of the systems in the vehicle.  Interfacing this code is not trivial: there are an enormous amount of issues to solve before any of this data can be usable for us. Differences in communication protocols, changing the GPS’ positioning function from an ellipsoid to a reference geoid, properly passing the latitude, longitude, and altitude data to the localization stack to be processed…All of this information is needed to give Hail Bopp a “ground truth” to determine its exact position in space. Avery is the man responsible for making it all happen.
 
-[![Image of Avery working in the Lab](/assets/res/21-11-12_Avery_Bainbridge_working.png)
+[![Image of Avery working in the Lab](/assets/res/21-11-12_Avery_Bainbridge_working.png)](/assets/res/21-11-12_Avery_Bainbridge_working.png)
 <small>Avery at work in the Nova lab.<small>
 
 Avery’s work has become a bedrock for the project, and has been essential to getting us up and running this semester. In recognition of his excellent work, Avery is the first recipient of Nova’s weekly award…our rubber chicken! Avery will hold onto this prize for a grand total of one week before it is passed on to next week’s Nova Member of the Week. 
 
-[![Image of Avery with our rubber chicken](/assets/res/21-11-12-Avery_Bainbridge_chicken.jpg)
+[![Image of Avery with our rubber chicken](/assets/res/21-11-12-Avery_Bainbridge_chicken.jpg)](/assets/res/21-11-12-Avery_Bainbridge_chicken.jpg)
   <small>Avery being recognized with Nova's extra-special rubber chicken.<small>
 
 Avery wants students to remember that in technology, underneath all of the high-level functionality and capability they possess that seem like magic, there is an enormous amount of work that goes into the essential functions of the product. Underneath the higher level abstractions of the product, “It’s not magic, and that there are real people such as myself.” He wants to remind students that underneath all of the code and functions, to quote Isaac Newton, “Don’t forget that you’re working on the shoulders of giants.” Nova constantly relies on Avery to keep everything on the right track, and we cannot do our work without him!
