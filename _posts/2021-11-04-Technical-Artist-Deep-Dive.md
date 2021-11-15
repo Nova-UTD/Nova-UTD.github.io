@@ -6,8 +6,6 @@ categories: Deep Dives
 author: "Dylan Hiu"
 ---
 
-# Technical Artist Deep Dive
-
 [![Headshot of Phu](/assets/res/headshots/phu_le.jpg)](/assets/res/headshots/phu_le.jpg)
 
 <small>Phu Le, Nova's Technical Artist.</small>
