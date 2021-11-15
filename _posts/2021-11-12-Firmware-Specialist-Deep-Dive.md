@@ -6,8 +6,6 @@ categories: Deep Dives
 author: "Dylan Hiu"
 ---
 
-# Firmware Specialist Deep Dive
-
 [![Headshot of Avery](/assets/res/headshots/avery_bainbridge.jpg)](/assets/res/headshots/avery_bainbridge.jpg)
 
 <small>Avery Bainbridge, Nova's Firmware Specialist.</small>
