@@ -6,7 +6,7 @@ categories: Deep Dives
 author: "Dylan Hiu"
 ---
 
-[![Headshot of Raghav](/assets/res/headshots/raghav_pillai.jpg](/assets/res/headshots/raghav_pillai.jpg)
+[![Headshot of Raghav](/assets/res/headshots/raghav_pillai.jpg)](/assets/res/headshots/raghav_pillai.jpg)
 
 In our previous post, we debuted our weekly tradition of awarding our prized Rubber Chicken to a member of the Nova team who we feel deserves special recognition for their contributions to our goals. This week, we recognize Raghav Pillai, our head of Data Visualization & Interface design!
 
