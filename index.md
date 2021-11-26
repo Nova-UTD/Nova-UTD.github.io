@@ -93,7 +93,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal6" src="/assets/res/headshots/jim_moore.jpg" alt="Jim Moore"/>
       <br/><br/>
       <strong>Jim Moore</strong>
-      <br/>N/A<br/>
+      <br/><br/>
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
@@ -103,7 +103,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal7" src="/assets/res/headshots/cristian_cruz.jpg" alt="Cristian Cruz"/>
       <br/><br/>
       <strong>Cristian Cruz</strong>
-      <br/>N/A<br/>
+      <br/><br/>
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
@@ -123,7 +123,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnab"/>
       <br/><br/>
       <strong>Ragib Arnab</strong>
-      <br/>CE N/A<br/>
+      <br/>CE<br/>
       <em>Perception & Machine Vision</em>
     </p>
   </div>
@@ -153,7 +153,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal12" src="/assets/res/headshots/quinn_loach.jpg" alt="Quinn Loach"/>
       <br/>
       <strong>Quinn Loach</strong>
-      <br/>N/A<br/>
+      <br/><br/>
       <em>Education & Outreach</em>
     </p>
   </div>
@@ -173,7 +173,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal14" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
       <br/><br/>
       <strong>Phu Le</strong>
-      <br/>N/A<br/>
+      <br/><br/>
       <em>Technical Artist</em>
     </p>
   </div>
