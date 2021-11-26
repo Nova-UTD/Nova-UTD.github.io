@@ -123,7 +123,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnab"/>
       <br/><br/>
       <strong>Ragib Arnab</strong>
-      <br/>CE<br/>
+      <br/>CE Sophomore<br/>
       <em>Perception & Machine Vision</em>
     </p>
   </div>
