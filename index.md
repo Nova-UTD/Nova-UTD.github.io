@@ -151,7 +151,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
   <div class="team-member-card">
     <p>
       <img id="modal12" src="/assets/res/headshots/quinn_loach.jpg" alt="Quinn Loach"/>
-      <br/>
+      <br/><br/>
       <strong>Quinn Loach</strong>
       <br/><br/>
       <em>Education & Outreach</em>
@@ -173,7 +173,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal14" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
       <br/><br/>
       <strong>Phu Le</strong>
-      <br/><br/>
+      <br/>CS Sophomore<br/>
       <em>Technical Artist</em>
     </p>
   </div>
