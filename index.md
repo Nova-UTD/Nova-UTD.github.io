@@ -153,7 +153,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal12" src="/assets/res/headshots/quinn_loach.jpg" alt="Quinn Loach"/>
       <br/><br/>
       <strong>Quinn Loach</strong>
-      <br/><br/>
+      <br/>EE Junior<br/>
       <em>Education & Outreach</em>
     </p>
   </div>
