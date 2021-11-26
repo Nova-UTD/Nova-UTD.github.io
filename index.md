@@ -120,9 +120,9 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnav"/>
+      <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnab"/>
       <br/><br/>
-      <strong>Ragib Arnav</strong>
+      <strong>Ragib Arnab</strong>
       <br/>CE N/A<br/>
       <em>Perception & Machine Vision</em>
     </p>
