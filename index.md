@@ -103,7 +103,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal7" src="/assets/res/headshots/cristian_cruz.jpg" alt="Cristian Cruz"/>
       <br/><br/>
       <strong>Cristian Cruz</strong>
-      <br/><br/>
+      <br/>CE Sophomore<br/>
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
