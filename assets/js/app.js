@@ -39,7 +39,7 @@ var members = {
         Study: "CS Sophomore",
         Bio: "Hey! My name is Kyle, and I'm a sophomore studying computer science and finance at UTD. For a bit about myself, I love exploring uncharted territory. This includes venturing into machine learning, which is what I'll be working on for Nova, visual arts, and business management! I hope to innovate an efficient and responsive autonomous vehicle with the rest of the team."
     },
-    ["Ragib Arnav"]: {
+    ["Ragib Arnab"]: {
         Role: "Perception & Machine Vision",
         Study: "CE N/A",
         Bio: "I’m currently a sophomore majoring in Computer Science. I will be working on the vehicles planning system this semester. I’m originally from Madison, Wisconsin, and much prefer the Texas winter to the Texas summer, especially since I enjoy running. I have some background in robotics from high school and am a returning member of the project. I’m excited to see what we can do this year!"
