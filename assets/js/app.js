@@ -42,7 +42,7 @@ var members = {
     ["Ragib Arnab"]: {
         Role: "Perception & Machine Vision",
         Study: "CE",
-        Bio: ""
+        Bio: "Hello! my name is Ragib (Rae). I'm a CE student who wants to work with emerging fields such as autonomous vehicles and robotics. I'm particularly interested in the vision side of things, like object detection. In the future I hope to work with these technologies. In my spare time, I genuinely enjoy working on programming projects, but I usually game online or play soccer."
     },
     ["Vishvak Bandi"]: {
         Role: "Mapping",
