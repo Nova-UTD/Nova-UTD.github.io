@@ -7,7 +7,7 @@ var members = {
     ["Justin Ruths"]: {
         Role: "Team Advisor",
         Study: "Professor",
-        Bio: "N/A"
+        Bio: ""
     },
     ["Will Heitman"]: {
         Role: "Team Lead",
@@ -26,13 +26,13 @@ var members = {
     },
     ["Jim Moore"]: {
         Role: "Behavior Planning & Controls",
-        Study: "N/A",
-        Bio: "N/A"
+        Study: "",
+        Bio: ""
     },
     ["Cristian Cruz"]: {
         Role: "Behavior Planning & Controls",
-        Study: "N/A",
-        Bio: "N/A"
+        Study: "",
+        Bio: ""
     },
     ["Kyle Zeng"]: {
         Role: "Perception & Machine Vision",
@@ -41,13 +41,13 @@ var members = {
     },
     ["Ragib Arnab"]: {
         Role: "Perception & Machine Vision",
-        Study: "CE N/A",
-        Bio: "I’m currently a sophomore majoring in Computer Science. I will be working on the vehicles planning system this semester. I’m originally from Madison, Wisconsin, and much prefer the Texas winter to the Texas summer, especially since I enjoy running. I have some background in robotics from high school and am a returning member of the project. I’m excited to see what we can do this year!"
+        Study: "CE",
+        Bio: ""
     },
     ["Vishvak Bandi"]: {
         Role: "Mapping",
         Study: "CS Junior",
-        Bio: "N/A"
+        Bio: ""
     },
     ["Avery Bainbridge"]: {
         Role: "Firmware",
@@ -56,8 +56,8 @@ var members = {
     },
     ["Quinn Loach"]: {
         Role: "Education & Outreach",
-        Study: "N/A",
-        Bio: "N/A"
+        Study: "",
+        Bio: ""
     },
     ["Dylan Hiu"]: {
         Role: "Public Relations",
@@ -71,7 +71,7 @@ var members = {
     },
     ["Phu Le"]: {
         Role: "Technical Artist",
-        Study: "N/A",
+        Study: "",
         Bio: "How’s it going. Name’s Phu Le. I'll be making the 3D models for the car and all of its fancy do-dats components. I don’t have much to say about myself, I like gaming, game dev, music, oh right I’m Vietnamese: chúc bạn một ngày tốt lành!"
     },
     ["Nikhil Narvekar"]: {
