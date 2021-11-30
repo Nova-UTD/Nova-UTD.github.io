@@ -93,7 +93,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal6" src="/assets/res/headshots/jim_moore.jpg" alt="Jim Moore"/>
       <br/><br/>
       <strong>Jim Moore</strong>
-      <br/><br/>
+      <br/>CS Junior<br/>
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
