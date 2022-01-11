@@ -130,16 +130,6 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal10" src="/assets/res/headshots/vishvak_bandi.jpg" alt="Vishvak Bandi"/>
-      <br/><br/>
-      <strong>Vishvak Bandi</strong>
-      <br/>CS Junior<br/>
-      <em>Mapping</em>
-    </p>
-  </div>
-
-  <div class="team-member-card">
-    <p>
       <img id="modal11" src="/assets/res/headshots/avery_bainbridge.jpg" alt="Avery Bainbridge"/>
       <br/><br/>
       <strong>Avery Bainbridge</strong>
