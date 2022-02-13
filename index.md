@@ -123,7 +123,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
       <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnab"/>
       <br/><br/>
       <strong>Ragib Arnab</strong>
-      <br/>CE Sophomore<br/>
+      <br/>CS Sophomore<br/>
       <em>Perception & Machine Vision</em>
     </p>
   </div>
@@ -140,17 +140,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal12" src="/assets/res/headshots/quinn_loach.jpg" alt="Quinn Loach"/>
-      <br/><br/>
-      <strong>Quinn Loach</strong>
-      <br/>EE Junior<br/>
-      <em>Education & Outreach</em>
-    </p>
-  </div>
-
-  <div class="team-member-card">
-    <p>
-      <img id="modal13" src="/assets/res/headshots/dylan_hiu.jpg" alt="Dylan Hiu"/>
+      <img id="modal12" src="/assets/res/headshots/dylan_hiu.jpg" alt="Dylan Hiu"/>
       <br/><br/>
       <strong>Dylan Hiu</strong>
       <br/>EE Junior<br/>
@@ -160,7 +150,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal14" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
+      <img id="modal13" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
       <br/><br/>
       <strong>Phu Le</strong>
       <br/>CS Sophomore<br/>
@@ -170,7 +160,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal15" src="/assets/res/headshots/connor_scally.jpg" alt="Connor Scally"/>
+      <img id="modal14" src="/assets/res/headshots/connor_scally.jpg" alt="Connor Scally"/>
       <br/><br/>
       <strong>Connor Scally</strong>
       <br/>CS Sophomore<br/>
@@ -180,7 +170,7 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 
   <div class="team-member-card">
     <p>
-      <img id="modal16" src="/assets/res/headshots/nikhil_narvekar.jpg" alt="Nikhil Narvekar"/>
+      <img id="modal15" src="/assets/res/headshots/nikhil_narvekar.jpg" alt="Nikhil Narvekar"/>
       <br/><br/>
       <strong>Nikhil Narvekar</strong>
       <br/>CS Sophomore<br/>
