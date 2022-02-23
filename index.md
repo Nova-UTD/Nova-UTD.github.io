@@ -41,13 +41,6 @@ Our project is currently aiming to make a 2-mile loop of UT Dallas's campus with
 
 You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
 
-## What's next: Demo 2
-Our earlier demo was just baby steps. This time we're getting serious by programming our car to make a full loop of UT Dallas's campus, with zero help from humans.
-
-We'll make our first official loop on April 29, in our "Grand Tour."
-
-[Learn more about Demo 2 on our overview page.](/d2-overview)
-
 ## Voltron's history, past and future
 [![Timeline of our project, from 2019 to 2023 and beyond](/assets/res/voltron-timeline.png)](/assets/res/voltron-timeline.png)
 
