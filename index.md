@@ -29,6 +29,11 @@ layout: default
         onReady: function (e) {
           e.target.mute();
         },
+  onStateChange: function(e) {
+        if (e.data === YT.PlayerState.ENDED) {
+            player.playVideo(); 
+        }
+    }
       },
     });
   }
