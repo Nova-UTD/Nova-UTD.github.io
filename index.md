@@ -5,16 +5,12 @@
 layout: default
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aLeqj5ZyQQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Demo 1, our first drive
-<iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-> *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
+## Overview
+Our project is currently aiming to make a 2-mile loop of UT Dallas's campus without any human control. Our vehicle will manage traffic patterns on actual roads while yielding to pedestrians and vehicles. Learn more about our goals on our [Demo 2 Overview](./d2-overview) page.
 
-When teaching a car to drive, it's best to start small. Demo 1 was our car's first foray into the real world.
-
-While Voltron can steer itself, we didn't give it control of the throttle and brakes (mostly for safety).
-
-You can read more about Demo 1 here: [Getting Things Rolling with Demo 1](./d1-overview).
+You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
 
 ## What's next: Demo 2
 Our earlier demo was just baby steps. This time we're getting serious by programming our car to make a full loop of UT Dallas's campus, with zero help from humans.
@@ -190,3 +186,6 @@ We'll make our first official loop on April 29, in our "Grand Tour."
 <script src="/assets/js/app.js"></script>
 </div>
  
+ ## Demo 1, our first drive
+<iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
