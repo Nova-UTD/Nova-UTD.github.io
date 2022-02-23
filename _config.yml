@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nova-utd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  Nova-UTD
-logo: /assets/res/vehicle_trace.svg
+logo: /assets/res/logo.svg
 
 github:
   is_user_page: true
