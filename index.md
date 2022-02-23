@@ -13,7 +13,7 @@ layout: default
     player = new YT.Player('muteYouTubeVideoPlayer', {
       videoId: 'aLeqj5ZyQQI', // YouTube Video ID
       width: 560, // Player width (in px)
-      height: 316, // Player height (in px)
+      height: 315, // Player height (in px)
       playerVars: {
         autoplay: 1, // Auto-play the video on load
         controls: 1, // Show pause/play buttons in player
