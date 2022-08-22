@@ -159,4 +159,4 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
  
 ## Demo 1, our first drive
 <iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-> *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
+> *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*.
