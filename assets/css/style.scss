@@ -21,8 +21,13 @@ a {
     text-decoration: underline;
 }
 
+.announcement-box svg {
+  fill: white;
+  margin: 10px 10px 10px 10px;
+}
+
 .announcement-box p {
-    margin: 0 0 0 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .announcement-box img {

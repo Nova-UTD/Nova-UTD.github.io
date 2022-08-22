@@ -36,7 +36,7 @@ I mentioned earlier that each node is put inside a "frame" image that builds the
 
 In Docker, images are created using Dockerfiles. These files are instructions for how a container is built. Remember that a container is (basically) a virtual machine, so Dockerfiles do things like install software, create users, and anything else necessary to set up an environment for our code.
 
-Dockerfiles start with a `FROM` instruction that inherits a parent image. In our `base` container, we start by [inheriting the official ROS Foxy image](https://github.com/Voltron-UTD/vde/blob/e783ee35f065d9885ad05a2ac9497f33cc47dada/images/base/Dockerfile#L13), which in turn inherits the offical Ubuntu image. In a single line, our custom `base` image now has Ubuntu and ROS installed. The rest of the Dockerfile downloads and builds Autoware, along with its many dependencies.
+Dockerfiles start with a `FROM` instruction that inherits a parent image. In our `base` container, we start by [inheriting the official ROS Foxy image](https://github.com/Nova-UTD/navigator/blob/e783ee35f065d9885ad05a2ac9497f33cc47dada/images/base/Dockerfile#L13), which in turn inherits the offical Ubuntu image. In a single line, our custom `base` image now has Ubuntu and ROS installed. The rest of the Dockerfile downloads and builds Autoware, along with its many dependencies.
 
 Our `pillar` image inherits from `base`, then adds any custom libraries that we write, all of which are stored in a `roslibs` folder in our repo root. At the moment, this is just two custom libraries. We separate this process from `base` because we don't want to rebuild Autoware every time we add or modify a custom library.
 
@@ -55,4 +55,4 @@ Behind the scenes, Docker creates a virtual network interface for each container
 VDE is still a baby, and it has a lot of growing to do. We plan on adding network rules to make our virtual network more secure. We'd like to add [restart policies](https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy) to each container, which allows us to handle unexpected program errors safely. Of course we'll add more ROS packages as our project grows. Conspicuously missing from our stack is a user interface, so we'd like to add a web server that serves a web UI.
 
 # Conclusion
-You can view and download our code from our [GitHub repo](https://github.com/Voltron-UTD/vde), so go check it out! If you have any suggestions or questions about our work, feel free to [reach out to us](/#team).
+You can view and download our code from our [GitHub repo](https://github.com/Nova-UTD/navigator), so go check it out! If you have any suggestions or questions about our work, feel free to [reach out to us](/#team).

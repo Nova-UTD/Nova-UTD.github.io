@@ -46,7 +46,7 @@ Our project is currently aiming to make a 2-mile loop of UT Dallas's campus with
 
 You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
 
-## Voltron's history, past and future
+## Nova's history, past and future
 [![Timeline of our project, from 2019 to 2023 and beyond](/assets/res/voltron-timeline.png)](/assets/res/voltron-timeline.png)
 
 ## Our Team
