@@ -5,49 +5,13 @@
 layout: default
 ---
 
-<div id="muteYouTubeVideoPlayer"></div>
-<script async src="https://www.youtube.com/iframe_api"></script>
-<script>
-  function onYouTubeIframeAPIReady() {
-    var player;
-    player = new YT.Player('muteYouTubeVideoPlayer', {
-      videoId: 'aLeqj5ZyQQI', // YouTube Video ID
-      width: 560, // Player width (in px)
-      height: 315, // Player height (in px)
-      playerVars: {
-        autoplay: 1, // Auto-play the video on load
-        controls: 1, // Show pause/play buttons in player
-        showinfo: 0, // Hide the video title
-        modestbranding: 1, // Hide the Youtube Logo
-        loop: 1, // Run the video in a loop
-        fs: 1, // Hide the full screen button
-        cc_load_policy: 0, // Hide closed captions
-        iv_load_policy: 3, // Hide the Video Annotations
-        autohide: 0, // Hide video controls when playing
-      },
-      events: {
-        onReady: function (e) {
-          e.target.mute();
-        },
-  onStateChange: function(e) {
-        if (e.data === YT.PlayerState.ENDED) {
-            player.playVideo(); 
-        }
-    }
-      },
-    });
-  }
-
-  // Written by @labnol
-</script>
+![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-02-12-Parade_group_photo.JPG)
+<small>Above: Our team at the UTD Homecoming Parade, February 2022. Pssst, no driver!</small>
 
 ## Overview
 Our project is currently aiming to make a 2-mile loop of UT Dallas's campus without any human control. Our vehicle will manage traffic patterns on actual roads while yielding to pedestrians and vehicles. Learn more about our goals on our [Demo 2 Overview](./d2-overview) page.
 
 You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
-
-## Nova's history, past and future
-[![Timeline of our project, from 2019 to 2023 and beyond](/assets/res/voltron-timeline.png)](/assets/res/voltron-timeline.png)
 
 ## Our Team
 *Click on a member to learn more about them!*
@@ -120,16 +84,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
-
-  <div class="team-member-card">
-    <p>
-      <img id="modal7" src="/assets/res/headshots/cristian_cruz.jpg" alt="Cristian Cruz"/>
-      <br/><br/>
-      <strong>Cristian Cruz</strong>
-      <br/>CE Sophomore<br/>
-      <em>Behavior Planning & Controls</em>
-    </p>
-  </div>
   
   <div class="team-member-card">
     <p>
@@ -158,16 +112,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <strong>Avery Bainbridge</strong>
       <br/>CS Sophomore<br/>
       <em>Firmware</em>
-    </p>
-  </div>
-
-  <div class="team-member-card">
-    <p>
-      <img id="modal12" src="/assets/res/headshots/dylan_hiu.jpg" alt="Dylan Hiu"/>
-      <br/><br/>
-      <strong>Dylan Hiu</strong>
-      <br/>EE Junior<br/>
-      <em>Public Relations</em>
     </p>
   </div>
 
@@ -213,6 +157,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 <script src="/assets/js/app.js"></script>
 </div>
  
- ## Demo 1, our first drive
+## Demo 1, our first drive
 <iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*. 
