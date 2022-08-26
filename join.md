@@ -93,10 +93,8 @@ Please do one of the following, or both:
 
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
 
-<div class="button">
-    <p> Sample submissions
-    <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
-</div>
+### Sample submissions
+<iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
 ## Questions
 We're really looking forward to hearing from you. If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Best of luck!
