@@ -7,8 +7,6 @@ author: "Will Heitman"
 # Pointcloud downsampler
 [<- Back to openings page](/join)
 
-> Note on submissions: We'll ask for your code sample in an email when we reach out about interviews. You should receive this email within 48 hours of your form submission. You're welcome to work on it whenever, though!
-
 ## Overview
 In the course of our research, we frequently encounter unfiltered pointclouds-- that is, 3D scans from our car's sensors that have not been processed. These unfiltered pointclouds contain usually contain many more points than we need.
 
@@ -28,12 +26,18 @@ We'd like you to write a program that reads a pointcloud from a labelled CSV fil
 We're looking for efficient, cleanly written downsamplers that fulfill the requirements above. Everything else is up to you, including:
 - How many points to remove (this depends on your implementation, but it doesn't really matter to us),
 - How to select which points to remove (see requirement above),
+and so on. Implementations that remove points systematically (i.e. uniformly in space, or based on a target feature like edges) will be scored higher than programs that remove points randomly. If this all sounds crazy, **keep it simple** and just submit something that works.
 
-and so on. If it sounds crazy, **keep it simple**!
+## Evaluation process
+Submissions will be evaluated by a **blind panel** of developers on our team. That is, your submission will be anonymized before evaluation. This panel will score your code within the following categories using a 12-point scale:
+- **Efficacy:** Does your program work? Does it remove points systematically? (5 points)
+- **Clarity:** Is your code readable? Does it have a clear structure, with functions separated logically? (4 points)
+- **Efficiency:** Does your code have a reasonable runtime, or does it have excessive runtime complexity? (3 points)
+- **Creativity:** This is where our panel can recognize extra effort, unique approaches, and so on. (3 *bonus* points possibly)
 
 ## Notes and tips
 - You should be able to accomplish this with standard C++ libraries, but Boost is also perfectly welcome.
-- The input positions are in meters.
+- The input positions are in meters, though this is arbitrary.
 - You're welcome to accept additional parameters from the user or from a config file, but you can stick to hardcoded values as well.
 - The input pointcloud is a scan of an apartment from [this dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:apartment:home).
 - If you'd like to visualize your input and output pointclouds, [Paraview](https://www.paraview.org/) is a popular data visualiztion program that can do just that (and it handles CSV files easily). Not required, but could help.

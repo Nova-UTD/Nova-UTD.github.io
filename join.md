@@ -11,18 +11,18 @@ We're Nova, UT Dallas's applied autonomous driving project. We aim to create the
 
 Our open-source software, "Navigator," is under active development, with over 500 commits across our branches. However, there's plenty of work ahead with our perception software, planning algorithms, and more. If you're a believer in autonomous-driving, we need your help!
 
-[![Our team celebrating the completion of Demo 1](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
+[![Some of our members at a fundraising event in April](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
 <small>Above: Some of our members at a fundraising event in April</small>
 
 ## Open positions
 ### Development lead
-The dev lead will...
+Nova is a technically challenging project with many moving parts. Our efforts stretch across machine learning, perception, planning, sensor fusion, control, firmware, and so on. We're looking for someone with strong leadership abilities to manage our development group. The development lead will assign tasks and ensure that we stay on track.
 
 ### Core developer
-Core developers...
+Core developers work on the heart of our robot. They don't just write code, but also engineer our algorithms and create our whole system. Everything from sensor processing to behavior planning to object tracking is formed and improved by this group. If you love robotics, artificial intelligence, controls, machine vision, Nova presents a unique opportunity to combine them all to create something amazing.
 
 ### Vehicle engineers
-Vehicle engineers will...
+Vehicle engineers link our software with the real world. Our project already has a street-legal vehicle equipped with state-of-the-art sensors. We're recruiting members with expertise in either *firmware, mechanical,* or *electrical* systems.
 
 ### PR director
 The PR director will...
