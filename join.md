@@ -16,16 +16,38 @@ Our open-source software, "Navigator," is under active development, with over 50
 
 ## Open positions
 ### Development lead
-Nova is a technically challenging project with many moving parts. Our efforts stretch across machine learning, perception, planning, sensor fusion, control, firmware, and so on. We're looking for someone with strong leadership abilities to manage our development group. The development lead will assign tasks and ensure that we stay on track.
+We're looking for someone with strong leadership abilities to manage our development team. You should have good interpersonal skills, humility, and the willingness to help your teammates succeed. You will be expected to have a familiarity with each component in our system. You will assign tasks, facilitate technical discussions, and manage our technical goals.
+
+#### You should be able to...
+- Listen to your team and support them
+- Read and understand C++ and preferably Python. You don't need to be an expert.
+- Understand and think through linear algebra and calculus
+- Read and discuss research papers
 
 ### Core developer
 Core developers work on the heart of our robot. They don't just write code, but also engineer our algorithms and create our whole system. Everything from sensor processing to behavior planning to object tracking is formed and improved by this group. If you love robotics, artificial intelligence, controls, machine vision, Nova presents a unique opportunity to combine them all to create something amazing.
 
-### Vehicle engineers
-Vehicle engineers link our software with the real world. Our project already has a street-legal vehicle equipped with state-of-the-art sensors. We're recruiting members with expertise in either *firmware, mechanical,* or *electrical* systems.
+#### You should be able to...
+- Work well in a team 
+- Write code in either C++ or Python
+- Learn and apply new algorithms on the fly
+
+### Vehicle technician
+Our project already has a street-legal vehicle equipped with state-of-the-art sensors. It shoots 16 lasers at 300 RPM out of both corners. It has 3D cameras in both the front and the rear. It's a complex beast that hasn't been entirely tamed.
+
+We're recruiting members with expertise in either *firmware, mechanical,* or *electrical* systems. If you feel confident in more than one, apply for two or even all three. Your job is to carry our software from the simulator to the real world. In other words, vehicle technicians handle our *hardware interface*.
+
+#### Firmware
+Can you use an oscilloscope to find the baud rate on a CAN bus line? If not, can you figure out how? Our firmware technician will be asked to do anything from controlling our steering wheel with an Xbox controller to adding a Wifi antenna to our onboard computer.
+
+#### Electrical
+Our vehicle's electrical system is mind boggling. There is both a primary and secondary power circuit, two battery banks, several I/O buses, high-voltage lines, linear actuators, electronic steering... Whew! Does this scare you, excite you, or both? Our electrical technician will be responsible for diagnosing faulty batteries, locating loose wires, tackling electrical interference, and more.
+
+#### Mechanical
+We're always looking to mount new sensors, model brackets for touchscreens, find the right motors to actuate our pedals, and so on. No matter how good our code is, our vehicle is still mechanical at heart. As our mechanical technician, you will be asked to maintain and improve the mechanical systems of our vehicle.
 
 ### PR director
-The PR director will...
+Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.
 
 ## Requirements for all positions
 - **Good teamwork**: Voltron is a group of friendly, supportive people, and we want you to be a part.
@@ -43,10 +65,17 @@ In reality, skilled disassembly is required. Engineers must take apart the cars 
 Our application has two parts: The form and the sample submission. After you submit the form, we'll email you about your sample. In other words, the form is your first step. We're really looking forward to hearing from you! **You can access the form here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
 
 ## Sample submissions
-### Core Developer and Development Lead
+Samples should be submitted using the form below. If uploading more than one file, please **send them as a single `.zip` file** with your name in the filename.
+
+All samples will be anonymized before review.
+
+### Core developer and development lead
 If applying for a developer position, please see our instructions [here](/fall-recruiting/dev-samples).
 
-### PR Director
+### Vehicle technician
+Please send us examples of your previous work, such as schematics, 3D models, and/or firmware code. If your work includes additions from other people (e.g. teammates), be sure to mention this.
+
+### PR director
 Please do one of the following, or both:
 - Show us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
 - Suppose we'd like to invite community members to join us as spectators for a large event that we're hosting (perhaps a livestream of a competition that we're part of). Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
