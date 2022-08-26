@@ -3,6 +3,7 @@ layout: default
 date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
+toc: true
 ---
 <div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for the 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
 
@@ -13,6 +14,8 @@ Our open-source software, "Navigator," is under active development, with over 50
 
 [![Some of our members at a fundraising event in April](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
 <small>Above: Some of our members at a fundraising event in April</small>
+
+{% toc %}
 
 ## Open positions
 ### Development lead
@@ -62,7 +65,7 @@ Our project tends to get people excited, and yet most UTD community members are 
 In reality, skilled disassembly is required. Engineers must take apart the cars and put them back together by hand. One misplaced wire can leave engineers puzzling for days over where the problem is...
 - If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
-## Application instructions
+## Application instructions and timeline
 Our application has two parts:
 1. Fill out our application form (below)
 2. Submit samples for each of the positions you'd like to apply (also below)
@@ -91,11 +94,12 @@ Please do one of the following, or both:
 
 ---
 
-We're really looking forward to hearing from you. Should you have any questions, you can contact the team lead, Will, at *will.heitman@utdallas.edu*. Best of luck!
-
-<iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
-
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
 
+<div class="button">
+    <p> Sample submissions
+    <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
+</div>
+
 ## Questions
-If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu).
+We're really looking forward to hearing from you. If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Best of luck!
