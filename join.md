@@ -3,7 +3,6 @@ layout: default
 date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
-toc: true
 ---
 <div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for the 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
 
@@ -14,10 +13,6 @@ Our open-source software, "Navigator," is under active development, with over 50
 
 [![Some of our members at a fundraising event in April](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
 <small>Above: Some of our members at a fundraising event in April</small>
-
-<div id="table-of-contents">
-{{ content | toc_only }}
-</div>
 
 ## Open positions
 ### Development lead
