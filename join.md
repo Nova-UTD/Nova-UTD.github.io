@@ -4,7 +4,7 @@ date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
 ---
-<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for the 2022-2023. Full position descriptions and applications will be posted on <b>Monday, August 29th</b>. See below.</p></div>
+<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for the 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
 
 # Roll With Us
 We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
@@ -62,8 +62,16 @@ Our project tends to get people excited, and yet most UTD community members are 
 In reality, skilled disassembly is required. Engineers must take apart the cars and put them back together by hand. One misplaced wire can leave engineers puzzling for days over where the problem is...
 - If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
-## Application process
-Our application has two parts: The form and the sample submission. After you submit the form, we'll email you about your sample. In other words, the form is your first step. We're really looking forward to hearing from you! **You can access the form here: [Form and Sample Submissions](https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u)**.
+## Application instructions
+Our application has two parts:
+1. Fill out our application form (below)
+2. Submit samples for each of the positions you'd like to apply (also below)
+
+**Our application closes on Friday, Sept. 9.** Please complete the above two steps by then.
+
+After you complete the above steps, we may contact you to request an interview between Sept. 12-15.
+
+We will send out decisions **September 19** at latest.
 
 ## Sample submissions
 Samples should be submitted using the form below. If uploading more than one file, please **send them as a single `.zip` file** with your name in the filename.
