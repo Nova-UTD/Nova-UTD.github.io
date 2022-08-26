@@ -15,7 +15,9 @@ Our open-source software, "Navigator," is under active development, with over 50
 [![Some of our members at a fundraising event in April](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
 <small>Above: Some of our members at a fundraising event in April</small>
 
-{% toc %}
+<div id="table-of-contents">
+{{ content | toc_only }}
+</div>
 
 ## Open positions
 ### Development lead
