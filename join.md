@@ -78,7 +78,7 @@ After you complete the above steps, we may contact you to request an interview b
 We will send out decisions **September 19** at latest.
 
 ## Sample submissions
-Samples should be submitted using the form below. If uploading more than one file, please **send them as a single `.zip` file** with your name in the filename.
+Samples should be submitted using the form below, with your name as the filename. If uploading more than one file, please **send them as a single `.zip` file** with your name in the filename.
 
 All samples will be anonymized before review.
 
@@ -98,6 +98,7 @@ Please do one of the following, or both:
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
 
 ### Sample submissions
+Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
 <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
 ## Questions
