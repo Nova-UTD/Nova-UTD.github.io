@@ -4,7 +4,7 @@ date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
 ---
-<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for the 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
+<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
 
 # Roll With Us
 We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
