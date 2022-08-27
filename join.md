@@ -60,10 +60,10 @@ Our project tends to get people excited, and yet most UTD community members are 
 - **Pride in our mission**: If you think self-driving cars are awesome, then we're looking for you!
 - Most importantly, **dedication**. Our goals are tough-- way harder than most people realize. Our work is often frustrating and slow. We're looking for people who can stick with it, who know that all the frustration is worth it. Here's a quote from [an article](https://www.bloomberg.com/news/articles/2021-08-17/waymo-s-self-driving-cars-are-99-of-the-way-there-the-last-1-is-the-hardest) about Waymo, a self-driving car company with a bit more resources than us:
 
-
 > At first, it appeared that Waymo would produce cars at a supercharged pace. In 2018, Waymo signed up to turn as many as 20,000 Jaguar SUVs into Waymo autonomous vehicles. Months later, it said it would expand its fleet of Chrysler Pacifica minivans to more than 60,000. Waymo planned to buy the cars and install what it called its “Driver”—a suite of cameras, sensors, and proprietary computer gear.
 > “There’s not a lot in assembly,” then-CEO John Krafcik, a former auto executive, declared at an event that year.
 In reality, skilled disassembly is required. Engineers must take apart the cars and put them back together by hand. One misplaced wire can leave engineers puzzling for days over where the problem is...
+
 - If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
 ## Application instructions and timeline
