@@ -49,6 +49,10 @@ We're always looking to mount new sensors, model brackets for touchscreens, find
 ### PR director
 Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.
 
+![Josh testing our pedal actuators](/assets/res/22-04-15_Josh_working_on_hood.jpg)
+
+<small>Above: Josh testing our pedal actuators. Much of our firmware is written from scratch.</small>
+
 ## Requirements for all positions
 - **5 hours per week**, including attendance during our weekly meeting (~30 minutes) and at least one collaboration session (at least 2 hours).
     - This time requirement applies for weeks when class is in session. Not finals week, not holidays.
