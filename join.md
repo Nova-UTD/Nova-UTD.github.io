@@ -11,8 +11,7 @@ We're Nova, UT Dallas's applied autonomous driving project. We aim to create the
 
 Our open-source software, "Navigator," is under active development, with over 500 commits across our branches. However, there's plenty of work ahead with our perception software, planning algorithms, and more. If you're a believer in autonomous-driving, we need your help!
 
-[![Some of our members at a fundraising event in April](assets/res/22-04-19_Group_from_lawyer_event.jpg)](assets/res/22-04-19_Group_from_lawyer_event.jpg)
-<small>Above: Some of our members at a fundraising event in April</small>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Open positions
 ### Development lead
