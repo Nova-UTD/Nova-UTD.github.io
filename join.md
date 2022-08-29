@@ -36,13 +36,13 @@ Our project already has a street-legal vehicle equipped with state-of-the-art se
 
 We're recruiting members with expertise in either *firmware, mechanical,* or *electrical* systems. If you feel confident in more than one, apply for two or even all three. Your job is to carry our software from the simulator to the real world. In other words, vehicle technicians handle our *hardware interface*.
 
-#### Firmware
+### Firmware
 Can you use an oscilloscope to find the baud rate on a CAN bus line? If not, can you figure out how? Our firmware technician will be asked to do anything from controlling our steering wheel with an Xbox controller to adding a Wifi antenna to our onboard computer.
 
-#### Electrical
+### Electrical
 Our vehicle's electrical system is mind boggling. There is both a primary and secondary power circuit, two battery banks, several I/O buses, high-voltage lines, linear actuators, electronic steering... Whew! Does this scare you, excite you, or both? Our electrical technician will be responsible for diagnosing faulty batteries, locating loose wires, tackling electrical interference, and more.
 
-#### Mechanical
+### Mechanical
 We're always looking to mount new sensors, model brackets for touchscreens, find the right motors to actuate our pedals, and so on. No matter how good our code is, our vehicle is still mechanical at heart. As our mechanical technician, you will be asked to maintain and improve the mechanical systems of our vehicle.
 
 ### PR director
@@ -96,7 +96,7 @@ Please do one of the following, or both:
 
 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
 
-### Sample submissions
+### Sample submission form
 Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
 <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
