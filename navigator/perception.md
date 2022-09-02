@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/perception"
+permalink: "/navigator/perception"
 ---
 
 # Perception
