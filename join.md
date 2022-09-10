@@ -4,7 +4,7 @@ date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
 ---
-<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for 2022-2023. Our application will close on <b>Friday, September 9th</b>. See below for more details..</p></div>
+<div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2022-2023 has ended. Thank you to all who participated!</p></div>
 
 # Roll With Us
 We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
@@ -94,11 +94,11 @@ Please do one of the following, or both:
 
 ---
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
+<!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a> -->
 
-### Sample submission form
+<!-- ### Sample submission form
 Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
 <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
 ## Questions
-We're really looking forward to hearing from you. If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Best of luck!
+We're really looking forward to hearing from you. If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Best of luck! -->
