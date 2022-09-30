@@ -21,10 +21,10 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pointcloud downsampler" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/fall-recruiting/dev-samples.html","headline":"Pointcloud downsampler","dateModified":"2021-09-02T00:00:00-05:00","datePublished":"2021-09-02T00:00:00-05:00","description":"Driving is hard, but humans make it look easy. We’re UT Dallas’s applied autonomous driving project, and we’re making driving look easier than ever.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/fall-recruiting/dev-samples.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/logo.svg"},"name":"Will Heitman"},"author":{"@type":"Person","name":"Will Heitman"},"@context":"https://schema.org"}</script>
+{"headline":"Pointcloud downsampler","dateModified":"2021-09-02T00:00:00-05:00","datePublished":"2021-09-02T00:00:00-05:00","author":{"@type":"Person","name":"Will Heitman"},"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/fall-recruiting/dev-samples.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/res/logo.svg"},"name":"Will Heitman"},"url":"http://localhost:4000/fall-recruiting/dev-samples.html","description":"Driving is hard, but humans make it look easy. We’re UT Dallas’s applied autonomous driving project, and we’re making driving look easier than ever.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=99ef5ac7c180dd43abf6007ffdb77ff364639399">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1d142acef486c15ecba49ba90571a1ae1c13546b">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -62,9 +62,10 @@ xhr.send();
         <br>
         <a href="/#team"><svg height="16" class="octicon octicon-comment-discussion" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg> Contact us</a>
         
+        <br>
+        <button class="button" onclick="location.href='http://nova-utd.github.io/navigator/'">Navigator</button>
         <div><br>
-        
-          <a href="/join" class="button" target="_blank" style="width: 50%;"">Join us!</a></br>
+          <!-- <a href="/join" class="button" target="_blank" style="width: 50%;"">Join us!</a></br> -->
 
         </div>
         <!--  
@@ -77,6 +78,8 @@ xhr.send();
          -->
         
         <h3>Latest posts</h3>
+        
+          <a href="/2022/08/27/Why-we-like-Nova-(Video).html">Why we like Nova (video)</a> <small>8/27/22</small><br/>
         
           <a href="/2022/03/03/Two-months-left.html">Two months left!</a> <small>3/3/22</small><br/>
         
@@ -112,9 +115,7 @@ xhr.send();
       <h1 id="pointcloud-downsampler">Pointcloud downsampler</h1>
 <p><a href="/join">&lt;- Back to openings page</a></p>
 
-<blockquote>
-  <p>Note on submissions: We’ll ask for your code sample in an email when we reach out about interviews. You should receive this email within 48 hours of your form submission. You’re welcome to work on it whenever, though!</p>
-</blockquote>
+<p><img src="/fall-recruiting/apartment.png" alt="A bird's eye view of our dataset, which is a 3D scan of an apartment" /></p>
 
 <h2 id="overview">Overview</h2>
 <p>In the course of our research, we frequently encounter unfiltered pointclouds– that is, 3D scans from our car’s sensors that have not been processed. These unfiltered pointclouds contain usually contain many more points than we need.</p>
@@ -122,33 +123,42 @@ xhr.send();
 <p>We use a process called “downsampling” to remove unnecessary points. By downsampling, the complexity of our 3D data is reduced, which makes our algorithms faster down the road.</p>
 
 <h2 id="program-requirements">Program requirements</h2>
-<p>We’d like you to write a program that reads a pointcloud from a labelled CSV file, downsamples this pointcloud, then writes the result to a second CSV file.</p>
+<p>We’d like you to write a program in either C++ or Python that reads a pointcloud from a labelled CSV file, downsamples this pointcloud, then writes the result to a second CSV file.</p>
 
 <ul>
   <li><strong>Input:</strong> input.csv (<a href="/fall-recruiting/input.csv" download="">Download here</a>)</li>
   <li><strong>Output:</strong> output.csv (with the same general format as the input CSV)</li>
-  <li><strong>Submission:</strong> A single <code class="language-plaintext highlighter-rouge">.cpp</code> file with a main function. The file can be formatted in any way you choose.</li>
+  <li><strong>Submission:</strong> A single <code class="language-plaintext highlighter-rouge">.cpp</code> or <code class="language-plaintext highlighter-rouge">.py</code> file with a main function. The file can be formatted in any way you choose.</li>
   <li>Downsampling can be done by any method, from removing points at random to distributing points along a voxel grid, anything works.
     <ul>
       <li>Probably the coolest implementation would involve distributing points using an <a href="https://en.wikipedia.org/wiki/Octree">octree</a>– that’s code  we would actually use on the car!</li>
     </ul>
   </li>
-  <li>We’d greatly prefer your program to be written in C++ (this is the language we use in the lab).</li>
 </ul>
 
 <h2 id="target-qualities">Target qualities</h2>
 <p>We’re looking for efficient, cleanly written downsamplers that fulfill the requirements above. Everything else is up to you, including:</p>
 <ul>
   <li>How many points to remove (this depends on your implementation, but it doesn’t really matter to us),</li>
-  <li>How to select which points to remove (see requirement above),</li>
+  <li>How to select which points to remove (see requirement above),
+and so on.</li>
 </ul>
 
-<p>and so on. If it sounds crazy, <strong>keep it simple</strong>!</p>
+<p>Implementations that remove points systematically (i.e. uniformly in space, or based on a target feature like edges) will be scored higher than programs that remove points randomly. If this all sounds crazy, <strong>keep it simple</strong> and just submit something that works.</p>
+
+<h2 id="evaluation-process">Evaluation process</h2>
+<p>Submissions will be evaluated by a <strong>blind panel</strong> of developers on our team. That is, your submission will be anonymized before evaluation. This panel will score your code within the following categories using a 12-point scale:</p>
+<ul>
+  <li><strong>Efficacy:</strong> Does your program work? Does it remove points systematically? (5 points)</li>
+  <li><strong>Clarity:</strong> Is your code readable? Does it have a clear structure, with functions separated logically? (4 points)</li>
+  <li><strong>Efficiency:</strong> Does your code have a reasonable runtime, or does it have excessive runtime complexity? (3 points)</li>
+  <li><strong>Creativity:</strong> This is where our panel can recognize extra effort, unique approaches, and so on. (3 <em>bonus</em> points possibly)</li>
+</ul>
 
 <h2 id="notes-and-tips">Notes and tips</h2>
 <ul>
   <li>You should be able to accomplish this with standard C++ libraries, but Boost is also perfectly welcome.</li>
-  <li>The input positions are in meters.</li>
+  <li>The input positions are in meters, though this is arbitrary.</li>
   <li>You’re welcome to accept additional parameters from the user or from a config file, but you can stick to hardcoded values as well.</li>
   <li>The input pointcloud is a scan of an apartment from <a href="https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:apartment:home">this dataset</a>.</li>
   <li>If you’d like to visualize your input and output pointclouds, <a href="https://www.paraview.org/">Paraview</a> is a popular data visualiztion program that can do just that (and it handles CSV files easily). Not required, but could help.</li>
@@ -156,7 +166,7 @@ xhr.send();
 
 <p>We just want to see your approach to algorithm problems. Of course you can be as creative or ambitious as you like, but at the end of the day, we just need a downsampler. You should be able to knock this out in <strong>about 1 hour</strong> (though you can take as long as you need). We’re looking forward to seeing your code!</p>
 
-<p><em>Direct questions to Will at will.heitman@utdallas.edu (he doesn’t bite).</em></p>
+<p>Questions can be emailed to our team lead at <a href="will.heitman@utdallas.edu">will.heitman@utdallas.edu</a>. Happy downsampling!</p>
 
 <p><a href="/join">&lt;- Back to openings page</a></p>
 
