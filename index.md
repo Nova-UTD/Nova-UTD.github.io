@@ -22,7 +22,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal1" src="/assets/res/headshots/justin_ruths.jpg" alt="Justin Ruths" />
+      <img id="modal1" src="/assets/res/headshots/Justin_Ruths_fall2022.jpg" alt="Justin Ruths" />
       <br/><br/>
       <strong>Justin Ruths</strong>
       <br/>Professor<br/>
@@ -34,10 +34,10 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal2" src="/assets/res/headshots/will_heitman.jpg" alt="Will Heitman" />
+      <img id="modal2" src="/assets/res/headshots/Will_Heitman_fall2022.jpg" alt="Will Heitman" />
       <br/><br/>
       <strong>Will Heitman</strong>
-      <br/>CE Junior<br/>
+      <br/>CE Senior<br/>
       <em>Team Lead</em>
       <br/>
       <a href="mailto: will.heitman@utdallas.edu">will.heitman@
@@ -57,10 +57,10 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal4" src="/assets/res/headshots/raghav_pillai.jpg" alt="Raghav Pillai"/>
+      <img id="modal4" src="/assets/res/headshots/Raghav_Pillai_fall2022.jpg" alt="Raghav Pillai"/>
       <br/><br/>
       <strong>Raghav Pillai</strong>
-      <br/>CS Junior<br/>
+      <br/>CS Senior<br/>
       <em>Data Visualization & Interface</em>
     </p>
   </div>
@@ -127,10 +127,10 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal14" src="/assets/res/headshots/connor_scally.jpg" alt="Connor Scally"/>
+      <img id="modal14" src="/assets/res/headshots/Connor_Scally_fall2022.jpg" alt="Connor Scally"/>
       <br/><br/>
       <strong>Connor Scally</strong>
-      <br/>CS Sophomore<br/>
+      <br/>CS Junior<br/>
       <em>Virtualization</em>
     </p>
   </div>
@@ -147,7 +147,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
   
 <div class="team-member-card">
     <p>
-      <img id="modal16" src="/assets/res/headshots/harsha_kota.jpg" alt="Harsha Kota"/>
+      <img id="modal16" src="/assets/res/headshots/harsha_kota_cropped.jpg " alt="Harsha Kota"/>
       <br/><br/>
       <strong>Harsha Kota</strong>
       <br/>CS Freshman<br/>
