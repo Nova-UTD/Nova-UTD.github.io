@@ -145,6 +145,16 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
     </p>
   </div>
   
+<div class="team-member-card">
+    <p>
+      <img id="modal16" src="/assets/res/headshots/harsha_kota.jpg" alt="Harsha Kota"/>
+      <br/><br/>
+      <strong>Harsha Kota</strong>
+      <br/>CS Freshman<br/>
+      <em>Behavior Planning & Controls</em>
+    </p>
+  </div>
+
 </div>
 
 <!-- Modal Holder -->
