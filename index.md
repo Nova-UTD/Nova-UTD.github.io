@@ -47,11 +47,11 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal3" src="/assets/res/headshots/Joshua_Williams.jpg" alt="Joshua Williams"/>
+      <img id="modal3" src="/assets/res/headshots/Daniel_Vayman.jpg" alt="Daniel Vayman"/>
       <br/><br/>
-      <strong>Joshua Williams</strong>
-      <br/>CS Junior<br/>
-      <em>Software Architect</em>
+      <strong>Daniel Vayman</strong>
+      <br/>CS Freshman<br/>
+      <em>Development Lead</em>
     </p>
   </div>
 
@@ -67,20 +67,20 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal5" src="/assets/res/headshots/Egan_Johnson.jpg" alt="Egan Johnson"/>
+      <img id="modal5" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
       <br/><br/>
-      <strong>Egan Johnson</strong>
-      <br/>CS Sophomore<br/>
-      <em>Behavior Planning & Controls</em>
+      <strong>Jai Peris</strong>
+      <br/>Electrical Engineering Freshman<br/>
+      <em>Firmware and Electrical Technician </em>
     </p>
   </div>
 
   <div class="team-member-card">
     <p>
-      <img id="modal6" src="/assets/res/headshots/jim_moore.jpg" alt="Jim Moore"/>
+      <img id="modal6" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
       <br/><br/>
-      <strong>Jim Moore</strong>
-      <br/>CS Junior<br/>
+      <strong>Chitsein Htun</strong>
+      <br/>CS Freshman<br/>
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
@@ -97,11 +97,11 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal9" src="/assets/res/headshots/ragib_arnab.jpg" alt="Ragib Arnab"/>
+      <img id="modal9" src="/assets/res/headshots/Hansika_Sudaresan.jpg" alt="Hansika Sudaresan"/>
       <br/><br/>
-      <strong>Ragib Arnab</strong>
-      <br/>CS Sophomore<br/>
-      <em>Perception & Machine Vision</em>
+      <strong>Hansika Sudaresan</strong>
+      <br/>CS Masters<br/>
+      <em>Behavior Planning and Controls</em>
     </p>
   </div>
 
