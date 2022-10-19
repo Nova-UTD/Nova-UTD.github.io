@@ -71,7 +71,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Jai Peris</strong>
       <br/>Electrical Engineering Freshman<br/>
-      <em>Firmware and Electrical Technician </em>
+      <em>Firmware & Electrical Technician </em>
     </p>
   </div>
 
@@ -101,17 +101,17 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Hansika Sudaresan</strong>
       <br/>CS Masters<br/>
-      <em>Behavior Planning and Controls</em>
+      <em>Behavior Planning & Controls</em>
     </p>
   </div>
 
   <div class="team-member-card">
     <p>
-      <img id="modal11" src="/assets/res/headshots/avery_bainbridge.jpg" alt="Avery Bainbridge"/>
+      <img id="modal11" src="/assets/res/headshots/ashwin_somasundaram.jpg" alt="Ashwin Somasundaram"/>
       <br/><br/>
-      <strong>Avery Bainbridge</strong>
-      <br/>CS Sophomore<br/>
-      <em>Firmware</em>
+      <strong>Ashwin Somasundaram</strong>
+      <br/>CS Senior<br/>
+      <em>Perception & Machine Vision</em>
     </p>
   </div>
 
