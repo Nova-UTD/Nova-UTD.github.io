@@ -117,11 +117,11 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal13" src="/assets/res/headshots/phu_le.jpg" alt="Phu Le"/>
+      <img id="modal13" src="/assets/res/headshots/Jesse_Musa.jpg" alt="Jesse Musa"/>
       <br/><br/>
-      <strong>Phu Le</strong>
+      <strong>Jesse Musa</strong>
       <br/>CS Sophomore<br/>
-      <em>Technical Artist</em>
+      <em>Perception & Machine Vision</em>
     </p>
   </div>
 
@@ -137,11 +137,11 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal15" src="/assets/res/headshots/nikhil_narvekar.jpg" alt="Nikhil Narvekar"/>
+      <img id="modal15" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
       <br/><br/>
-      <strong>Nikhil Narvekar</strong>
-      <br/>CS Sophomore<br/>
-      <em>Behavior Planning & Controls</em>
+      <strong>Stepan Antonyuk</strong>
+      <br/>CS Freshman<br/>
+      <em>Perception & Machine Vision</em>
     </p>
   </div>
   
@@ -154,6 +154,17 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <em>Behavior Planning & Controls</em>
     </p>
   </div>
+
+<div class="team-member-card">
+    <p>
+      <img id="modal16" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
+      <br/><br/>
+      <strong>Sasha Luich</strong>
+      <br/>CS Sophomore<br/>
+      <em>Vehicle Technician</em>
+    </p>
+  </div>
+
 
 </div>
 
