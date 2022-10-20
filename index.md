@@ -157,7 +157,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
   
 <div class="team-member-card">
     <p>
-      <img id="modal14" src="/assets/res/headshots/harsha_kota_cropped.jpg " alt="Harsha Kota"/>
+      <img id="modal14" src="/assets/res/headshots/harsha_kota.jpg " alt="Harsha Kota"/>
       <br/><br/>
       <strong>Harsha Kota</strong>
       <br/>CS Freshman<br/>
