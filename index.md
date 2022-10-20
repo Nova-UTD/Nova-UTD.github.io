@@ -75,9 +75,19 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
     </p>
   </div>
 
+<div class="team-member-card">
+    <p>
+      <img id="modal6" src="/assets/res/headshots/Anika_Nesarikar.jpg " alt="Anika Nesarikar"/>
+      <br/><br/>
+      <strong>Anika Nesarikar</strong>
+      <br/>CS Freshman<br/>
+      <em>PR Director</em>
+    </p>
+  </div>
+
   <div class="team-member-card">
     <p>
-      <img id="modal6" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
+      <img id="modal7" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
       <br/><br/>
       <strong>Chitsein Htun</strong>
       <br/>CS Freshman<br/>
@@ -107,7 +117,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal11" src="/assets/res/headshots/ashwin_somasundaram.jpg" alt="Ashwin Somasundaram"/>
+      <img id="modal10" src="/assets/res/headshots/ashwin_somasundaram.jpg" alt="Ashwin Somasundaram"/>
       <br/><br/>
       <strong>Ashwin Somasundaram</strong>
       <br/>CS Senior<br/>
@@ -117,7 +127,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal13" src="/assets/res/headshots/Jesse_Musa.jpg" alt="Jesse Musa"/>
+      <img id="modal11" src="/assets/res/headshots/Jesse_Musa.jpg" alt="Jesse Musa"/>
       <br/><br/>
       <strong>Jesse Musa</strong>
       <br/>CS Sophomore<br/>
@@ -127,7 +137,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal14" src="/assets/res/headshots/Connor_Scally_fall2022.jpg" alt="Connor Scally"/>
+      <img id="modal12" src="/assets/res/headshots/Connor_Scally_fall2022.jpg" alt="Connor Scally"/>
       <br/><br/>
       <strong>Connor Scally</strong>
       <br/>CS Junior<br/>
@@ -137,7 +147,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal15" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
+      <img id="modal13" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
       <br/>CS Freshman<br/>
@@ -147,7 +157,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
   
 <div class="team-member-card">
     <p>
-      <img id="modal16" src="/assets/res/headshots/harsha_kota_cropped.jpg " alt="Harsha Kota"/>
+      <img id="modal14" src="/assets/res/headshots/harsha_kota_cropped.jpg " alt="Harsha Kota"/>
       <br/><br/>
       <strong>Harsha Kota</strong>
       <br/>CS Freshman<br/>
@@ -157,7 +167,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
 <div class="team-member-card">
     <p>
-      <img id="modal16" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
+      <img id="modal15" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
       <br/><br/>
       <strong>Sasha Luich</strong>
       <br/>CS Sophomore<br/>
