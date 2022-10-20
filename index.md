@@ -175,7 +175,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
     </p>
   </div>
 
-
 </div>
 
 <!-- Modal Holder -->
