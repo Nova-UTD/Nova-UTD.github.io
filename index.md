@@ -170,7 +170,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <img id="modal15" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
       <br/><br/>
       <strong>Sasha Luich</strong>
-      <br/>CS Sophomore<br/>
+      <br/>ME Sophomore<br/>
       <em>Vehicle Technician</em>
     </p>
   </div>
