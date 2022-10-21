@@ -7,7 +7,7 @@ var members = {
     },
     ["Will Heitman"]: {
         Role: "Team Lead",
-        Study: "CE Junior",
+        Study: "CE Senior",
         Bio: "I've loved robots ever since I was a little kid. Something about machines that can help with human tasks just sounds magical to me. I'm a junior in Computer Engineering hailing from Baton Rouge, Louisiana. I like to bike, cook, and read. My teammates usually see me in Leader Mode, but I'm actually introverted.<br/><br/>I have some really talented teammates working on this project, and I just want to support them in any way I can. And of course, I want this car to drive itself as my <strike>personal chauffeur</strike> ahem, a valuable research platform for UTD!<br/><br/>I'm always open to questions or comments about our work. You can reach me at Will.Heitman@utdallas.edu."
     },
     ["Daniel Vayman"]: {
@@ -25,20 +25,20 @@ var members = {
         Study: "Electrical Engineering Freshman",
         Bio: "I’m from Dallas, Texas and I’m currently studying electrical engineering. I’m most interested in embedded systems, nanotechnology, and physics, and I hope to one day work with renewable energy or quantum technology. With Nova, I serve as a firmware and electrical engineer. My team is responsible for mapping the circuitry of the car, testing the sensors, and much more! Besides work, I like to cook, read, and play videogames. I am super excited to see this car drive itself!"
     },
-    ["Jim Moore"]: {
-        Role: "Behavior Planning & Controls",
-        Study: "",
+    ["Anika Nesarikar"]: {
+        Role: "PR Director",
+        Study: "CS Freshman",
         Bio: ""
     },
-    ["Cristian Cruz"]: {
+    ["Chitsein Htun"]: {
         Role: "Behavior Planning & Controls",
-        Study: "",
-        Bio: ""
+        Study: "CS Freshman",
+        Bio: "I'm currently a  First Year Computer Science major at UT Dallas. Some of my hobbies include playing piano, reading, and tackling difficult math problems. I first began coding when I was in 6th grade and began enjoying it through building small indie games with friends. In the past few years, I have become increasingly interested in studying complex systems involving individual agents, which has drawn me to topics like game theory and AI. Working on Nova’s autonomous vehicle system lets me continue to pursue these interests by presenting a chance to both design a complex system under the hood and to create an AI that can learn and adapt to the even more complex system of people, creatures, and robots navigating the streets of our busy world. I look forward to learning more about everything that the world of autonomous vehicles encompasses, developing our open source autonomous vehicle platform, and working with the other members of our amazing team!"
     },
     ["Kyle Zeng"]: {
-        Role: "Perception & Machine Vision",
-        Study: "CS Sophomore",
-        Bio: "Hey! My name is Kyle, and I'm a sophomore studying computer science and finance at UTD. For a bit about myself, I love exploring uncharted territory. This includes venturing into machine learning, which is what I'll be working on for Nova, visual arts, and business management! I hope to innovate an efficient and responsive autonomous vehicle with the rest of the team."
+        Role: "Developer, Public Relations Specialist",
+        Study: "CS Junior",
+        Bio: "Hey! I'm Kyle, and I'm a junior majoring in computer science. I have a deep interest in machine learning and visual arts, so I'm enamored by computer vision and therefore excited to work on perception algorithms this year. Some of my other hobbies include volleyball, ice skating, gaming, graphic design, and photography; you'll probably see me on the camera once in a while!"
     },
     ["Ragib Arnab"]: {
         Role: "Perception & Machine Vision",
@@ -91,7 +91,7 @@ let prefix = "modal"
 for(let i=1; i<=16; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
-                    "Justin Ruths", "Jim Moore", "Cristian Cruz", 
+                    "Justin Ruths", "Anika Nesarikar", "Cristian Cruz", 
                     "Vishvak Bandi", "Quinn Loach"
                 ];
 
