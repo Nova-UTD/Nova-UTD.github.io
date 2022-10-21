@@ -1,9 +1,5 @@
 var members = {
-    ["Raghav Pillai"]: {
-        Role: "Data Visualization & Interface",
-        Study: "CS Junior",
-        Bio: "Hey! My name is Raghav Pillai, and I'm a Junior here at UTD studying Computer Science. I'm hoping to go into an emerging technology like deep learning or edge computing in the future. I handle the development of all of the human-car interfacing, being able to see and interpret the massive amount of data and telemetry we get from our stack and maintain our website (as you're reading!). <br/><br/>I'm originally from Arkansas, but grew up in the Dallas Metroplex. I've been interested in machines and computers for as long as I can remember, and have worked on both hardware and software side of things. I grew up modding and creating small games, which got me into programming and designing projects. If I'm not working on projects for work or doing schoolwork, I'm probably watching a show or playing some games. <br/><br/>We'll be sure to put on a good show here at Nova, and I'm excited for the possibilities with our team."
-    },
+    
     ["Justin Ruths"]: {
         Role: "Team Advisor",
         Study: "Professor",
@@ -19,10 +15,15 @@ var members = {
         Study: "CS Freshman",
         Bio: " Living in the suburbs of Richardson requires a lot of driving, and frankly I'm tired of it. Honestly was just looking for a quick and easy driving service but I somehow ended up on a research team chock-full of the most diverse, talented, and determined people I've had the opportunity of working with. All jokes aside, I'm from St. Louis, MO, and I'm a freshman here at UT Dallas studying computer science. I've been coding since my freshman year of high school and I've gained most of my programming/leadership experience through FIRST Robotics. My hobbies include sleeping, exercising, volleyball, tournament poker, and watching movies/TV. I'm also on the UTD Men's Ultimate Frisbee team! In addition to being a great resource for my fellow core developers, I will strive to be an excellent leader. I'm a full believer in Nova and I'll be putting forth my best effort into seeing the project come to fruition. I can't wait to see what we accomplish. Any questions about our project or the work that we do? Feel free to shoot me an email. daniel.vayman@utdallas.edu"
     },
-    ["Egan Johnson"]: {
-        Role: "Behavior Planning & Controls",
-        Study: "CS Sophomore",
-        Bio: "I’m currently a sophomore majoring in Computer Science. I will be working on the vehicles planning system this semester. I’m originally from Madison, Wisconsin, and much prefer the Texas winter to the Texas summer, especially since I enjoy running. I have some background in robotics from high school and am a returning member of the project. I’m excited to see what we can do this year!"
+    ["Raghav Pillai"]: {
+        Role: "Data Visualization & Interface",
+        Study: "CS Junior",
+        Bio: "Hey! My name is Raghav Pillai, and I'm a Junior here at UTD studying Computer Science. I'm hoping to go into an emerging technology like deep learning or edge computing in the future. I handle the development of all of the human-car interfacing, being able to see and interpret the massive amount of data and telemetry we get from our stack and maintain our website (as you're reading!). <br/><br/>I'm originally from Arkansas, but grew up in the Dallas Metroplex. I've been interested in machines and computers for as long as I can remember, and have worked on both hardware and software side of things. I grew up modding and creating small games, which got me into programming and designing projects. If I'm not working on projects for work or doing schoolwork, I'm probably watching a show or playing some games. <br/><br/>We'll be sure to put on a good show here at Nova, and I'm excited for the possibilities with our team."
+    },
+    ["Jai Peris"]: {
+        Role: "Firmware and Electrical Technician ",
+        Study: "Electrical Engineering Freshman",
+        Bio: "I’m from Dallas, Texas and I’m currently studying electrical engineering. I’m most interested in embedded systems, nanotechnology, and physics, and I hope to one day work with renewable energy or quantum technology. With Nova, I serve as a firmware and electrical engineer. My team is responsible for mapping the circuitry of the car, testing the sensors, and much more! Besides work, I like to cook, read, and play videogames. I am super excited to see this car drive itself!"
     },
     ["Jim Moore"]: {
         Role: "Behavior Planning & Controls",
