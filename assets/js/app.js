@@ -14,10 +14,10 @@ var members = {
         Study: "CE Junior",
         Bio: "I've loved robots ever since I was a little kid. Something about machines that can help with human tasks just sounds magical to me. I'm a junior in Computer Engineering hailing from Baton Rouge, Louisiana. I like to bike, cook, and read. My teammates usually see me in Leader Mode, but I'm actually introverted.<br/><br/>I have some really talented teammates working on this project, and I just want to support them in any way I can. And of course, I want this car to drive itself as my <strike>personal chauffeur</strike> ahem, a valuable research platform for UTD!<br/><br/>I'm always open to questions or comments about our work. You can reach me at Will.Heitman@utdallas.edu."
     },
-    ["Joshua Williams"]: {
-        Role: "Software Architect",
-        Study: "CE Junior",
-        Bio: "My name is Joshua Williams, and I'm the software architect for Nova. I'm currently in my Junior year at UTD pursuing a bachelor's degree in computer science. I've enjoyed coding since I was in 4th grade, but I've never had the chance to work on anything near the scale and complexity of Nova before. I'm super excited at the prospects of writing code that will run in the real world and will ultimately get this car on the road!"
+    ["Daniel Vayman"]: {
+        Role: "Development Lead",
+        Study: "CS Freshman",
+        Bio: " Living in the suburbs of Richardson requires a lot of driving, and frankly I'm tired of it. Honestly was just looking for a quick and easy driving service but I somehow ended up on a research team chock-full of the most diverse, talented, and determined people I've had the opportunity of working with. All jokes aside, I'm from St. Louis, MO, and I'm a freshman here at UT Dallas studying computer science. I've been coding since my freshman year of high school and I've gained most of my programming/leadership experience through FIRST Robotics. My hobbies include sleeping, exercising, volleyball, tournament poker, and watching movies/TV. I'm also on the UTD Men's Ultimate Frisbee team! In addition to being a great resource for my fellow core developers, I will strive to be an excellent leader. I'm a full believer in Nova and I'll be putting forth my best effort into seeing the project come to fruition. I can't wait to see what we accomplish. Any questions about our project or the work that we do? Feel free to shoot me an email. daniel.vayman@utdallas.edu"
     },
     ["Egan Johnson"]: {
         Role: "Behavior Planning & Controls",
