@@ -8,7 +8,7 @@ var members = {
     ["Will Heitman"]: {
         Role: "Team Lead",
         Study: "CE Senior",
-        Bio: "I've loved robots ever since I was a little kid. Something about machines that can help with human tasks just sounds magical to me. I'm a junior in Computer Engineering hailing from Baton Rouge, Louisiana. I like to bike, cook, and read. My teammates usually see me in Leader Mode, but I'm actually introverted.<br/><br/>I have some really talented teammates working on this project, and I just want to support them in any way I can. And of course, I want this car to drive itself as my <strike>personal chauffeur</strike> ahem, a valuable research platform for UTD!<br/><br/>I'm always open to questions or comments about our work. You can reach me at Will.Heitman@utdallas.edu."
+        Bio: "I've loved robots ever since I was a little kid. Something about machines that can help with human tasks just sounds magical to me. I'm a senior in Computer Engineering hailing from Baton Rouge, Louisiana. I like to bike, cook, and read. My teammates usually see me in Leader Mode, but I'm actually introverted.<br/><br/>I have some really talented teammates working on this project, and I just want to support them in any way I can. And of course, I want this car to drive itself as my <strike>personal chauffeur</strike> ahem, a valuable research platform for UTD!<br/><br/>I'm always open to questions or comments about our work. You can reach me at Will.Heitman@utdallas.edu."
     },
     ["Daniel Vayman"]: {
         Role: "Development Lead",

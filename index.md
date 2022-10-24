@@ -61,7 +61,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Raghav Pillai</strong>
       <br/>CS Senior<br/>
-      <em>Data Visualization & Interface</em>
+      <em>Testing, Safety, and Architecture</em>
     </p>
   </div>
 
@@ -71,7 +71,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Jai Peris</strong>
       <br/>Electrical Engineering Freshman<br/>
-      <em>Firmware & Electrical Technician </em>
+      <em>Hardware, Firmware, and Electrical</em>
     </p>
   </div>
 
@@ -109,7 +109,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
     <p>
       <img id="modal9" src="/assets/res/headshots/Hansika_Sudaresan.jpg" alt="Hansika Sudaresan"/>
       <br/><br/>
-      <strong>Hansika Sudaresan</strong>
+      <strong>Hansika Sundaresan</strong>
       <br/>CS Masters<br/>
       <em>Behavior Planning & Controls</em>
     </p>
@@ -141,7 +141,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Connor Scally</strong>
       <br/>CS Junior<br/>
-      <em>Virtualization</em>
+      <em>Hardware, Firmware, and Electrical</em>
     </p>
   </div>
 
@@ -171,7 +171,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <br/><br/>
       <strong>Sasha Luich</strong>
       <br/>ME Sophomore<br/>
-      <em>Vehicle Technician</em>
+      <em>Hardware, Firmware, and Electrical</em>
     </p>
   </div>
 
