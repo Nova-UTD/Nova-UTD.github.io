@@ -41,13 +41,13 @@ xhr.send();
         
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <div>{% octicon home height:16 %} ECSW 1.460</div>
-        <a href="https://github.com/Nova-UTD">{% octicon mark-github height:16 %} Github profile</a>
+        <div>{% octicon home height:16 %} ECSW 1.460 & 2.445</div>
+        <a href="https://github.com/Nova-UTD">{% octicon mark-github height:16 %} github.com/Nova-UTD</a>
         <br>
-        <a href="/#team">{% octicon comment-discussion height:16 %} Contact us</a>
+        <a href="mailto:project.nova@utdallas.edu">{% octicon mail height:16 %} project.nova@utdallas.edu</a>
         
         <br>
-        <button class="button" onclick="location.href='http://nova-utd.github.io/navigator/'">Navigator</button>
+        <button class="button" style="width: 100%" onclick="location.href='https://nova-utd.github.io/navigator/'">🧭 Navigator docs</button>
         <div><br>
           <!-- <a href="/join" class="button" target="_blank" style="width: 50%;"">Join us!</a></br> -->
 
@@ -62,10 +62,10 @@ xhr.send();
         {% endif %} -->
         
         <h3>Latest posts</h3>
-        {% for post in site.posts %}
+        {% for post in site.posts limit:5 %}
           <a href="{{post.url}}">{{ post.title }}</a> <small>{{post.date | date: "%-m/%-d/%y"}}</small><br/>
-        {% endfor %}
-
+        {% endfor %}<br/>
+        <h3><a href="/posts">All posts ⟶</a></h3>
         <hr/>
 
         <h3></h3>
