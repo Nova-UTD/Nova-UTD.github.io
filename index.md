@@ -148,7 +148,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <img id="modal12" src="/assets/res/headshots/Connor_Scally_fall2022.jpg" alt="Connor Scally"/>
       <br/><br/>
       <strong>Connor Scally</strong>
-      <br/>CS Junior<br/>
+      <br/>Electrical Engineering Junior<br/>
       <em>Hardware, Firmware, and Electrical</em>
     </p>
   </div>

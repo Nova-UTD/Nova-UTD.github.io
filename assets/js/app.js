@@ -40,40 +40,40 @@ var members = {
         Study: "CS Junior",
         Bio: "Hey! I'm Kyle, and I'm a junior majoring in computer science. I have a deep interest in machine learning and visual arts, so I'm enamored by computer vision and therefore excited to work on perception algorithms this year. Some of my other hobbies include volleyball, ice skating, gaming, graphic design, and photography; you'll probably see me on the camera once in a while!"
     },
-    ["Ragib Arnab"]: {
-        Role: "Perception & Machine Vision",
-        Study: "CE",
-        Bio: "Hello! my name is Ragib (Rae). I'm a CE student who wants to work with emerging fields such as autonomous vehicles and robotics. I'm particularly interested in the vision side of things, like object detection. In the future I hope to work with these technologies. In my spare time, I genuinely enjoy working on programming projects, but I usually game online or play soccer."
+    ["Hansika Sundaresan"]: {
+        Role: "Behavior Planning & Controls",
+        Study: "CS Masters",
+        Bio: "Hi! I am Hansika Sundaresan and I am a cs masters student here at UT Dallas. I am currently a member on the behavior and planning team. I wanted to join Nova to have some hands-on experience of software with hardware. I will always have a lot to learn and look forward to developing with this talented team!"
     },
     ["Vishvak Bandi"]: {
         Role: "Mapping",
         Study: "CS Junior",
         Bio: ""
     },
-    ["Avery Bainbridge"]: {
-        Role: "Firmware",
+    ["Ashwin Somasundaram"]: {
+        Role: "Perception & Machine Vision",
+        Study: "CS Senior",
+        Bio: "Hello there! My name is Ashwin Somasundaram, and I’m a senior majoring in Computer Science at UT Dallas. My career interests lie in machine learning, AI and computer vision. At Nova, I mainly work on the perception system’s 3D object detection models and dynamic occupancy grids that are fed into the behavior planning systems. I am passionate about coding, and always love getting to learn new technologies! Apart from school work and coding on side projects, I love watching movies and playing basketball. I’m also a huge Star Wars fan (in case that wasn’t obvious from my intro sentence haha!). Super excited to be a part of this amazing team, and can’t wait to see what we accomplish this year!"
+    },
+    ["Jesse Musa"]: {
+        Role: "Perception & Machine Vision",
         Study: "CS Sophomore",
-        Bio: "My name is Avery Bainbridge. I'm a Computer Engineering freshman and, as of late, Nova’s Firmware Specialist. Simply put, I like to make things run quickly and efficiently. For Nova, I'll be responsible for most of the components that actually touch the hardware, like the GPS sensor and steering/throttle actuators, as well as optimizing our stack to make use of the computing power we have available to us. I'm originally from Boise, Idaho, and ended up here at UTD via the National Merit Scholars Program. When I'm not in the lab or furiously typing, I like to read, hike, walk around campus at night, and play quiz bowl with friends."
-    },
-    ["Quinn Loach"]: {
-        Role: "Education & Outreach",
-        Study: "",
-        Bio: ""
-    },
-    ["Dylan Hiu"]: {
-        Role: "Public Relations",
-        Study: "EE Junior",
-        Bio: "Hi there! My name is Dylan Hiu, and I am the Director of PR for Nova. I am an electrical engineering student here at UT Dallas, and I am a Southern California native. I always have enjoyed photography, writing, and communication, and I very much enjoy sharing with the UT Dallas’ community the work that we do for Nova. In my spare time, I enjoy sport climbing, marathon running, and reading."
+        Bio: "Apart from Nova’s, I am also a mentor at the Artificial Intelligence Society"
     },
     ["Connor Scally"]: {
-        Role: "Virtualization",
-        Study: "CS Sophomore",
+        Role: "Hardware, Firmware, and Electrical",
+        Study: "Electrical Engineering Junior",
         Bio: "Hello, my name is Connor Scally, I am a sophomore Computer Engineering major and I am the Virtualization Engineer for Nova. Since it is difficult to test code on a physical vehicle, I am currently working on keeping our simulation server in peak condition! This includes adding simulated hardware and general upkeep of the virtualization server.<br/><br/>In my free time, I am working on one or two little side projects at any given time. I enjoy iOS development using Swift-UI as well as working with microcontrollers/microcomputers like the Arduino or RasPi for hardware oriented builds/projects. I also enjoy reading and playing games whenever I have some downtime.<br/><br/>I look forward to learning and growing as part of the Nova team, and cannot wait to see what Nova has in store for the future!"
     },
-    ["Phu Le"]: {
-        Role: "Technical Artist",
-        Study: "",
-        Bio: "How’s it going. Name’s Phu Le. I'll be making the 3D models for the car and all of its fancy do-dats components. I don’t have much to say about myself, I like gaming, game dev, music, oh right I’m Vietnamese: chúc bạn một ngày tốt lành!"
+    ["Stepan Antonyuk"]: {
+        Role: "Perception & Machine Vision",
+        Study: "CS Freshman",
+        Bio: "Ever since I can remember, I have wanted to build and create. Just think about any sci-fi books that you have read: The Stainless Steel Rat, Dune, Ender's Game, and The Moon Is a Harsh Mistress. I have been building and creating for whole my life. I want to bring the future closer to us through advancements in technology."
+    },
+    ["Harsha Kota"]: {
+        Role: "Behavior Planning & Controls",
+        Study: "CS Freshman",
+        Bio: "Hey, I’m currently a freshman in the Comp Sci department at UTD. I plan to help out by working as a behavior planning and controls member to smooth transition between perception and hardware. When I am not eating, sleeping or working, I am probably watching some anime or movie that was recommended. I am excited to see how this project grows alongside our growth as a team."
     },
     ["Nikhil Narvekar"]: {
         Role: "FF",
