@@ -5,11 +5,19 @@
 layout: default
 ---
 
-![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-02-12-Parade_group_photo.JPG)
-<small>Above: Our team at the UTD Homecoming Parade, February 2022. Pssst, no driver!</small>
+![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-10-23-Group_photo_2022.jpg)
+<small>Above: Our team at our annual Welcome Week event.</small>
 
 ## Overview
-Our project is currently aiming to make a 2-mile loop of UT Dallas's campus without any human control. Our vehicle will manage traffic patterns on actual roads while yielding to pedestrians and vehicles. Learn more about our goals on our [Demo 2 Overview](./d2-overview) page.
+Nova is UT Dallas’s premier autonomous driving group, run by undergrads as part of the Applied Systems Lab.
+
+We're developing an open-source autonomous driving stack for researchers, and we aim to provide autonomous driving services to UTD in the long term.
+
+## Annual goals
+We have two goals this year. First, we'll add new capabilities to Navigator, culminating in a submission to the [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/).
+Second, we'll use Navigator to complete a 2-mile loop of UT Dallas campus autonomously.
+
+Read more about our goals, success metrics, and timeline in our [2022-2023 Annual Plan](/assets/pdf/annual_plan_22_23.pdf).
 
 You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
 
