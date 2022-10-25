@@ -86,7 +86,7 @@ let prefix = "modal"
 for(let i=1; i<=16; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
-                    "Justin Ruths", "Anika Nesarikar", "Cristian Cruz", 
+                    "Anika Nesarikar", "Cristian Cruz", 
                     "Vishvak Bandi", "Quinn Loach"
                 ];
 
