@@ -115,7 +115,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal9" src="/assets/res/headshots/Hansika_Sudaresan.jpg" alt="Hansika Sudaresan"/>
+      <img id="modal9" src="/assets/res/headshots/Hansika_Sudaresan.jpg" alt="Hansika Sundaresan"/>
       <br/><br/>
       <strong>Hansika Sundaresan</strong>
       <br/>CS Masters<br/>
