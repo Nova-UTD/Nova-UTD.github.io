@@ -45,11 +45,6 @@ var members = {
         Study: "CS Masters",
         Bio: "Hi! I am Hansika Sundaresan and I am a cs masters student here at UT Dallas. I am currently a member on the behavior and planning team. I wanted to join Nova to have some hands-on experience of software with hardware. I will always have a lot to learn and look forward to developing with this talented team!"
     },
-    ["Vishvak Bandi"]: {
-        Role: "Mapping",
-        Study: "CS Junior",
-        Bio: ""
-    },
     ["Ashwin Somasundaram"]: {
         Role: "Perception & Machine Vision",
         Study: "CS Senior",
