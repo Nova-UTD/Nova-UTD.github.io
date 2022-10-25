@@ -68,7 +68,7 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <img id="modal4" src="/assets/res/headshots/Raghav_Pillai_fall2022.jpg" alt="Raghav Pillai"/>
       <br/><br/>
       <strong>Raghav Pillai</strong>
-      <br/>CS Senior<br/>
+      <br/>CS Junior<br/>
       <em>Testing, Safety, and Architecture</em>
     </p>
   </div>

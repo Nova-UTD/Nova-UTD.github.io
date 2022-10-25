@@ -3,7 +3,7 @@ var members = {
     ["Justin Ruths"]: {
         Role: "Team Advisor",
         Study: "Professor",
-        Bio: ""
+        Bio: "Justin Ruths is an assistant professor in the departments of Mechanical Engineering and Systems Engineering at UT Dallas.  The Nova project is the undergraduate research arm of Justin Ruths’ research lab and an offshoot of work in the area of security of automation and cyberphysical systems as well as a growing interest in the challenges specifically in autonomous driving.  Nova is also the way that he continues to vicariously dabble in cool technologies and fun applied problems.  "
     },
     ["Will Heitman"]: {
         Role: "Team Lead",
@@ -28,7 +28,7 @@ var members = {
     ["Anika Nesarikar"]: {
         Role: "PR Director",
         Study: "CS Freshman",
-        Bio: ""
+        Bio: "  "
     },
     ["Chitsein Htun"]: {
         Role: "Behavior Planning & Controls",
@@ -70,10 +70,10 @@ var members = {
         Study: "CS Freshman",
         Bio: "Hey, I’m currently a freshman in the Comp Sci department at UTD. I plan to help out by working as a behavior planning and controls member to smooth transition between perception and hardware. When I am not eating, sleeping or working, I am probably watching some anime or movie that was recommended. I am excited to see how this project grows alongside our growth as a team."
     },
-    ["Nikhil Narvekar"]: {
-        Role: "FF",
-        Study: "CS Junior",
-        Bio: "I'm Nikhil Narvekar and I'm currently a junior majoring in CS at UTD. My interests involve AI/ML, backend development, and robotics. I built my first autonomous robot in FIRST robotics, and I've been captivated by the possibilities of autonomous systems ever since. As a part of Nova, I'm working on the Behavior and Path-planning software for the vehicle."
+    ["Sasha Luich"]: {
+        Role: "Vehicle Technician",
+        Study: "ME Sophomore",
+        Bio: "Hi my name is Sasha Luich and I am the Vehicle Technician for Nova.  I work on the Polaris vehicle to maintain and improve its performance.  I’m from a small town in Ohio where living in the rust belt meant constantly working on cars to keep them operational.  At 16 I finally got a car of my own, a 1979 Corvette that is truly my pride and joy, allowing me to gain even more automotive experience and motivating me to pursue mechanical engineering.  Now, I would like to continue my engineering endeavor and branch out to electric cars with Nova!"
     }
 }
 
