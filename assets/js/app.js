@@ -83,7 +83,7 @@ var captionText = document.getElementById("caption");
 
 
 let prefix = "modal"
-for(let i=1; i<=16; i++) {
+for(let i=1; i<=15; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
                     "Anika Nesarikar", "Cristian Cruz", 
