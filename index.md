@@ -185,6 +185,16 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
 </div>
 
+<div class="team-member-card">
+    <p>
+      <img id="modal16" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
+      <br/><br/>
+      <strong>Meyli Colmenero</strong>
+      <br/>CE Sophomore<br/>
+      <em>Hardware, Firmware, and Electrical</em>
+    </p>
+  </div>
+
 <!-- Modal Holder -->
 <div id="modalHolder" class="modal">
   <span class="close">&times;</span>
