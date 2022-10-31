@@ -74,7 +74,13 @@ var members = {
         Role: "Vehicle Technician",
         Study: "ME Sophomore",
         Bio: "Hi my name is Sasha Luich and I am the Vehicle Technician for Nova.  I work on the Polaris vehicle to maintain and improve its performance.  I’m from a small town in Ohio where living in the rust belt meant constantly working on cars to keep them operational.  At 16 I finally got a car of my own, a 1979 Corvette that is truly my pride and joy, allowing me to gain even more automotive experience and motivating me to pursue mechanical engineering.  Now, I would like to continue my engineering endeavor and branch out to electric cars with Nova!"
+    },
+    ["Meyli Colmenero"]: {
+        Role: "Hardware, Firmware, and Electrical",
+        Study: "CE Sophomore",
+        Bio: "I’m Meyli a Computer Engineering sophomore and a firm believer that I can make everything I want myself with the power of my brain. I’m excited to be maintaining the computer systems and peripherals that are on the project and integrating the hardware and firmware together to complete functional subsystems. I am from Dallas,TX and I’m so over it…. The learning never stops at Nova, and I’m so happy to be a part of a team where everyone is equally as confused as me but still has a piece of knowledge, skill, or curiosity to find solutions to problems encountered along the process."
     }
+
 }
 
 var modal = document.getElementById("modalHolder");
