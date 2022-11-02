@@ -60,6 +60,9 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <strong>Daniel Vayman</strong>
       <br/>CS Freshman<br/>
       <em>Development Lead</em>
+      <br/>
+      <a href="mailto: daniel.vayman@utdallas.edu">daniel.vayman@
+      <br/>utdallas.edu</a>
     </p>
   </div>
 
