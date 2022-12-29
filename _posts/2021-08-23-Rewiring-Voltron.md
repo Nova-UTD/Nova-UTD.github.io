@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2021-08-23 09:00:18 -0500
-categories: hardware
+categories: log
 author: "Will Heitman"
 ---
 
