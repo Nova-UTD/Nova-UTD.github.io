@@ -4,17 +4,18 @@ date:   2021-08-30
 categories: recruitment
 author: "Will Heitman"
 ---
-<div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2022-2023 has ended. Thank you to all who participated!</p></div>
+<!-- <div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2022-2023 has ended. Thank you to all who participated!</p></div> -->
 
 # Roll With Us
 We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
 
-Our open-source software, "Navigator," is under active development, with over 500 commits across our branches. However, there's plenty of work ahead with our perception software, planning algorithms, and more. If you're a believer in autonomous-driving, we need your help!
+Our open-source software, "Navigator," is under active development, with over 1,000 commits across our branches. However, there's plenty of work ahead with our perception software, planning algorithms, and more. If you're a believer in autonomous-driving, we need your help!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Open positions
-### Development lead
+We are currently accepting applications for a PR director.
+<!-- ### Development lead
 We're looking for someone with strong leadership abilities to manage our development team. You should have good interpersonal skills, humility, and the willingness to help your teammates succeed. You will be expected to have a familiarity with each component in our system. You will assign tasks, facilitate technical discussions, and manage our technical goals.
 
 #### You should be able to...
@@ -43,7 +44,7 @@ Can you use an oscilloscope to find the baud rate on a CAN bus line? If not, can
 Our vehicle's electrical system is mind boggling. There is both a primary and secondary power circuit, two battery banks, several I/O buses, high-voltage lines, linear actuators, electronic steering... Whew! Does this scare you, excite you, or both? Our electrical technician will be responsible for diagnosing faulty batteries, locating loose wires, tackling electrical interference, and more.
 
 ### Mechanical
-We're always looking to mount new sensors, model brackets for touchscreens, find the right motors to actuate our pedals, and so on. No matter how good our code is, our vehicle is still mechanical at heart. As our mechanical technician, you will be asked to maintain and improve the mechanical systems of our vehicle.
+We're always looking to mount new sensors, model brackets for touchscreens, find the right motors to actuate our pedals, and so on. No matter how good our code is, our vehicle is still mechanical at heart. As our mechanical technician, you will be asked to maintain and improve the mechanical systems of our vehicle. -->
 
 ### PR director
 Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.
@@ -88,17 +89,17 @@ If applying for a developer position, please see our instructions [here](/fall-r
 Please send us examples of your previous work, such as schematics, 3D models, and/or firmware code. If your work includes additions from other people (e.g. teammates), be sure to mention this.
 
 ### PR director
-Please do one of the following, or both:
+Please submit BOTH of the following:
 - Show us some examples of your past work. These could be blog posts, photos, illustrations, screenshots of social media posts, and so on.
 - Suppose we'd like to invite community members to join us as spectators for a large event that we're hosting (perhaps a livestream of a competition that we're part of). Design some materials to promote this event. This can be as simple or as ambitious as you like, but the more creative, the better. We'd like to get a sense of your style.
 
 ---
 
-<!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a> -->
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbIFd-Rv8Ml9PhLjL-3yimtVUNkxZUzZDNjFBRTFYTkNaOFpKWkhLM0c5OS4u" class="button" target="_blank">Application Form</a>
 
-<!-- ### Sample submission form
+### Sample submission form
 Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
 <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
 ## Questions
-We're really looking forward to hearing from you. If you'd like to chat about anythhing regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Best of luck! -->
+We're really looking forward to hearing from you. If you'd like to chat about anything regarding our team, our application process, or anything else about Nova, we're all ears. Best of luck!
