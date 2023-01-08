@@ -15,36 +15,6 @@ Our open-source software, "Navigator," is under active development, with over 1,
 
 ## Open positions
 We are currently accepting applications for a PR director.
-<!-- ### Development lead
-We're looking for someone with strong leadership abilities to manage our development team. You should have good interpersonal skills, humility, and the willingness to help your teammates succeed. You will be expected to have a familiarity with each component in our system. You will assign tasks, facilitate technical discussions, and manage our technical goals.
-
-#### You should be able to...
-- Listen to your team and support them
-- Read and understand C++ and preferably Python. You don't need to be an expert.
-- Understand and think through linear algebra and calculus
-- Read and discuss research papers
-
-### Core developer
-Core developers work on the heart of our robot. They don't just write code, but also engineer our algorithms and create our whole system. Everything from sensor processing to behavior planning to object tracking is formed and improved by this group. If you love robotics, artificial intelligence, controls, machine vision, Nova presents a unique opportunity to combine them all to create something amazing.
-
-#### You should be able to...
-- Work well in a team 
-- Write code in either C++ or Python
-- Learn and apply new algorithms on the fly
-
-### Vehicle technician
-Our project already has a street-legal vehicle equipped with state-of-the-art sensors. It shoots 16 lasers at 300 RPM out of both corners. It has 3D cameras in both the front and the rear. It's a complex beast that hasn't been entirely tamed.
-
-We're recruiting members with expertise in either *firmware, mechanical,* or *electrical* systems. If you feel confident in more than one, apply for two or even all three. Your job is to carry our software from the simulator to the real world. In other words, vehicle technicians handle our *hardware interface*.
-
-### Firmware
-Can you use an oscilloscope to find the baud rate on a CAN bus line? If not, can you figure out how? Our firmware technician will be asked to do anything from controlling our steering wheel with an Xbox controller to adding a Wifi antenna to our onboard computer.
-
-### Electrical
-Our vehicle's electrical system is mind boggling. There is both a primary and secondary power circuit, two battery banks, several I/O buses, high-voltage lines, linear actuators, electronic steering... Whew! Does this scare you, excite you, or both? Our electrical technician will be responsible for diagnosing faulty batteries, locating loose wires, tackling electrical interference, and more.
-
-### Mechanical
-We're always looking to mount new sensors, model brackets for touchscreens, find the right motors to actuate our pedals, and so on. No matter how good our code is, our vehicle is still mechanical at heart. As our mechanical technician, you will be asked to maintain and improve the mechanical systems of our vehicle. -->
 
 ### PR director
 Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.

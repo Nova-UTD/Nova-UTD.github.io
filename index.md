@@ -86,16 +86,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
     </p>
   </div>
 
-<div class="team-member-card">
-    <p>
-      <img id="modal6" src="/assets/res/headshots/Anika_Nesarikar.jpg " alt="Anika Nesarikar"/>
-      <br/><br/>
-      <strong>Anika Nesarikar</strong>
-      <br/>CS Freshman<br/>
-      <em>PR Director</em>
-    </p>
-  </div>
-
   <div class="team-member-card">
     <p>
       <img id="modal7" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
