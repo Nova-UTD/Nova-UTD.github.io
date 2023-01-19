@@ -14,7 +14,7 @@ Our open-source software, "Navigator," is under active development, with over 1,
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Open positions
-We are currently accepting applications for a PR director.
+We are currently accepting applications for a PR director and a firmware technician.
 
 ### PR director
 Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.
@@ -22,6 +22,9 @@ Our project tends to get people excited, and yet most UTD community members are 
 ![Josh testing our pedal actuators](/assets/res/22-04-15_Josh_working_on_hood.jpg)
 
 <small>Above: Josh testing our pedal actuators. Much of our firmware is written from scratch.</small>
+
+### Firmware technician
+Our firmware is the link between our high level algorithms (say, the route calculator) and our hardware. We write custom firmware to control our throttle pedal, turn the steering wheel, read from the battery system, and much more. You'll be expected to write and maintain all of our firmware, ensuring that every line is stable and meticulously tested. The code you write has absolute control over a real robotic car.
 
 ## Requirements for all positions
 - **5 hours per week**, including attendance during our weekly meeting (~30 minutes) and at least one collaboration session (at least 2 hours).
@@ -37,7 +40,9 @@ In reality, skilled disassembly is required. Engineers must take apart the cars 
 - If you're worried that you don't have enough experience, but you're still really interested, **apply anyway**. Dedication is more valuable than experience. Try your best with the sample submission, and we'd still like to interview you afterwards.
 
 ## Application instructions and timeline
-Our application has two parts:
+Please send an email to "project.nova@utdallas.edu" with the position you're interested in, your resumé, and a sample of your work. Questions can be directed to the same address.
+
+<!-- Our application has two parts:
 1. Fill out our application form (below)
 2. Submit samples for each of the positions you'd like to apply (also below)
 
@@ -72,4 +77,4 @@ Remember to use **your name** as the filename, and to combine multiple files int
 <iframe src="https://utdallas.app.box.com/f/3d1626c86b034ca6b2d32d4f97a18cfb" height="550" width="500"></iframe>
 
 ## Questions
-We're really looking forward to hearing from you. If you'd like to chat about anything regarding our team, our application process, or anything else about Nova, we're all ears. Best of luck!
+We're really looking forward to hearing from you. If you'd like to chat about anything regarding our team, our application process, or anything else about Nova, we're all ears. Best of luck! -->
