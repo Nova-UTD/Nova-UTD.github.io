@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:8083/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8083/" rel="alternate" type="text/html" /><updated>2023-02-02T03:07:22-06:00</updated><id>http://localhost:8083/feed.xml</id><title type="html">Nova</title><subtitle>Driving is hard, but humans make it look easy.  We&apos;re &lt;b&gt;UT Dallas&apos;s applied autonomous driving project&lt;/b&gt;, and we&apos;re making driving look easier than ever.</subtitle><entry><title type="html">What’s up with Nova?</title><link href="http://localhost:8083/2023/02/02/What's-up-with-Nova.html" rel="alternate" type="text/html" title="What’s up with Nova?" /><published>2023-02-02T00:00:00-06:00</published><updated>2023-02-02T00:00:00-06:00</updated><id>http://localhost:8083/2023/02/02/What&apos;s-up-with-Nova</id><content type="html" xml:base="http://localhost:8083/2023/02/02/What&apos;s-up-with-Nova.html">&lt;p&gt;Hello world! What are we working on?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:8083/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8083/" rel="alternate" type="text/html" /><updated>2023-02-02T03:10:55-06:00</updated><id>http://localhost:8083/feed.xml</id><title type="html">Nova</title><subtitle>Driving is hard, but humans make it look easy.  We&apos;re &lt;b&gt;UT Dallas&apos;s applied autonomous driving project&lt;/b&gt;, and we&apos;re making driving look easier than ever.</subtitle><entry><title type="html">What’s up with Nova?</title><link href="http://localhost:8083/2023/02/02/What's-up-with-Nova.html" rel="alternate" type="text/html" title="What’s up with Nova?" /><published>2023-02-02T00:00:00-06:00</published><updated>2023-02-02T00:00:00-06:00</updated><id>http://localhost:8083/2023/02/02/What&apos;s-up-with-Nova</id><content type="html" xml:base="http://localhost:8083/2023/02/02/What&apos;s-up-with-Nova.html">&lt;p&gt;Hello world! What are we working on?&lt;/p&gt;
 
 &lt;p&gt;First, we’re going to deploy our constantly-improving software, Navigator, into a realistic simulator called CARLA, as part of a global competition. Second, we’re going to load Navigator onto our actual vehicle, and we’ll drive around campus– and perhaps into the world beyond.&lt;/p&gt;
 
@@ -20,8 +20,9 @@
 
 &lt;p&gt;Is this crazy? Yes! But my teammates are smart and dedicated, and so we will apply ourselves to get this done.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-octovis-mapping.gif&quot; alt=&quot;Octovis mapping&quot; /&gt;
-&lt;small&gt;Real-time voxel mapping with octrees (2x speedup)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-octovis-mapping.gif&quot; alt=&quot;Octovis mapping&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Real-time voxel mapping with octrees (2x speedup)&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;our-obstacles&quot;&gt;Our obstacles&lt;/h2&gt;
 
@@ -29,20 +30,23 @@
 
 &lt;p&gt;First, state estimation, which is all the calculations that we perform to localize the robot on the map. State estimation has been a persistent thorn in Hail-Bopp’s tire since Nova was founded three years ago. We’ve tried about a dozen algorithms, from the state of the art to the admittedly dubious, and all have failed in one way or another. We’ve recently settled on a method that we believe will work: Monte Carlo localization, which can incorporate a variety of inputs and constraints while maintaining a clear probabilistic model.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-dead-reckoning.gif&quot; alt=&quot;Dead reckoning&quot; /&gt;
-&lt;small&gt;Dead reckoning within our particle filter, using wheel encoders and an IMU. 2x speedup.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-dead-reckoning.gif&quot; alt=&quot;Dead reckoning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Dead reckoning within our particle filter, using wheel encoders and an IMU. 2x speedup.&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;Second, path planning. Both in simulation and in the real world, we’re asking our car to drive through some maddening scenarios: Distracted pedestrians on their phones, buses, amateur skateboarders, dogs, and lots of cars with those “Please be patient, student driver” stickers on the back. Oh boy. And so, several times every second, the path planner needs to weave us through all of this madness without making a single mistake.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-Jai-Meyli-Connor.jpg&quot; alt=&quot;Jai, Meyli, and Connor&quot; /&gt;
-&lt;small&gt;Jai, Connor, and Meyli work on wiring&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-Jai-Meyli-Connor.jpg&quot; alt=&quot;Jai, Meyli, and Connor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Jai, Connor, and Meyli work on wiring&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;Third, our firmware and hardware tools need to be flawless. We’re fortunate to have great vehicle technicians, but even they have their work cut out for them. Loose wires, miscalibrated sensors, dead batteries, and mysterious firmware bugs all present major hazards as we move from the simulator to real-world deployments.&lt;/p&gt;
 
 &lt;p&gt;There are many other challenges, too: Tuning our ML-based motion prediction model, optimizing our ginormous trip routing algorithm, and adding safety checks all come to mind. Nova is not for the faint of heart. But we’ve been through challenges before, and this is no different.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-SOG.gif&quot; alt=&quot;Our real-time occupancy grid&quot; /&gt;
-&lt;small&gt;Our real-time occupancy grid in action&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/res/22-02-02-SOG.gif&quot; alt=&quot;Our real-time occupancy grid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Our real-time occupancy grid in action&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;our-goal&quot;&gt;Our goal&lt;/h2&gt;
 
