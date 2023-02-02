@@ -68,16 +68,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal4" src="/assets/res/headshots/Raghav_Pillai_fall2022.jpg" alt="Raghav Pillai"/>
-      <br/><br/>
-      <strong>Raghav Pillai</strong>
-      <br/>CS Junior<br/>
-      <em>Testing, Safety, and Architecture</em>
-    </p>
-  </div>
-
-  <div class="team-member-card">
-    <p>
       <img id="modal5" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
       <br/><br/>
       <strong>Jai Peris</strong>
@@ -93,16 +83,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
       <strong>Chitsein Htun</strong>
       <br/>CS Freshman<br/>
       <em>Behavior Planning & Controls</em>
-    </p>
-  </div>
-  
-  <div class="team-member-card">
-    <p>
-      <img id="modal8" src="/assets/res/headshots/kyle_zeng.jpg" alt="Kyle Zeng"/>
-      <br/><br/>
-      <strong>Kyle Zeng</strong>
-      <br/>CS Sophomore<br/>
-      <em>Perception & Machine Vision</em>
     </p>
   </div>
 
@@ -138,16 +118,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
 
   <div class="team-member-card">
     <p>
-      <img id="modal12" src="/assets/res/headshots/Connor_Scally_fall2022.jpg" alt="Connor Scally"/>
-      <br/><br/>
-      <strong>Connor Scally</strong>
-      <br/>Electrical Engineering Junior<br/>
-      <em>Hardware, Firmware, and Electrical</em>
-    </p>
-  </div>
-
-  <div class="team-member-card">
-    <p>
       <img id="modal13" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
@@ -177,16 +147,6 @@ You can read more about Demo 1, our first milestone that we met in June 2021, he
   </div>
 
 </div>
-
-<div class="team-member-card">
-    <p>
-      <img id="modal16" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
-      <br/><br/>
-      <strong>Meyli Colmenero</strong>
-      <br/>CE Sophomore<br/>
-      <em>Hardware, Firmware, and Electrical</em>
-    </p>
-  </div>
 
 <!-- Modal Holder -->
 <div id="modalHolder" class="modal">
