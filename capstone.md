@@ -6,7 +6,7 @@ author: "Will Heitman"
 #### Cruising: Wind chimes
 <audio
     controls
-    src="/media/cc0-audio/t-rex-roar.mp3">
+    src="/static/capstone/chimes.wav">
         <a href="/static/capstone/chimes.wav">
             Download audio
         </a>
@@ -15,7 +15,7 @@ author: "Will Heitman"
 #### Waiting: Synth pulse
 <audio
     controls
-    src="/media/cc0-audio/t-rex-roar.mp3">
+    src="/static/capstone/waiting_loop.wav">
         <a href="/static/capstone/waiting_loop.wav">
             Download audio
         </a>
@@ -24,7 +24,7 @@ author: "Will Heitman"
 #### Continuing from stop: Arpeggio
 <audio
     controls
-    src="/media/cc0-audio/t-rex-roar.mp3">
+    src="/static/capstone/waiting_loop.wav">
         <a href="/static/capstone/waiting_done.wav">
             Download audio
         </a>
