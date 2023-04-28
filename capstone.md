@@ -24,7 +24,7 @@ author: "Will Heitman"
 #### Continuing from stop: Arpeggio
 <audio
     controls
-    src="/static/capstone/waiting_loop.wav">
+    src="/static/capstone/waiting_done.wav">
         <a href="/static/capstone/waiting_done.wav">
             Download audio
         </a>
