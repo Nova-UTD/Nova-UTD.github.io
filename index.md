@@ -39,7 +39,6 @@ layout: default
 
   // Written by @labnol
 </script>
-<!-- <iframe width="500" height="315" src="https://www.youtube.com/embed/uHjxz3qC8Q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Overview
 Nova is UT Dallas’s premier autonomous driving group, run by undergrads as part of the Applied Systems Lab.
