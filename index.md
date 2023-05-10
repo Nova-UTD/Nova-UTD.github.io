@@ -4,22 +4,50 @@
 
 layout: default
 ---
+<div id="muteYouTubeVideoPlayer"></div>
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+  function onYouTubeIframeAPIReady() {
+    var player;
+    player = new YT.Player('muteYouTubeVideoPlayer', {
+      videoId: 'uHjxz3qC8Q8', // YouTube Video ID
+      width: 560, // Player width (in px)
+      height: 315, // Player height (in px)
+      playerVars: {
+        autoplay: 1, // Auto-play the video on load
+        controls: 1, // Show pause/play buttons in player
+        showinfo: 0, // Hide the video title
+        modestbranding: 1, // Hide the Youtube Logo
+        loop: 1, // Run the video in a loop
+        fs: 1, // Hide the full screen button
+        cc_load_policy: 0, // Hide closed captions
+        iv_load_policy: 3, // Hide the Video Annotations
+        autohide: 0, // Hide video controls when playing
+      },
+      events: {
+        onReady: function (e) {
+          e.target.mute();
+        },
+  onStateChange: function(e) {
+        if (e.data === YT.PlayerState.ENDED) {
+            player.playVideo(); 
+        }
+    }
+      },
+    });
+  }
 
-![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-10-23-Group_photo_2022.jpg)
-<small>Above: Our team at our annual Welcome Week event.</small>
+  // Written by @labnol
+</script>
+<!-- <iframe width="500" height="315" src="https://www.youtube.com/embed/uHjxz3qC8Q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Overview
 Nova is UT Dallas’s premier autonomous driving group, run by undergrads as part of the Applied Systems Lab.
 
 We're developing an open-source autonomous driving stack for researchers, and we aim to provide autonomous driving services to UTD in the long term.
 
-## Annual goals
-We have two goals this year. First, we'll add new capabilities to Navigator, culminating in a submission to the [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/).
-Second, we'll use Navigator to complete a 2-mile loop of UT Dallas campus autonomously.
-
-Read more about our goals, success metrics, and timeline in our [2022-2023 Annual Plan](/assets/pdf/annual_plan_22_23.pdf).
-
-You can read more about Demo 1, our first milestone that we met in June 2021, here: [Getting Things Rolling with Demo 1](./d1-overview).
+![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-10-23-Group_photo_2022.jpg)
+<small>Above: Our team at our annual Welcome Week event.</small>
 
 ## Our Team
 *Click on a member to learn more about them!*
