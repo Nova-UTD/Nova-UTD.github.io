@@ -1,20 +1,24 @@
 ---
 layout: default
-date:   2021-08-30
+date:   2023-08-21
 categories: recruitment
-author: "Will Heitman"
+author: "Daniel Vayman"
 ---
 <!-- <div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2022-2023 has ended. Thank you to all who participated!</p></div> -->
 
-# Roll With Us
-We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
+# Roll With Us!
+We're Nova, UT Dallas's applied autonomous driving research group. We aim to create the first open-source, modular, autonomous driving platform in Texas-- period. We've already come a long way, but we need your help to go further than ever.
 
 Our open-source software, "Navigator," is under active development, with over 1,000 commits across our branches. However, there's plenty of work ahead with our perception software, planning algorithms, and more. If you're a believer in autonomous-driving, we need your help!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Open positions
-We are currently accepting applications for a PR director and a firmware technician.
+## Open positions:
+
+### Core Developer
+
+### Hardware Engineer
+
 
 ### PR director
 Our project tends to get people excited, and yet most UTD community members are unaware of our work. As PR director, you will present our work to the world through Instagram posts, videos, web articles, and however else you see fit. You will be asked to design the occasional flier with the help of our technical artist. You'll be expected to attend our outreach events, take photos of our test runs, and generally promote our mission.

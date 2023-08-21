@@ -48,7 +48,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal3" src="/assets/res/headshots/Daniel_Vayman.jpg" alt="Daniel Vayman"/>
+      <img id="modal2" src="/assets/res/headshots/Daniel_Vayman.jpg" alt="Daniel Vayman"/>
       <br/><br/>
       <strong>Daniel Vayman</strong>
       <br/>CS Sophomore<br/>
@@ -61,7 +61,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal5" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
+      <img id="modal3" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
       <br/><br/>
       <strong>Jai Peris</strong>
       <br/>Electrical Engineering Sophomore<br/>
@@ -71,7 +71,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal7" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
+      <img id="modal4" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
       <br/><br/>
       <strong>Chitsein Htun</strong>
       <br/>CS Sophomore<br/>
@@ -81,7 +81,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal13" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
+      <img id="modal5" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
       <br/>CS Sophomore<br/>
@@ -89,24 +89,34 @@ We're developing an open-source autonomous driving stack for researchers, and we
     </p>
   </div>
   
-<div class="team-member-card">
-    <p>
-      <img id="modal14" src="/assets/res/headshots/harsha_kota.jpg " alt="Harsha Kota"/>
-      <br/><br/>
-      <strong>Harsha Kota</strong>
-      <br/>CS Sophomore<br/>
-      <em>Behavior Planning & Controls</em>
-    </p>
+  <div class="team-member-card">
+      <p>
+        <img id="modal6" src="/assets/res/headshots/harsha_kota.jpg " alt="Harsha Kota"/>
+        <br/><br/>
+        <strong>Harsha Kota</strong>
+        <br/>CS Sophomore<br/>
+        <em>Behavior Planning & Controls</em>
+      </p>
   </div>
 
-<div class="team-member-card">
-    <p>
-      <img id="modal15" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
-      <br/><br/>
-      <strong>Sasha Luich</strong>
-      <br/>ME Junior<br/>
-      <em>Hardware, Firmware, and Electrical</em>
-    </p>
+  <div class="team-member-card">
+      <p>
+        <img id="modal7" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
+        <br/><br/>
+        <strong>Sasha Luich</strong>
+        <br/>ME Junior<br/>
+        <em>Hardware, Firmware, and Electrical</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal8" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
+        <br/><br/>
+        <strong>Meyli Colmenero</strong>
+        <br/>CE Junior<br/>
+        <em>Hardware, Firmware, and Electrical</em>
+      </p>
   </div>
 
 </div>
@@ -156,8 +166,10 @@ We're developing an open-source autonomous driving stack for researchers, and we
   }
 
   // Written by @labnol
-</script>
- 
+</script>  
+  
+<br>
+
 ## Demo 1, our first drive
 <iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*.
