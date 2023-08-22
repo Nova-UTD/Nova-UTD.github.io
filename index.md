@@ -61,7 +61,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal5" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
+      <img id="modal3" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
       <br/>CS Sophomore<br/>
@@ -71,7 +71,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
       <p>
-        <img id="modal8" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
+        <img id="modal4" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
         <br/><br/>
         <strong>Meyli Colmenero</strong>
         <br/>CE Junior<br/>
@@ -81,7 +81,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal4" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
+      <img id="modal5" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
       <br/><br/>
       <strong>Chitsein Htun</strong>
       <br/>CS Sophomore<br/>
@@ -111,11 +111,21 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal3" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
+      <img id="modal8" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
       <br/><br/>
       <strong>Jai Peris</strong>
       <br/>Electrical Engineering Sophomore<br/>
       <em>Vehicle Engineer</em>
+    </p>
+  </div>
+
+  <div class="team-member-card">
+    <p>
+      <img id="modal9" src="/assets/res/headshots/kyle_zeng.jpg" alt="Kyle Zeng"/>
+      <br/><br/>
+      <strong>Kyle Zeng</strong>
+      <br/>CS Junior<br/>
+      <em>Photographer</em>
     </p>
   </div>
   
