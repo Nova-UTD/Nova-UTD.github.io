@@ -139,7 +139,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
     var player;
     player = new YT.Player('muteYouTubeVideoPlayer', {
       videoId: 'uHjxz3qC8Q8', // YouTube Video ID
-      width: 560, // Player width (in px)
+      width: window.innerWidth, // Player width (in px)
       height: 315, // Player height (in px)
       playerVars: {
         autoplay: 1, // Auto-play the video on load
@@ -171,5 +171,5 @@ We're developing an open-source autonomous driving stack for researchers, and we
 <br>
 
 ## Demo 1, our first drive
-<iframe width="500" height="315" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ry3275KyM2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 > *This video explains our hardware stack and software architecture. It also also includes a video demonstration at 4:39*.
