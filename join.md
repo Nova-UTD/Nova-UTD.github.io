@@ -12,7 +12,7 @@ We're Nova, UT Dallas's applied autonomous driving project. We aim to create the
 
 Our open-source software, "Navigator," is under active development, with over 1000 commits across our branches. However, there's plenty of work ahead. Not only does our software need work, but our firmware and hardware systems could use some love too. If you're passionate about autonomous-driving, or just want to get involved, we need your help!
 
-<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="285px" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
