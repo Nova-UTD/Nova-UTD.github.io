@@ -139,7 +139,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
     var player;
     player = new YT.Player('muteYouTubeVideoPlayer', {
       videoId: 'uHjxz3qC8Q8', // YouTube Video ID
-      width: window.innerWidth, // Player width (in px)
+      width: document.getElementById("muteYouTubeVideoPlayer").clientWidth, // Player width (in px)
       height: 315, // Player height (in px)
       playerVars: {
         autoplay: 1, // Auto-play the video on load
