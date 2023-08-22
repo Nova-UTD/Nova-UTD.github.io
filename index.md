@@ -19,7 +19,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 <div class="aside">
 
 
-<div class="flex-row align-items-center">
+<div class="flex-row align-items-center" id="team-layout">
 
   <div class="team-member-card">
     <p>
@@ -65,7 +65,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
       <br/><br/>
       <strong>Jai Peris</strong>
       <br/>Electrical Engineering Sophomore<br/>
-      <em>Hardware, Firmware, and Electrical</em>
+      <em>Vehicle Engineer</em>
     </p>
   </div>
 
@@ -75,7 +75,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
       <br/><br/>
       <strong>Chitsein Htun</strong>
       <br/>CS Sophomore<br/>
-      <em>Behavior Planning & Controls</em>
+      <em>Developer</em>
     </p>
   </div>
 
@@ -85,7 +85,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
       <br/>CS Sophomore<br/>
-      <em>Perception & Machine Vision</em>
+      <em>Developer</em>
     </p>
   </div>
   
@@ -95,7 +95,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
         <br/><br/>
         <strong>Harsha Kota</strong>
         <br/>CS Sophomore<br/>
-        <em>Behavior Planning & Controls</em>
+        <em>Developer</em>
       </p>
   </div>
 
@@ -105,7 +105,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
         <br/><br/>
         <strong>Sasha Luich</strong>
         <br/>ME Junior<br/>
-        <em>Hardware, Firmware, and Electrical</em>
+        <em>Vehicle Engineer</em>
       </p>
   </div>
 
@@ -115,7 +115,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
         <br/><br/>
         <strong>Meyli Colmenero</strong>
         <br/>CE Junior<br/>
-        <em>Hardware, Firmware, and Electrical</em>
+        <em>Vehicle Engineer</em>
       </p>
   </div>
 
