@@ -12,7 +12,7 @@ We're Nova, UT Dallas's applied autonomous driving project. We aim to create the
 
 Our open-source software, "Navigator," is under active development, with over 1000 commits across our branches. However, there's plenty of work ahead. Not only does our software need work, but our firmware and hardware systems could use some love too. If you're passionate about autonomous-driving, or just want to get involved, we need your help!
 
-<iframe width="100%" height="100&=%" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/Zgo2KQQiSss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
 
@@ -109,7 +109,7 @@ Please show us some examples of your past work. These could be blog posts, photo
 
 ### Sample submission form
 Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
-<iframe src="https://utdallas.app.box.com/f/65b64ee2586240ec965e0e2e72ac930e" height="100%" width="100%"></iframe>
+<iframe src="https://utdallas.app.box.com/f/65b64ee2586240ec965e0e2e72ac930e" height="500px" width="100%"></iframe>
 
 ## Questions
 We're really looking forward to hearing from you. If you'd like to chat about anything regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [daniel.vayman@utdallas.edu](daniel.vayman@utdallas.edu). Best of luck!
