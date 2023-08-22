@@ -47,6 +47,6 @@ Submissions will be evaluated by a **blind panel** of developers on our team. Th
 
 We just want to see your approach to algorithm problems. Of course you can be as creative or ambitious as you like, but at the end of the day, we just need a downsampler. You should be able to knock this out in **about 1 hour** (though you can take as long as you need). We're looking forward to seeing your code!
 
-Questions can be emailed to our team lead at [will.heitman@utdallas.edu](will.heitman@utdallas.edu). Happy downsampling!
+Questions can be emailed to our team lead at [daniel.vayman@utdallas.edu](daniel.vayman@utdallas.edu). Happy downsampling!
 
 [<- Back to openings page](/join)
