@@ -97,6 +97,9 @@ All samples will be anonymized before review.
 ### Developer
 If applying for a developer position, please see our instructions [here](/fall-recruiting/dev-samples).
 
+### Web Developer
+Please send us examples of your previous work in web development, including but not limited to websites, web applications, GUIs, telemetry dashboards, and sensor data visualization. 
+
 ### Vehicle engineer
 Please send us examples of your previous work, such as schematics, 3D models, and/or firmware code. If your work includes additions from other people (e.g. teammates), be sure to mention this.
 
