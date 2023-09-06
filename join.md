@@ -4,8 +4,8 @@ date:   2023-08-30
 categories: recruitment
 author: "Will Heitman"
 ---
-<div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for 2023-2024. Our application will close on <b>Tuesday, September 5th 11:59PM CST</b>. See below for more details.</p></div>
-<!-- <div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2022-2023 has ended. Thank you to all who participated!</p></div> -->
+<!-- <div class="announcement-box">{% octicon people height:48 %} <p>We are excited to announce openings for 2023-2024. Our application will close on <b>Tuesday, September 5th 11:59PM CST</b>. See below for more details.</p></div> -->
+<div class="announcement-box">{% octicon people height:48 %} <p>Recruitment for 2023-2024 has ended. Thank you to all who participated!</p></div>
 
 # Roll With Us!
 We're Nova, UT Dallas's applied autonomous driving project. We aim to create the first open-source, modular, and research-ready autonomous driving platform in-the-world. We've already come a long way, but we need your help to go further than ever.
@@ -108,11 +108,11 @@ Please show us some examples of your past work. These could be blog posts, photo
 
 ---
 
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbE_h4xGRgq5Hp3whCAMULmJUNEdFSThPSTMyNkpBMDZaTjE4VEs5VE9NUC4u" class="button" target="_blank">Application Form</a>
+<!-- <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbE_h4xGRgq5Hp3whCAMULmJUNEdFSThPSTMyNkpBMDZaTjE4VEs5VE9NUC4u" class="button" target="_blank">Application Form</a> -->
 
-### Sample submission form
+<!-- ### Sample submission form
 Remember to use **your name** as the filename, and to combine multiple files into a `.zip` file per the instructions above.
-<iframe src="https://utdallas.app.box.com/f/65b64ee2586240ec965e0e2e72ac930e" height="500px" width="100%"></iframe>
+<iframe src="https://utdallas.app.box.com/f/65b64ee2586240ec965e0e2e72ac930e" height="500px" width="100%"></iframe> -->
 
 ## Questions
 We're really looking forward to hearing from you. If you'd like to chat about anything regarding our team, our application process, or anything else about Nova, we're all ears. Send an email to our team lead at [daniel.vayman@utdallas.edu](daniel.vayman@utdallas.edu). Best of luck!
