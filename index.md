@@ -52,7 +52,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
       <br/><br/>
       <strong>Daniel Vayman</strong>
       <br/>CS Sophomore<br/>
-      <em>Team Lead</em>
+      <em>Project Lead</em>
       <br/>
       <a href="mailto: daniel.vayman@utdallas.edu">daniel.vayman@
       <br/>utdallas.edu</a>
