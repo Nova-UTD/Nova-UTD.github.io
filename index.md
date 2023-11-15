@@ -11,8 +11,7 @@ Nova is UT Dallas’s premier autonomous driving group, run by undergrads as par
 
 We're developing an open-source autonomous driving stack for researchers, and we aim to provide autonomous driving services to UTD in the long term.
 
-![Our team at the UTD Homecoming Parade, February 2022](/assets/res/22-10-23-Group_photo_2022.jpg)
-<small>Above: Our team at our annual Welcome Week event.</small>
+![Our team at the UTD Homecoming Parade, February 2022](/assets/res/headshots/Cropped_Group_Photo.png)
 
 ## Our Team
 *Click on a member to learn more about them!*
@@ -23,7 +22,7 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal1" src="/assets/res/headshots/Justin_Ruths_fall2022.jpg" alt="Justin Ruths" />
+      <img id="modal1" src="/assets/res/headshots/Justin.png" alt="Justin Ruths" />
       <br/><br/>
       <strong>Justin Ruths</strong>
       <br/>Professor<br/>
@@ -33,22 +32,9 @@ We're developing an open-source autonomous driving stack for researchers, and we
     </p>
   </div>
 
-  <!-- <div class="team-member-card">
-    <p>
-      <img id="modal2" src="/assets/res/headshots/Will_Heitman_fall2022.jpg" alt="Will Heitman" />
-      <br/><br/>
-      <strong>Will Heitman</strong>
-      <br/>CE Senior<br/>
-      <em>Team Lead</em>
-      <br/>
-      <a href="mailto: will.heitman@utdallas.edu">will.heitman@
-      <br/>utdallas.edu</a>
-    </p>
-  </div> -->
-
   <div class="team-member-card">
     <p>
-      <img id="modal2" src="/assets/res/headshots/Daniel_Vayman.jpg" alt="Daniel Vayman"/>
+      <img id="modal2" src="/assets/res/headshots/Daniel.png" alt="Daniel Vayman"/>
       <br/><br/>
       <strong>Daniel Vayman</strong>
       <br/>CS Junior<br/>
@@ -61,7 +47,17 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal3" src="/assets/res/headshots/Stepan_Antonyuk.jpg" alt="Stepan Antonyuk"/>
+      <img id="modal3" src="/assets/res/headshots/Neil.png" alt="Neil Agrawal"/>
+      <br/><br/>
+      <strong>Neil Agrawal</strong>
+      <br/>CS Junior<br/>
+      <em>Developer</em>
+    </p>
+  </div>
+
+  <div class="team-member-card">
+    <p>
+      <img id="modal4" src="/assets/res/headshots/Stepan.png" alt="Stepan Antonyuk"/>
       <br/><br/>
       <strong>Stepan Antonyuk</strong>
       <br/>CS Sophomore<br/>
@@ -70,8 +66,28 @@ We're developing an open-source autonomous driving stack for researchers, and we
   </div>
 
   <div class="team-member-card">
+    <p>
+      <img id="modal5" src="/assets/res/headshots/Ahmad.png" alt="Ahmad Bajwa"/>
+      <br/><br/>
+      <strong>Ahmad Bajwa</strong>
+      <br/>CS Senior<br/>
+      <em>Developer</em>
+    </p>
+  </div>
+
+  <div class="team-member-card">
+    <p>
+      <img id="modal6" src="/assets/res/headshots/Anjana.png" alt="Anjana Bharadwaj"/>
+      <br/><br/>
+      <strong>Anjana Bharadwaj</strong>
+      <br/>CS Junior<br/>
+      <em>Developer</em>
+    </p>
+  </div>
+
+  <div class="team-member-card">
       <p>
-        <img id="modal4" src="/assets/res/headshots/Meyli_Colmenero.jpg " alt="Meyli Colmenero"/>
+        <img id="modal7" src="/assets/res/headshots/Meyli.png " alt="Meyli Colmenero"/>
         <br/><br/>
         <strong>Meyli Colmenero</strong>
         <br/>CE Junior<br/>
@@ -80,20 +96,30 @@ We're developing an open-source autonomous driving stack for researchers, and we
   </div>
 
   <div class="team-member-card">
-    <p>
-      <img id="modal5" src="/assets/res/headshots/Chitsein_Htun.jpg" alt="Chitsein Htun"/>
-      <br/><br/>
-      <strong>Chitsein Htun</strong>
-      <br/>CS Sophomore<br/>
-      <em>Developer</em>
-    </p>
+      <p>
+        <img id="modal8" src="/assets/res/headshots/Abhi.png " alt="Abhinav Gummadi"/>
+        <br/><br/>
+        <strong>Abhinav Gummadi</strong>
+        <br/>CE Freshman<br/>
+        <em>Vehicle Engineer</em>
+      </p>
   </div>
 
   <div class="team-member-card">
       <p>
-        <img id="modal6" src="/assets/res/headshots/harsha_kota.jpg " alt="Harsha Kota"/>
+        <img id="modal9" src="/assets/res/headshots/Yuvraj.png " alt="Yuvraj Kashyap"/>
         <br/><br/>
-        <strong>Harsha Kota</strong>
+        <strong>Yuvraj Kashyap</strong>
+        <br/>CS Freshman<br/>
+        <em>Vehicle Engineer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal10" src="/assets/res/headshots/Vindhya.png " alt="Vindhya Kaushal"/>
+        <br/><br/>
+        <strong>Vindhya Kaushal</strong>
         <br/>CS Sophomore<br/>
         <em>Developer</em>
       </p>
@@ -101,7 +127,17 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
       <p>
-        <img id="modal7" src="/assets/res/headshots/Sasha_Luich.jpg " alt="Sasha Luich"/>
+        <img id="modal11" src="/assets/res/headshots/Fletcher.png " alt="Fletcher Lauber"/>
+        <br/><br/>
+        <strong>Fletcher Lauber</strong>
+        <br/>BA Sophomore<br/>
+        <em>PR</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal12" src="/assets/res/headshots/Sasha.png " alt="Sasha Luich"/>
         <br/><br/>
         <strong>Sasha Luich</strong>
         <br/>ME Junior<br/>
@@ -110,23 +146,93 @@ We're developing an open-source autonomous driving stack for researchers, and we
   </div>
 
   <div class="team-member-card">
+      <p>
+        <img id="modal13" src="/assets/res/headshots/Prateek.png " alt="Prateek Mishra"/>
+        <br/><br/>
+        <strong>Prateek Mishra</strong>
+        <br/>CS Junior<br/>
+        <em>Developer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal14" src="/assets/res/headshots/Andy.png " alt="Andy Nguyen"/>
+        <br/><br/>
+        <strong>Andy Nguyen</strong>
+        <br/>CE Junior<br/>
+        <em>Vehicle Engineer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal15" src="/assets/res/headshots/Josh.png " alt="Josh Pahman"/>
+        <br/><br/>
+        <strong>Josh Pahman</strong>
+        <br/>SE Junior<br/>
+        <em>Developer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
     <p>
-      <img id="modal8" src="/assets/res/headshots/Jai_Peris.jpg" alt="Jai Peris"/>
+      <img id="modal16" src="/assets/res/headshots/Jai.png" alt="Jai Peris"/>
       <br/><br/>
       <strong>Jai Peris</strong>
-      <br/>Electrical Engineering Sophomore<br/>
+      <br/>EE Sophomore<br/>
       <em>Vehicle Engineer</em>
     </p>
   </div>
 
   <div class="team-member-card">
-    <p>
-      <img id="modal9" src="/assets/res/headshots/kyle_zeng.jpg" alt="Kyle Zeng"/>
-      <br/><br/>
-      <strong>Kyle Zeng</strong>
-      <br/>CS Junior<br/>
-      <em>Photographer</em>
-    </p>
+      <p>
+        <img id="modal17" src="/assets/res/headshots/Gueren.png " alt="Gueren Sanford"/>
+        <br/><br/>
+        <strong>Gueren Sanford</strong>
+        <br/>CS Sophomore<br/>
+        <em>Developer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal18" src="/assets/res/headshots/Ayush.png " alt="Ayush Sharma"/>
+        <br/><br/>
+        <strong>Ayush Sharma</strong>
+        <br/>CS Sophomore<br/>
+        <em>Developer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal19" src="/assets/res/headshots/Haneesh.png " alt="Haneesh Tummalapalli"/>
+        <br/><br/>
+        <strong>Haneesh Tummalapalli</strong>
+        <br/>CS Junior<br/>
+        <em>Developer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal20" src="/assets/res/headshots/Akhila.png " alt="Akhila Varanasi"/>
+        <br/><br/>
+        <strong>Akhila Varanasi</strong>
+        <br/>EE Sophomore<br/>
+        <em>Vehicle Engineer</em>
+      </p>
+  </div>
+
+  <div class="team-member-card">
+      <p>
+        <img id="modal21" src="/assets/res/headshots/Kyle.png " alt="Kyle Zeng"/>
+        <br/><br/>
+        <strong>Kyle Zeng</strong>
+        <br/>CS Senior<br/>
+        <em>Photographer</em>
+      </p>
   </div>
   
 
