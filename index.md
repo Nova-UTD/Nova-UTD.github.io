@@ -11,6 +11,10 @@ Nova is UT Dallas’s premier autonomous driving group, run by undergrads as par
 
 We're developing an open-source autonomous driving stack for researchers, and we aim to provide autonomous driving services to UTD in the long term.
 
+[Download the *rough* Navigator Annual Plan.](/assets/pdf/Rough_Navigator_Plan.pdf)<br>
+[Download the *rough* Vehicle Annual Plan.](/assets/pdf/Rough_Vehicle_Plan.pdf)
+
+
 ![Our team at the UTD Homecoming Parade, February 2022](/assets/res/headshots/Cropped_Group_Photo.png)
 
 ## Our Team
