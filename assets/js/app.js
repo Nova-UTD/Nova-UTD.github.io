@@ -15,6 +15,11 @@ var members = {
         Study: "EE Sophomore",
         Bio: "I’m from Dallas, Texas and I’m currently studying electrical engineering. I’m most interested in embedded systems, nanotechnology, and physics, and I hope to one day work with renewable energy or quantum technology. With Nova, I serve as a firmware and electrical engineer. My team is responsible for mapping the circuitry of the car, testing the sensors, and much more! Besides work, I like to cook, read, and play videogames. I am super excited to see this car drive itself!"
     },
+    ["Ayush Sharma"]: {
+        Role: "Developer",
+        Study: "CS Sophomore",
+        Bio: "I first encountered Google at the age of 8, and it felt like pure magic. The idea that typing something into a small box on a screen could provide all the information I needed was mind-blowing. It left me absolutely fascinated. As I grew older, technology continued to amaze me. Concepts like machine learning and self-driving cars, once the stuff of science fiction, are now fields I'm actively pursuing. I'm on a path to contribute to building these futuristic technologies. My current focus is on enhancing Nova, and my passion for technology plays a significant role in that. Nova not only helps me evolve as a developer but also as a researcher, thanks to the incredible resources it offers. I aspire to delve deeper into AI and machine learning concepts through my work. Outside of that, I enjoy watching and playing soccer, as well as trying out new video games."
+    },
     ["Kyle Zeng"]: {
         Role: "Photographer",
         Study: "CS Senior",
@@ -59,11 +64,6 @@ var members = {
         Role: "Vehicle Engineer",
         Study: "EE Sophomore",
         Bio: ""
-    },
-    ["Ayush Sharma"]: {
-        Role: "Developer",
-        Study: "CS Sophomore",
-        Bio: "I first encountered Google at the age of 8, and it felt like pure magic. The idea that typing something into a small box on a screen could provide all the information I needed was mind-blowing. It left me absolutely fascinated. As I grew older, technology continued to amaze me. Concepts like machine learning and self-driving cars, once the stuff of science fiction, are now fields I'm actively pursuing. I'm on a path to contribute to building these futuristic technologies. My current focus is on enhancing Nova, and my passion for technology plays a significant role in that. Nova not only helps me evolve as a developer but also as a researcher, thanks to the incredible resources it offers. I aspire to delve deeper into AI and machine learning concepts through my work. Outside of that, I enjoy watching and playing soccer, as well as trying out new video games."
     },
     ["Vindhya Kaushal"]: {
         Role: "Developer",
@@ -114,7 +114,7 @@ var captionText = document.getElementById("caption");
 
 
 let prefix = "modal"
-for(let i=1; i<=16; i++) {
+for(let i=1; i<=21; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
                     "Anjana Bharadwaj", "Josh Pahman", 
