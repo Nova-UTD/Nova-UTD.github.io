@@ -104,7 +104,17 @@ var members = {
         Role: "Developer",
         Study: "CS Sophomore",
         Bio: ""
-    }
+    },
+    ["Ragib Arnab"]: {
+        Role: "Developer",
+        Study: "CS Senior",
+        Bio: ""
+    },
+    ["Kevin Ge"]: {
+        Role: "Developer",
+        Study: "CS Junior",
+        Bio: ""
+    },
 
 }
 
@@ -114,7 +124,7 @@ var captionText = document.getElementById("caption");
 
 
 let prefix = "modal"
-for(let i=1; i<=21; i++) {
+for(let i=1; i<=22; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
                     "Anjana Bharadwaj", "Josh Pahman", 
