@@ -101,9 +101,9 @@ We're developing an open-source autonomous driving stack for researchers, and we
 
   <div class="team-member-card">
     <p>
-      <img id="modal8" src="/assets/res/headshots/Fernando.jpg" alt="Fernando Botillo"/>
+      <img id="modal8" src="/assets/res/headshots/Fernando.jpg" alt="Fernando Portillo"/>
       <br/><br/>
-      <strong>Fernando Botillo</strong>
+      <strong>Fernando Portillo</strong>
       <br/>CE Junior<br/>
       <em>Vehicle Engineer</em>
     </p>

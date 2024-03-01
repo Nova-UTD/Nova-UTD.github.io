@@ -115,7 +115,7 @@ var members = {
         Study: "CS Junior",
         Bio: ""
     },
-    ["Fernando Botillo"]: {
+    ["Fernando Portillo"]: {
         Role: "Vehicle Engineer",
         Study: "CE Junior",
         Bio: ""
@@ -138,7 +138,7 @@ for(let i=1; i<=23; i++) {
                     "Yuvraj Kashyap", "Andy Nguyen",
                     "Neil Agrawal", "Ahmad Bajwa",
                     "Prateek Mishra", "Gueren Sanford",
-                    "Fernando Botillo"
+                    "Fernando Portillo"
                 ];
 
     img.onmouseenter = function() {
