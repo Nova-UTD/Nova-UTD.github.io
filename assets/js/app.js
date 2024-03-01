@@ -115,6 +115,11 @@ var members = {
         Study: "CS Junior",
         Bio: ""
     },
+    ["Fernando Botillo"]: {
+        Role: "Vehicle Engineer",
+        Study: "CE Junior",
+        Bio: ""
+    },
 
 }
 
@@ -124,7 +129,7 @@ var captionText = document.getElementById("caption");
 
 
 let prefix = "modal"
-for(let i=1; i<=22; i++) {
+for(let i=1; i<=23; i++) {
     var img = document.getElementById(prefix + i);
     let no_bios = [
                     "Anjana Bharadwaj", "Josh Pahman", 
@@ -132,7 +137,8 @@ for(let i=1; i<=22; i++) {
                     "Vindhya Kaushal", "Haneesh Tummalapalli",
                     "Yuvraj Kashyap", "Andy Nguyen",
                     "Neil Agrawal", "Ahmad Bajwa",
-                    "Prateek Mishra", "Gueren Sanford"
+                    "Prateek Mishra", "Gueren Sanford",
+                    "Fernando Botillo"
                 ];
 
     img.onmouseenter = function() {
